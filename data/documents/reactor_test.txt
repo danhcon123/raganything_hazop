@@ -1,0 +1,18 @@
+Equipment: R-101 Reactor
+
+Operating conditions:
+Temperature: 180 C
+Pressure: 12 bar
+
+Connected equipment:
+- Feed pump P-101
+- Relief valve PS-101
+
+Safety systems:
+- High pressure shutdown
+- Emergency relief valve
+
+Possible hazards:
+- Overpressure
+- Cooling failure
+- Thermal runaway

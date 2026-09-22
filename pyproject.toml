@@ -1,0 +1,30 @@
+[project]
+name = "raganything-hazop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Duc Nguyen", email = "duc.nguyen@cideon-engineering.com" }
+]
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "jupyter>=1.1.1",
+    "langchain>=1.4.2",
+    "neo4j>=6.3.1",
+    "networkx>=3.6.1",
+    "ollama>=0.6.2",
+    "openpyxl>=3.1.5",
+    "pydantic>=2.13.5",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.3",
+    "raganything>=1.4.1",
+    "sentence-transformers>=6.1.0",
+]
+
+[project.scripts]
+raganything-hazop = "raganything_hazop.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
