@@ -11,6 +11,8 @@ dependencies = [
     "chromadb>=1.5.9",
     "jupyter>=1.1.1",
     "langchain>=1.4.2",
+    "magic-pdf>=1.0.1",
+    "mineru>=3.4.1,<4",
     "neo4j>=6.3.1",
     "networkx>=3.6.1",
     "ollama>=0.6.2",
@@ -31,6 +33,7 @@ raganything-hazop = "raganything_hazop.main:main"
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
 
 [[tool.uv.index]]
 name = "pytorch-cu128"
