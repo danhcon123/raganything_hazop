@@ -2,6 +2,7 @@ import asyncio
 
 from pathlib import Path
 from raganything import RAGAnything, RAGAnythingConfig
+from lightrag.llm import ollama_model_complete
 
 
 async def main():
@@ -26,7 +27,7 @@ async def main():
     rag.check_parser_installation()
 
     print("Starting document parsing...")
-    result = await rag.parse_document(
+    result = await rag.process_document_complete(
         file_path=str(pdf_path)
     )
 

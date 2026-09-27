@@ -1,0 +1,38 @@
+{
+  "doc-c511d51c57e7c287ab53cea4b174edfa": {
+    "status": "handling",
+    "error_msg": "",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6a29f1e1c3b9b3f952782bad0da34359"
+    ],
+    "content_summary": "EL 4.0\n\nEnapter's patented anion exchange membrane (AEM) electrolyser is a standardised, stackable and flexible system to produce on-site hydrogen. The modular design – paired with advanced software integration – allows set up in minutes and remote c...",
+    "content_length": 397,
+    "created_at": "2026-09-27T20:01:58.469446+00:00",
+    "updated_at": "2026-09-27T20:28:23+00:00",
+    "file_path": "Enapter_Datasheet_EL40_EN.pdf",
+    "track_id": "insert_20260927_220158_284e8c58",
+    "metadata": {
+      "processing_start_time": 1790539318,
+      "processing_end_time": 1790539321
+    },
+    "multimodal_processed": true
+  },
+  "dup-badecbb2157583eebecfa07447a7fba6": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c511d51c57e7c287ab53cea4b174edfa",
+    "content_length": 397,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-09-27T20:28:23.400642+00:00",
+    "updated_at": "2026-09-27T20:28:23.400642+00:00",
+    "file_path": "Enapter_Datasheet_EL40_EN.pdf",
+    "track_id": "insert_20260927_222823_c406ac03",
+    "error_msg": "Content already exists. Original doc_id: doc-c511d51c57e7c287ab53cea4b174edfa, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c511d51c57e7c287ab53cea4b174edfa",
+      "original_track_id": "insert_20260927_220158_284e8c58"
+    }
+  }
+}
