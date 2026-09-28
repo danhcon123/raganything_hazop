@@ -1,0 +1,81 @@
+{
+  "doc-enapter-el40-table-hazop": {
+    "relation_pairs": [
+      [
+        "Production Rate",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water Input Pressure Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "IP Rating",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Standby Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Power Supply",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Ambient Operative Temperature Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Peak Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Max Heat Dissipation",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Dimensions",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Heat Dissipation",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Operative Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Nominal Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Ambient Operative Humidity Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Hydrogen Output Purity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Output Pressure",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Maximum Water Input Conductivity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ]
+    ],
+    "count": 18,
+    "update_time": 1790629772,
+    "_id": "doc-enapter-el40-table-hazop"
+  }
+}

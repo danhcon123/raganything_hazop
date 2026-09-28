@@ -1,0 +1,191 @@
+{
+  "El 4.0<SEP>Enapter": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94"
+    ],
+    "count": 1,
+    "create_time": 1790629422,
+    "update_time": 1790629422,
+    "_id": "El 4.0<SEP>Enapter"
+  },
+  "EL 4.0<SEP>Technical Specifications Document": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94"
+    ],
+    "count": 1,
+    "create_time": 1790629422,
+    "update_time": 1790629422,
+    "_id": "EL 4.0<SEP>Technical Specifications Document"
+  },
+  "EL 4.0<SEP>Enapter": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94"
+    ],
+    "count": 1,
+    "create_time": 1790629422,
+    "update_time": 1790629422,
+    "_id": "EL 4.0<SEP>Enapter"
+  },
+  "EL 4.0<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629767,
+    "update_time": 1790629767,
+    "_id": "EL 4.0<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Production Rate<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629767,
+    "update_time": 1790629767,
+    "_id": "Production Rate<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Hydrogen Output Purity<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629767,
+    "update_time": 1790629767,
+    "_id": "Hydrogen Output Purity<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Output Pressure<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629767,
+    "update_time": 1790629767,
+    "_id": "Output Pressure<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Nominal Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629768,
+    "update_time": 1790629768,
+    "_id": "Nominal Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Operative Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629768,
+    "update_time": 1790629768,
+    "_id": "Operative Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Peak Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629768,
+    "update_time": 1790629768,
+    "_id": "Peak Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Heat Dissipation<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629769,
+    "update_time": 1790629769,
+    "_id": "Heat Dissipation<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Max Heat Dissipation<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629769,
+    "update_time": 1790629769,
+    "_id": "Max Heat Dissipation<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Standby Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629769,
+    "update_time": 1790629769,
+    "_id": "Standby Power Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Power Supply<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629769,
+    "update_time": 1790629769,
+    "_id": "Power Supply<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Maximum Water Input Conductivity<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629770,
+    "update_time": 1790629770,
+    "_id": "Maximum Water Input Conductivity<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Water Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629770,
+    "update_time": 1790629770,
+    "_id": "Water Consumption<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Water Input Pressure Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629770,
+    "update_time": 1790629770,
+    "_id": "Water Input Pressure Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Ambient Operative Temperature Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629771,
+    "update_time": 1790629771,
+    "_id": "Ambient Operative Temperature Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Ambient Operative Humidity Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629771,
+    "update_time": 1790629771,
+    "_id": "Ambient Operative Humidity Range<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "IP Rating<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629771,
+    "update_time": 1790629771,
+    "_id": "IP Rating<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  },
+  "Dimensions<SEP>table_a01099d4a0f1356cd04b854534af4fb2": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790629771,
+    "update_time": 1790629771,
+    "_id": "Dimensions<SEP>table_a01099d4a0f1356cd04b854534af4fb2"
+  }
+}

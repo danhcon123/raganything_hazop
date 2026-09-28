@@ -2,7 +2,6 @@ import asyncio
 
 from pathlib import Path
 from raganything import RAGAnything, RAGAnythingConfig
-from lightrag.llm import ollama_model_complete
 
 
 async def main():

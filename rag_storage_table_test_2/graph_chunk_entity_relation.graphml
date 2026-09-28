@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="El 4.0">
+  <data key="d0">El 4.0</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The Enapter EL 4.0 AEM electrolyser is the main equipment described in the document, identified as an Anion Exchange Membrane (AEM) electrolyser. Technical specifications for the EL 4.0 are provided in the document.</data>
+  <data key="d3">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629414</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter">
+  <data key="d0">Enapter</data>
+  <data key="d1">organization</data>
+  <data key="d2">Enapter is the manufacturer of the EL 4.0 AEM electrolyser.</data>
+  <data key="d3">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629414</data>
+  <data key="d6"></data>
+</node>
+<node id="EL 4.0">
+  <data key="d0">EL 4.0</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The Enapter EL 4.0 AEM electrolyser is the main equipment described in the document, identified as an Anion Exchange Membrane (AEM) electrolyser. Technical specifications for the EL 4.0 are provided in the document.&lt;SEP&gt;The EL 4.0 is an AEM electrolyser manufactured by Enapter that produces hydrogen via water electrolysis. It features a production rate of up to 500 NL/h, an output pressure of up to 35 barg, and is fully automatic with Enapter's EMS. It conforms to CE, UKCA, and CSA/ANSI B22734:2023 standards.</data>
+  <data key="d3">chunk-b5c89217037bf7757266979c0a494a94&lt;SEP&gt;chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629750</data>
+  <data key="d6"></data>
+</node>
+<node id="Technical Specifications Document">
+  <data key="d0">Technical Specifications Document</data>
+  <data key="d1">document</data>
+  <data key="d2">The document contains a table with technical specifications for the Enapter EL 4.0 AEM electrolyser.</data>
+  <data key="d3">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629414</data>
+  <data key="d6"></data>
+</node>
+<node id="table_a01099d4a0f1356cd04b854534af4fb2">
+  <data key="d0">table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d1">table</data>
+  <data key="d2">Table content: {'type': 'table', 'img_path': 'C:\\Users\\gauva\\Desktop\\raganything-hazop\\output\\Enapter_Datashe</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629423</data>
+</node>
+<node id="Production Rate">
+  <data key="d0">Production Rate</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 production rate is up to 500 NL/h, up to 1.0785 kg/24 h of hydrogen.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629750</data>
+  <data key="d6"></data>
+</node>
+<node id="Hydrogen Output Purity">
+  <data key="d0">Hydrogen Output Purity</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">At 35 barg: 99.9% purity (&lt; 1,000 ppm H2O and &lt; 5 ppm O2) at 25 °C. At 8 barg: 98.8% purity (&lt; 12,000 ppm H2O and &lt; 5 ppm O2) at 25 °C.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629750</data>
+  <data key="d6"></data>
+</node>
+<node id="Output Pressure">
+  <data key="d0">Output Pressure</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 hydrogen output pressure is up to 35 barg.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629751</data>
+  <data key="d6"></data>
+</node>
+<node id="Nominal Power Consumption">
+  <data key="d0">Nominal Power Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 nominal power consumption is 4.8 kWh/Nm3 of H2 produced, beginning of life.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629751</data>
+  <data key="d6"></data>
+</node>
+<node id="Operative Power Consumption">
+  <data key="d0">Operative Power Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 operative power consumption is 2.4 kW, beginning of life.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629751</data>
+  <data key="d6"></data>
+</node>
+<node id="Peak Power Consumption">
+  <data key="d0">Peak Power Consumption</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 peak power consumption is 3 kW.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629751</data>
+  <data key="d6"></data>
+</node>
+<node id="Heat Dissipation">
+  <data key="d0">Heat Dissipation</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 heat dissipation is 0.6 kW, beginning of life.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629751</data>
+  <data key="d6"></data>
+</node>
+<node id="Max Heat Dissipation">
+  <data key="d0">Max Heat Dissipation</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 maximum heat dissipation is 0.9 kW, end of life.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629758</data>
+  <data key="d6"></data>
+</node>
+<node id="Standby Power Consumption">
+  <data key="d0">Standby Power Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 standby power consumption is 0.3 kW.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629758</data>
+  <data key="d6"></data>
+</node>
+<node id="Power Supply">
+  <data key="d0">Power Supply</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 requires a power supply of 220 – 240 V (AC), 50/60 Hz.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629758</data>
+  <data key="d6"></data>
+</node>
+<node id="Maximum Water Input Conductivity">
+  <data key="d0">Maximum Water Input Conductivity</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 requires a minimum water input conductivity of ASTM D1193-06 Type IV or recommended Type II or Type III.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629759</data>
+  <data key="d6"></data>
+</node>
+<node id="Water Consumption">
+  <data key="d0">Water Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.0 water consumption is approximately 420 mL/h at 25 °C.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629759</data>
+  <data key="d6"></data>
+</node>
+<node id="Water Input Pressure Range">
+  <data key="d0">Water Input Pressure Range</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 water input pressure range is 1 – 4 barg.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629759</data>
+  <data key="d6"></data>
+</node>
+<node id="Ambient Operative Temperature Range">
+  <data key="d0">Ambient Operative Temperature Range</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 ambient operative temperature range is 5 °C – 45 °C.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629759</data>
+  <data key="d6"></data>
+</node>
+<node id="Ambient Operative Humidity Range">
+  <data key="d0">Ambient Operative Humidity Range</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 ambient operative humidity range is up to 90% humidity, non-condensing.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629760</data>
+  <data key="d6"></data>
+</node>
+<node id="IP Rating">
+  <data key="d0">IP Rating</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The EL 4.0 has an IP 20 rating, indicating protection against solid objects larger than 12.5 mm and no protection against water.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629760</data>
+  <data key="d6"></data>
+</node>
+<node id="Dimensions">
+  <data key="d0">Dimensions</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The EL 4.</data>
+  <data key="d3">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1790629760</data>
+  <data key="d6"></data>
+</node>
+<edge source="El 4.0" target="Enapter">
+  <data key="d7">1.0</data>
+  <data key="d8">Enapter manufactures the EL 4.0 AEM electrolyser, which is the equipment described in the document.</data>
+  <data key="d9">equipment production,manufacturer</data>
+  <data key="d10">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629422</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter" target="EL 4.0">
+  <data key="d7">1.0</data>
+  <data key="d8">Enapter manufactures the EL 4.0 AEM electrolyser, which is the equipment described in the document.</data>
+  <data key="d9">equipment production,manufacturer</data>
+  <data key="d10">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629422</data>
+  <data key="d13"></data>
+</edge>
+<edge source="EL 4.0" target="Technical Specifications Document">
+  <data key="d7">1.0</data>
+  <data key="d8">The EL 4.0 AEM electrolyser is the equipment described in the document, which provides a table of its technical specifications.</data>
+  <data key="d9">described in,technical specifications</data>
+  <data key="d10">chunk-b5c89217037bf7757266979c0a494a94</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629422</data>
+  <data key="d13"></data>
+</edge>
+<edge source="EL 4.0" target="table_a01099d4a0f1356cd04b854534af4fb2">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity EL 4.0 belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Production Rate">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Production Rate belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Hydrogen Output Purity">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Hydrogen Output Purity belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Output Pressure">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Output Pressure belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Nominal Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Nominal Power Consumption belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629768</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Operative Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Operative Power Consumption belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629768</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Peak Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Peak Power Consumption belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629768</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Heat Dissipation">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Heat Dissipation belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629769</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Max Heat Dissipation">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Max Heat Dissipation belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629769</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Standby Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Standby Power Consumption belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629769</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Power Supply">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Power Supply belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629769</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Maximum Water Input Conductivity">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Maximum Water Input Conductivity belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629770</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Water Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Water Consumption belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629770</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Water Input Pressure Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Water Input Pressure Range belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629770</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Ambient Operative Temperature Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Ambient Operative Temperature Range belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629771</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Ambient Operative Humidity Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Ambient Operative Humidity Range belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629771</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="IP Rating">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity IP Rating belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629771</data>
+  <data key="d13"></data>
+</edge>
+<edge source="table_a01099d4a0f1356cd04b854534af4fb2" target="Dimensions">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Dimensions belongs to table_a01099d4a0f1356cd04b854534af4fb2</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ccc2a7da10d8d7b6995d26a2b7d87a82</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1790629771</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,1262 @@
+# RAG-Anything for HAZOP — Session Summary
+
+**Date:** 2026-09-28
+**Status:** Paused after successful table ingestion and improved engineering KG entity extraction
+
+## 1. Goal for today
+
+The goal was to understand why the technical specification table from the Enapter EL 4.0 datasheet was not represented properly in the Knowledge Graph.
+
+The main questions were:
+
+* Did MinerU extract the table correctly?
+* Did the table reach RAG-Anything?
+* Did it reach LightRAG?
+* Did LightRAG generate KG entities from it?
+* Why were important numerical engineering values missing?
+* How should the KG schema be adapted for HAZOP/engineering use?
+
+---
+
+## 2. Initial state
+
+The original KG contained only:
+
+```text
+Nodes: 7
+Edges: 7
+```
+
+Typical entities were:
+
+```text
+EL 4.0
+Enapter
+Hydrogen
+Anion Exchange Membrane
+Advanced Software Integration
+Modular Design
+```
+
+All nodes and relations referenced the same source chunk:
+
+```text
+chunk-6a29f1e1c3b9b3f952782bad0da34359
+```
+
+The corresponding LightRAG chunk store contained only one 90-token chunk:
+
+```text
+EL 4.0
+
+Enapter's patented anion exchange membrane...
+...
+www.enapter.com/aem-electrolyser
+```
+
+So the original KG was generated entirely from the normal text portion of the datasheet.
+
+---
+
+## 3. MinerU was not the problem
+
+We inspected:
+
+```text
+kv_store_parse_cache.json
+```
+
+and confirmed that MinerU had already extracted the complete technical table successfully.
+
+It contained structured HTML such as:
+
+```html
+<tr>
+    <td>Production rate</td>
+    <td>Up to 500 NL/h, up to 1.0785 kg/24 h</td>
+</tr>
+
+<tr>
+    <td>Output pressure</td>
+    <td>Up to 35 barg</td>
+</tr>
+
+<tr>
+    <td>Operative power consumption</td>
+    <td>2.4 kW, beginning of life</td>
+</tr>
+```
+
+and many other values.
+
+Important conclusion:
+
+```text
+PDF
+ ↓
+MinerU
+ ↓
+Structured HTML table    ✅
+```
+
+So using a VLM to recover the table was unnecessary for this document.
+
+---
+
+## 4. `inspect_chunks.py` identified the actual pipeline break
+
+We inspected:
+
+```text
+kv_store_text_chunks.json
+```
+
+and found:
+
+```text
+Total chunks: 1
+```
+
+The table was completely absent.
+
+This gave us an important distinction:
+
+```text
+inspect_chunks.py
+    ↓
+What actually entered LightRAG?
+
+inspect_kg.py
+    ↓
+What did LightRAG turn into entities/relationships?
+```
+
+The original pipeline was therefore:
+
+```text
+MinerU table HTML         ✅
+        ↓
+RAG-Anything             ?
+        ↓
+LightRAG chunks          ❌ table missing
+        ↓
+KG                       ❌ table facts impossible to extract
+```
+
+This also proved that changing the KG extraction prompt at that point would have been useless: the LLM could not extract information it had never received.
+
+---
+
+## 5. Document status exposed an inconsistency
+
+`kv_store_doc_status.json` reported:
+
+```text
+status: processed
+multimodal_processed: True
+chunks_count: 1
+```
+
+Even though only the normal text chunk existed.
+
+So RAG-Anything considered multimodal processing complete despite the missing table chunk.
+
+This became one reason to isolate the table pipeline instead of repeatedly processing the full PDF.
+
+---
+
+## 6. Isolated table ingestion test
+
+We created:
+
+```text
+phase2_table_only_test.py
+```
+
+The test reused the already-correct table from:
+
+```text
+kv_store_parse_cache.json
+```
+
+through our own helper:
+
+```python
+load_table_from_cache()
+```
+
+Then passed it directly into the official RAG-Anything API:
+
+```python
+await rag.insert_content_list(...)
+```
+
+Important distinction:
+
+```text
+load_table_from_cache()
+```
+
+is only **our debugging helper**.
+
+It is not a RAG-Anything API.
+
+Its job is simply:
+
+```text
+parse cache
+    ↓
+find type == "table"
+    ↓
+return known-good table object
+```
+
+By contrast:
+
+```python
+rag.insert_content_list(...)
+```
+
+is the real RAG-Anything ingestion path for already parsed content.
+
+---
+
+## 7. Table ingestion succeeded
+
+The isolated test produced:
+
+```text
+Total chunks: 2
+```
+
+including:
+
+```text
+IS_MULTIMODAL: True
+ORIGINAL_TYPE: table
+TOKENS: 1714
+```
+
+The multimodal chunk contained the complete HTML structure and values:
+
+```text
+500 NL/h
+35 barg
+4.8 kWh/Nm³
+2.4 kW
+3 kW
+420 mL/h
+1–4 barg
+5–45 °C
+42 kg
+...
+```
+
+So the pipeline was proven to work:
+
+```text
+MinerU HTML
+    ↓
+RAG-Anything
+    ↓
+TableModalProcessor
+    ↓
+multimodal LightRAG chunk
+    ↓
+KG extraction
+```
+
+This was the first major success today.
+
+---
+
+## 8. Generic KG extraction was insufficient
+
+With LightRAG's default/general entity extraction, the table created:
+
+```text
+18 nodes
+27 edges
+```
+
+It successfully retained some values:
+
+```text
+500 NL/h       ✅
+35 barg        ✅
+420 mL/h       ✅
+42 kg          ✅
+```
+
+but dropped several important engineering parameters:
+
+```text
+4.8 kWh/Nm³    ❌
+2.4 kW         ❌
+3 kW           ❌
+1–4 barg       ❌
+5–45 °C        ❌ as a useful dedicated parameter
+```
+
+The generic graph preferred entities such as:
+
+```text
+Hydrogen
+Water Electrolysis
+CE Mark
+UKCA Mark
+Modbus TCP
+Wi-Fi
+Bluetooth
+```
+
+while several operating parameters important for HAZOP were not preserved.
+
+### Lesson
+
+A generic semantic KG is not automatically a good **engineering KG**.
+
+For HAZOP, numerical process parameters and operating limits need to be first-class knowledge.
+
+---
+
+## 9. Added engineering-specific entity types
+
+We configured LightRAG with:
+
+```python
+ENGINEERING_ENTITY_TYPES = [
+    "Equipment",
+    "Component",
+    "Substance",
+    "Process",
+    "OperatingParameter",
+    "OperatingLimit",
+    "Utility",
+    "ControlSystem",
+    "ProtectionSystem",
+    "SafetyRequirement",
+    "Standard",
+    "Organization",
+    "Document",
+]
+```
+
+This was passed through:
+
+```python
+"addon_params": {
+    "language": "English",
+    "entity_types": ENGINEERING_ENTITY_TYPES,
+}
+```
+
+---
+
+## 10. Added a HAZOP/engineering extraction prompt
+
+We extended:
+
+```python
+PROMPTS["entity_extraction_system_prompt"]
+```
+
+rather than completely replacing LightRAG's prompt.
+
+The added rules instructed the LLM to:
+
+```text
+- preserve numerical engineering parameters
+- preserve exact units
+- preserve ranges
+- preserve qualifiers:
+    "up to"
+    "nominal"
+    "peak"
+    "beginning of life"
+    "end of life"
+
+- make parameters separate entities
+- distinguish operating parameters from limits
+- associate parameters with equipment
+- prioritize HAZOP-relevant facts
+- avoid inventing HAZOP causes/consequences
+- canonicalize EL40 / EL 4.0 variants
+```
+
+We deliberately preserved LightRAG's own output format.
+
+---
+
+# 11. Result: entity extraction improved dramatically
+
+The new KG contained:
+
+```text
+22 nodes
+21 edges
+```
+
+and engineering parameters became dedicated entities.
+
+Examples:
+
+```text
+Production Rate
+    OperatingParameter
+    Up to 500 NL/h, up to 1.0785 kg/24 h
+
+Hydrogen Output Purity
+    OperatingParameter
+    99.9% at 35 barg
+    98.8% at 8 barg
+
+Output Pressure
+    OperatingLimit
+    Up to 35 barg
+
+Nominal Power Consumption
+    OperatingParameter
+    4.8 kWh/Nm³, beginning of life
+
+Operative Power Consumption
+    OperatingParameter
+    2.4 kW, beginning of life
+
+Peak Power Consumption
+    OperatingLimit
+    3 kW
+
+Water Consumption
+    OperatingParameter
+    ~420 mL/h at 25 °C
+
+Water Input Pressure Range
+    OperatingLimit
+    1–4 barg
+
+Ambient Operative Temperature Range
+    OperatingLimit
+    5–45 °C
+```
+
+The previously missing values were now present in the KG. This is a clear improvement over the generic extraction. 
+
+The value search confirmed that `4.8`, `2.4 kW`, `3 kW`, and `1–4 barg`, which were missing previously, were now represented. 
+
+---
+
+# 12. But semantic relationships disappeared
+
+The new run reported:
+
+```text
+Chunk 1 of 1 extracted 18 Ent + 0 Rel
+```
+
+RAG-Anything then automatically added:
+
+```text
+18 belongs_to relations
+```
+
+
+
+Therefore the resulting topology was mostly:
+
+```text
+                  TABLE
+                 /  |  \
+                /   |   \
+               ▼    ▼    ▼
+       Production Pressure Power
+          Rate      Range Consumption
+```
+
+through provenance relations such as:
+
+```text
+belongs_to
+contained_in
+part_of
+```
+
+instead of our desired engineering graph:
+
+```text
+                      EL 4.0
+                     /   |   \
+                    ▼    ▼    ▼
+           Production Pressure Power
+              Rate      Range Consumption
+```
+
+with relationships such as:
+
+```text
+has_parameter
+has_limit
+requires
+produces
+controlled_by
+conforms_to
+```
+
+---
+
+# 13. Important distinction: `belongs_to` is provenance
+
+RAG-Anything currently adds relations like:
+
+```text
+table_xxx → Production Rate
+table_xxx → Output Pressure
+table_xxx → Water Consumption
+```
+
+with:
+
+```text
+belongs_to
+contained_in
+part_of
+```
+
+These should be interpreted as:
+
+```text
+This entity was extracted from / contained in this table.
+```
+
+They are **not engineering semantic relationships**.
+
+Conceptually we want both layers:
+
+```text
+PROVENANCE
+
+Production Rate
+    └── extracted_from → Table X
+```
+
+and:
+
+```text
+ENGINEERING SEMANTICS
+
+EL 4.0
+    └── has_parameter → Production Rate
+```
+
+---
+
+# 14. Alias/canonicalization lesson
+
+We initially discussed connecting:
+
+```text
+EL40
+```
+
+and:
+
+```text
+EL 4.0
+```
+
+with something such as:
+
+```text
+is
+```
+
+That is generally not the best solution.
+
+If both names refer to the exact same real-world equipment, the better model is:
+
+```text
+           EL 4.0
+          /      \
+      alias      alias
+       EL40    AEM Electrolyser EL 4.0
+```
+
+or preferably one canonical node:
+
+```text
+EL 4.0
+```
+
+with merged provenance.
+
+The engineering prompt improved this substantially, but we still saw:
+
+```text
+El 4.0
+```
+
+and:
+
+```text
+EL 4.0
+```
+
+as separate nodes.
+
+Therefore prompt-level canonicalization helps, but will probably not be enough for a production system.
+
+A later **entity-resolution / canonicalization stage** will likely be required.
+
+---
+
+# 15. Exact cause of the missing relationships
+
+We then inspected:
+
+```text
+kv_store_llm_response_cache.json
+```
+
+using:
+
+```text
+inspect_llm_cache.py
+```
+
+This revealed the most important finding of the session.
+
+The first extraction result ended here:
+
+```text
+entity<|#|>Water Consumption<|#|>OperatingParameter<|#|>The EL 4
+```
+
+It was truncated in the middle of an entity. 
+
+LightRAG then performed its second extraction/gleaning pass.
+
+That response ended here:
+
+```text
+entity<|#|>Dimensions<|#|>OperatingParameter<|#|>The EL 4.
+```
+
+Again, mid-sentence. 
+
+Neither response produced:
+
+```text
+relation<|#|>...
+```
+
+and neither produced:
+
+```text
+<|COMPLETE|>
+```
+
+LightRAG explicitly requires:
+
+```text
+all entities first
+↓
+all relationships second
+↓
+<|COMPLETE|>
+```
+
+
+
+Therefore:
+
+```text
+LLM response truncates during entities
+             ↓
+never reaches relation generation
+             ↓
+LightRAG receives 18 entities
+             ↓
+0 semantic relations
+```
+
+This is the current blocker.
+
+---
+
+# 16. Why the response is probably truncating
+
+Current configuration:
+
+```python
+"options": {
+    "num_ctx": 8192,
+}
+```
+
+The actual prompt is large because it contains:
+
+```text
+HAZOP engineering instructions
++
+LightRAG default instructions
++
+LightRAG generic examples
++
+1714-token table chunk
++
+table HTML duplicated as:
+    Structure: ...
+    Analysis.table_body: ...
++
+generated output
++
+previous output in gleaning pass
+```
+
+The raw cached prompt confirms that the table occurs both in `Structure:` and again in `Analysis.table_body`. 
+
+The second LightRAG call also includes the previous partial extraction as conversation history, making the context even larger. 
+
+Therefore the next experiment is to increase model generation capacity and reduce unnecessary prompt content.
+
+---
+
+# 17. Remaining extraction-quality issues
+
+Even after the improved engineering prompt, several smaller issues remain.
+
+### Weight was lost
+
+The input contains:
+
+```text
+Weight | 42 kg
+```
+
+but the HAZOP-specific KG returned:
+
+```text
+42 kg: 0 matches
+```
+
+So complete table coverage is not yet achieved.
+
+### Dimensions were truncated
+
+The resulting node contained:
+
+```text
+Dimensions
+description: "The EL 4."
+```
+
+This is another symptom of output truncation.
+
+### IP rating introduced unsupported interpretation
+
+Source:
+
+```text
+IP rating | IP 20
+```
+
+KG:
+
+```text
+IP 20 rating, indicating protection against solid objects
+larger than 12.5 mm and no protection against water.
+```
+
+That interpretation was not contained in the document.
+
+For the factual Engineering KG we want:
+
+```text
+IP Rating
+"The EL 4.0 IP rating is IP 20."
+```
+
+External interpretation belongs later in the reasoning layer.
+
+### Water conductivity wording was distorted
+
+The row title says:
+
+```text
+Maximum water input conductivity
+```
+
+while the extracted description says approximately:
+
+```text
+requires a minimum water input conductivity...
+```
+
+This semantic transformation is unsafe for an evidence-oriented engineering KG.
+
+---
+
+# 18. Persistent `hashing_kv` issue
+
+Every table test still logs:
+
+```text
+ERROR: Error generating table description: 'hashing_kv'
+```
+
+However, RAG-Anything continues processing successfully:
+
+```text
+multimodal chunk created
+↓
+entities extracted
+↓
+KG updated
+```
+
+Therefore:
+
+```text
+hashing_kv issue
+    = real bug / compatibility issue
+    = not currently blocking the experiment
+```
+
+It should be investigated later, but it is not today's stopping point.
+
+---
+
+# 19. Lessons learned today
+
+### Lesson 1 — inspect every pipeline boundary
+
+Looking only at the final KG was insufficient.
+
+The useful debugging sequence was:
+
+```text
+MinerU output
+↓
+parse cache
+↓
+LightRAG chunks
+↓
+LLM raw extraction
+↓
+KG
+```
+
+Each layer answers a different question.
+
+### Lesson 2 — parsing and KG extraction are separate problems
+
+MinerU had already extracted the table extremely well.
+
+The original failure occurred later:
+
+```text
+MinerU            ✅
+RAG-Anything      ⚠
+LightRAG chunk    ❌
+KG                ❌
+```
+
+Therefore replacing MinerU or introducing a VLM would have attacked the wrong problem.
+
+### Lesson 3 — don't tune prompts before proving the LLM received the data
+
+Initially the table values were missing from the KG.
+
+The correct question was not:
+
+```text
+"Why didn't the LLM understand 2.4 kW?"
+```
+
+but:
+
+```text
+"Did the LLM ever receive 2.4 kW?"
+```
+
+It had not.
+
+### Lesson 4 — generic KG extraction is insufficient for HAZOP
+
+General semantic extraction prioritizes concepts such as:
+
+```text
+Hydrogen
+Enapter
+Wi-Fi
+CE Mark
+```
+
+HAZOP needs explicit operational facts such as:
+
+```text
+Output Pressure
+Water Input Pressure Range
+Temperature Range
+Production Rate
+Power Consumption
+```
+
+These need their own extraction schema.
+
+### Lesson 5 — numerical specifications should be first-class engineering knowledge
+
+Instead of:
+
+```text
+EL 4.0
+description:
+"500 NL/h, 35 barg, 42 kg..."
+```
+
+the better graph is:
+
+```text
+EL 4.0
+ ├─ has_parameter → Production Rate
+ ├─ has_limit     → Output Pressure
+ ├─ has_parameter → Operative Power Consumption
+ └─ has_limit     → Water Input Pressure Range
+```
+
+### Lesson 6 — provenance and engineering semantics are different
+
+```text
+belongs_to(Table)
+```
+
+means where a fact came from.
+
+```text
+has_parameter
+```
+
+means what the fact means engineering-wise.
+
+Both are useful, but they serve different purposes.
+
+### Lesson 7 — same identity should normally be merged
+
+```text
+EL40
+EL 4.0
+AEM Electrolyser EL 4.0
+```
+
+should normally become one canonical equipment entity, not three nodes connected with `is`.
+
+### Lesson 8 — raw LLM cache is critical for debugging
+
+The KG only showed:
+
+```text
+18 Ent + 0 Rel
+```
+
+which initially looked like a relationship-extraction problem.
+
+The raw cache revealed the actual root cause:
+
+```text
+response truncation
+```
+
+That changed the diagnosis completely.
+
+### Lesson 9 — changing one variable at a time worked
+
+The table-only test kept:
+
+```text
+same table
+same LLM
+same embedding model
+same LightRAG
+```
+
+and changed individual variables.
+
+That allowed us to distinguish:
+
+```text
+ingestion problem
+vs
+prompt problem
+vs
+generation-length problem
+```
+
+---
+
+# 20. Current pipeline status
+
+| Stage                          | Status   | Notes                                     |
+| ------------------------------ | -------- | ----------------------------------------- |
+| PDF parsing                    | ✅        | MinerU works                              |
+| Text extraction                | ✅        | Good                                      |
+| Table detection                | ✅        | Correct                                   |
+| Table HTML extraction          | ✅        | Very good                                 |
+| Parse cache                    | ✅        | Complete table preserved                  |
+| Normal text → LightRAG         | ✅        | Works                                     |
+| Table → LightRAG               | ✅        | Proven with isolated test                 |
+| Multimodal table chunk         | ✅        | 1714 tokens                               |
+| Generic KG extraction          | ✅        | But engineering coverage weak             |
+| Engineering entity schema      | ✅        | Large improvement                         |
+| Numeric parameter retention    | ✅ mostly | Major values now preserved                |
+| Parameter entity creation      | ✅        | Works                                     |
+| Semantic engineering relations | ❌        | LLM output truncated before relations     |
+| Entity canonicalization        | ⚠️       | Improved, not fully solved                |
+| Source fidelity                | ⚠️       | Some interpretation/hallucination remains |
+| `hashing_kv`                   | ⚠️       | Nonfatal unresolved issue                 |
+| Retrieval evaluation           | ⏳        | Not started intentionally                 |
+
+---
+
+# 21. Exact stopping point
+
+We are currently here:
+
+```text
+MinerU
+  ✅
+  ↓
+table HTML
+  ✅
+  ↓
+RAG-Anything table ingestion
+  ✅
+  ↓
+LightRAG multimodal chunk
+  ✅
+  ↓
+engineering entity extraction
+  ✅
+  ↓
+LLM output
+  ⚠ truncated
+  ↓
+relationships
+  ❌ never reached
+  ↓
+final engineering KG
+  ⚠ incomplete topology
+```
+
+The current blocker is **not MinerU, embeddings, retrieval, or the engineering entity prompt**.
+
+The current blocker is:
+
+```text
+LLM extraction response length / context configuration
+```
+
+---
+
+# 22. TODO — next session
+
+## Immediate experiment
+
+Keep the engineering prompt unchanged.
+
+Change:
+
+```python
+"options": {
+    "num_ctx": 8192,
+}
+```
+
+to first try:
+
+```python
+"options": {
+    "num_ctx": 16384,
+    "num_predict": 4096,
+}
+```
+
+Also reduce generic LightRAG extraction examples:
+
+```python
+"addon_params": {
+    "language": "English",
+    "entity_types": ENGINEERING_ENTITY_TYPES,
+    "example_number": 1,
+}
+```
+
+Use a fresh test storage:
+
+```text
+rag_storage_table_test_3
+```
+
+and a new document ID.
+
+If truncation still occurs:
+
+```python
+"options": {
+    "num_ctx": 32768,
+    "num_predict": 8192,
+}
+```
+
+## Success criterion
+
+Inspect:
+
+```text
+kv_store_llm_response_cache.json
+```
+
+The extraction must finally contain:
+
+```text
+relation<|#|>...
+```
+
+and end with:
+
+```text
+<|COMPLETE|>
+```
+
+Expected relationships should resemble:
+
+```text
+EL 4.0
+    --has_parameter--> Production Rate
+
+EL 4.0
+    --has_limit--> Output Pressure
+
+EL 4.0
+    --has_parameter--> Operative Power Consumption
+
+EL 4.0
+    --has_limit--> Water Input Pressure Range
+
+EL 4.0
+    --has_limit--> Ambient Operative Temperature Range
+```
+
+## After relationships work
+
+Then improve extraction fidelity:
+
+```text
+- recover Weight = 42 kg
+- recover complete Dimensions
+- prohibit unsupported IP20 interpretation
+- preserve water-conductivity wording exactly
+- evaluate whether every table row should become a KG fact
+```
+
+Then address entity resolution:
+
+```text
+El 4.0
+EL 4.0
+EL40
+AEM Electrolyser EL 4.0
+       ↓
+canonical EL 4.0
+```
+
+Then investigate the persistent:
+
+```text
+'hashing_kv'
+```
+
+error.
+
+Only after the Engineering KG is stable should we start retrieval evaluation:
+
+```text
+naive
+local
+global
+hybrid
+mix
+```
+
+The retrieval benchmark should compare not just final answers, but also the actual evidence/chunks/entities/relations returned.
+
+---
+
+# 23. Target architecture after today's findings
+
+```text
+Documents / Datasheets
+        │
+        ▼
+      MinerU
+        │
+        ├──────── text
+        │
+        ├──────── table HTML
+        │
+        └──────── images
+        │
+        ▼
+    RAG-Anything
+        │
+        ▼
+   LightRAG chunks
+        │
+        ▼
+Engineering-aware extraction
+        │
+        ├── Equipment
+        ├── Components
+        ├── Substances
+        ├── Processes
+        ├── Operating Parameters
+        ├── Operating Limits
+        ├── Controls
+        ├── Safety Requirements
+        └── Standards
+        │
+        ▼
+Engineering Knowledge Graph
+        │
+        ├── semantic engineering edges
+        │      has_parameter
+        │      has_limit
+        │      produces
+        │      requires
+        │      controlled_by
+        │      conforms_to
+        │
+        └── provenance edges
+               extracted_from
+               contained_in
+        │
+        ▼
+Entity resolution / canonicalization
+        │
+        ▼
+Vector + KG retrieval
+        │
+        ▼
+Reranking
+        │
+        ▼
+Evidence validation
+        │
+        ▼
+HAZOP reasoning / answer
+```
+
+## Current checkpoint
+
+**Today's key achievement:** we proved that MinerU can extract the Enapter technical table correctly, RAG-Anything can ingest it as a multimodal table chunk, and a domain-specific LightRAG prompt can turn its numerical specifications into useful engineering entities.
+
+**Current blocker:** the LLM response is truncated during entity generation, so it never reaches semantic relationship generation. The next session starts by fixing that generation/context limitation, not by changing the extraction semantics again.

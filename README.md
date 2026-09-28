@@ -16,7 +16,7 @@ Kriterien:
 - ollama
 - ollama's either text embeddings model or vision embeddings models / Open AI API
 
-## Instruction
+## Helpful Instruction
 Install the program
 ```bash
 # From root
@@ -28,3 +28,4 @@ Run the program
 # From root
 uv run python -m raganything_hazop.main
 ```
+

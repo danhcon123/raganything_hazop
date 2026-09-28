@@ -3,9 +3,21 @@ import networkx as nx
 
 
 GRAPH_PATH = Path(
-    "rag_storage_phase2/graph_chunk_entity_relation.graphml"
+    "rag_storage_table_test_2/graph_chunk_entity_relation.graphml"
 )
 
+SEARCH_TERMS = [
+    "500",
+    "NL/h",
+    "35 barg",
+    "4.8",
+    "2.4 kW",
+    "3 kW",
+    "420",
+    "1 – 4",
+    "45",
+    "42 kg",
+]
 
 def main():
     if not GRAPH_PATH.exists():
@@ -25,7 +37,7 @@ def main():
         for key, value in data.items():
             print(f"  {key}: {value}")
 
-    print("\n=== RELATIONSHIPS ===")
+    print("\n=== EDGES ===")
 
     for source, target, data in graph.edges(data=True):
         print(f"\n{source} -> {target}")
@@ -33,6 +45,28 @@ def main():
         for key, value in data.items():
             print(f"  {key}: {value}")
 
+    print("\n=== ENGINEERING VALUE SEARCH ===")
+
+    for term in SEARCH_TERMS:
+        matches = []
+
+        for node_id, data in graph.nodes(data=True):
+            text = f"{node_id} {data}"
+            if term.lower() in text.lower():
+                matches.append(("NODE", node_id, data))
+
+        for source, target, data in graph.edges(data=True):
+            text = f"{source} {target} {data}"
+            if term.lower() in text.lower():
+                matches.append(
+                    ("EDGE", f"{source} -> {target}", data)
+                )
+
+        print(f"\n{term}: {len(matches)} match(es)")
+
+        for match_type, identifier, data in matches:
+            print(f"  [{match_type}] {identifier}")
+            print(f"    {data}")
 
 if __name__ == "__main__":
     main()

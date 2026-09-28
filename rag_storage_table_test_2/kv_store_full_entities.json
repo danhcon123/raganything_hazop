@@ -1,0 +1,27 @@
+{
+  "doc-enapter-el40-table-hazop": {
+    "entity_names": [
+      "Max Heat Dissipation",
+      "Nominal Power Consumption",
+      "Maximum Water Input Conductivity",
+      "Operative Power Consumption",
+      "Water Input Pressure Range",
+      "Output Pressure",
+      "IP Rating",
+      "Water Consumption",
+      "Ambient Operative Temperature Range",
+      "Heat Dissipation",
+      "Hydrogen Output Purity",
+      "Production Rate",
+      "Ambient Operative Humidity Range",
+      "Dimensions",
+      "Peak Power Consumption",
+      "Standby Power Consumption",
+      "Power Supply",
+      "EL 4.0"
+    ],
+    "count": 18,
+    "update_time": 1790629772,
+    "_id": "doc-enapter-el40-table-hazop"
+  }
+}
