@@ -21,7 +21,7 @@ PARSE_CACHE = Path(
 # IMPORTANT:
 # Use a NEW directory so the result is not mixed with the previous
 # 18-node / 27-edge baseline.
-TEST_STORAGE = "./rag_storage_table_test_2"
+TEST_STORAGE = "./rag_storage_table_test_4"
 
 
 # ---------------------------------------------------------------------
@@ -296,6 +296,37 @@ def load_table_from_cache():
     return tables[0]
 
 
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+async def debug_llm(
+    prompt,
+    system_prompt=None,
+    history_messages=None,
+    **kwargs,
+):
+    try:
+        return await ollama_model_complete(
+            prompt,
+            system_prompt=system_prompt,
+            history_messages=(
+                history_messages if history_messages is not None else []
+            ),
+            **kwargs,
+        )
+    except asyncio.CancelledError:
+        logger.exception("LLM call cancelled, possibly by an outer timeout")
+        raise
+    except Exception as exc:
+        logger.exception(
+            "LLM call failed: type=%s, repr=%r",
+            type(exc).__name__,
+            exc,
+        )
+        raise
+
 # ---------------------------------------------------------------------
 # Main test
 # ---------------------------------------------------------------------
@@ -325,7 +356,7 @@ async def main():
 
     embedding_func = EmbeddingFunc(
         embedding_dim=4096,
-        max_token_size=8192,
+        max_token_size=16384,
         func=partial(
             ollama_embed.func,
             embed_model="qwen3-embedding:8b",
@@ -333,18 +364,43 @@ async def main():
         ),
         model_name="qwen3-embedding:8b",
     )
-
     rag = RAGAnything(
         config=config,
         llm_model_func=ollama_model_complete,
         embedding_func=embedding_func,
         lightrag_kwargs={
-            "llm_model_name": "qwen3.8:latest",
+            "llm_model_name": "deepseek-v4.1-flash:cloud",
 
+            # LightRAG timeout and cloud request concurrency.
+            "default_llm_timeout": 600,
+            "llm_model_max_async": 1,
+
+            # Local Ollama forwards this model's requests to Ollama Cloud.
             "llm_model_kwargs": {
                 "host": "http://localhost:11434",
+                "timeout": 600,
+            },
+
+            "addon_params": {
+                "language": "English",
+                "entity_types": ENGINEERING_ENTITY_TYPES,
+                "example_number": 1,
+            },
+        },
+    )
+    
+    """rag = RAGAnything(
+        config=config,
+        llm_model_func=debug_llm,
+        embedding_func=embedding_func,
+        lightrag_kwargs={
+            "llm_model_name": "qwen3.8:latest",
+            "default_llm_timeout": 600,
+            "llm_model_kwargs": {
+                "host": "http://localhost:11434",
+                "timeout": 600,
                 "options": {
-                    "num_ctx": 8192,
+                    "num_ctx": 16384,
                 },
                 "timeout": 300,
             },
@@ -353,9 +409,11 @@ async def main():
             "addon_params": {
                 "language": "English",
                 "entity_types": ENGINEERING_ENTITY_TYPES,
+                "example_number": 1,
             },
         },
-    )
+    )"""
+
 
     table = load_table_from_cache()
 
@@ -392,7 +450,7 @@ async def main():
         file_path="Enapter_Datasheet_EL40_EN.pdf",
 
         # New ID for this experiment.
-        doc_id="doc-enapter-el40-table-hazop",
+        doc_id="doc-enapter-el40-table-cloud-1",
 
         display_stats=True,
 

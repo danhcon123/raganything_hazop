@@ -1,0 +1,285 @@
+{
+  "doc-enapter-el40-table-cloud-1": {
+    "relation_pairs": [
+      [
+        "EL 4.0",
+        "Hydrogen"
+      ],
+      [
+        "EL 4.0",
+        "Space Inside Cabinet"
+      ],
+      [
+        "Heat Dissipation",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Control and Monitoring",
+        "EL 4.0"
+      ],
+      [
+        "Maximum Water Input Conductivity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Heat Dissipation"
+      ],
+      [
+        "Control and Monitoring",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Nominal Power Consumption Per Nm³ of H₂ Produced",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Peak Power Consumption"
+      ],
+      [
+        "EL 4.0",
+        "IP Rating"
+      ],
+      [
+        "ASTM D1193-06",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Control and Monitoring",
+        "Enapter's EMS"
+      ],
+      [
+        "CE Mark",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Output Pressure",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Power Supply"
+      ],
+      [
+        "Production Rate",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Electricity"
+      ],
+      [
+        "EL 4.0",
+        "Enapter"
+      ],
+      [
+        "EL 4.0",
+        "Water Electrolysis"
+      ],
+      [
+        "Electricity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Dimensions",
+        "EL 4.0"
+      ],
+      [
+        "EL 4.0",
+        "Hydrogen Output Purity"
+      ],
+      [
+        "Ambient Operative Temperature Range",
+        "EL 4.0"
+      ],
+      [
+        "ASTM D1193-06",
+        "Maximum Water Input Conductivity"
+      ],
+      [
+        "Dimensions",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water Electrolysis",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Nominal Power Consumption Per Nm³ of H₂ Produced"
+      ],
+      [
+        "Ambient Operative Temperature Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Space Inside Cabinet",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Operative Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "CSA/ANSI B22734:2023 Ed.1",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Enapter's EMS"
+      ],
+      [
+        "EL 4.0",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Water Consumption"
+      ],
+      [
+        "Hydrogen",
+        "Oxygen"
+      ],
+      [
+        "Enapter's EMS",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Water"
+      ],
+      [
+        "EL 4.0",
+        "Weight"
+      ],
+      [
+        "Max Heat Dissipation",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "UKCA Mark",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Hydrogen",
+        "Water Electrolysis"
+      ],
+      [
+        "Conformity",
+        "EL 4.0"
+      ],
+      [
+        "CE Mark",
+        "Conformity"
+      ],
+      [
+        "EL 4.0",
+        "Water Input Pressure Range"
+      ],
+      [
+        "Conformity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Enapter",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Conformity",
+        "UKCA Mark"
+      ],
+      [
+        "Enapter",
+        "Enapter's EMS"
+      ],
+      [
+        "Hydrogen",
+        "Hydrogen Output Purity"
+      ],
+      [
+        "EL 4.0",
+        "Standby Power Consumption"
+      ],
+      [
+        "Oxygen",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Hydrogen Output Purity",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Maximum Water Input Conductivity"
+      ],
+      [
+        "EL 4.0",
+        "Production Rate"
+      ],
+      [
+        "EL 4.0",
+        "Max Heat Dissipation"
+      ],
+      [
+        "EL 4.0",
+        "Output Pressure"
+      ],
+      [
+        "IP Rating",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Ambient Operative Humidity Range",
+        "EL 4.0"
+      ],
+      [
+        "Ambient Operative Humidity Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "EL 4.0",
+        "Operative Power Consumption"
+      ],
+      [
+        "Hydrogen",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Water Input Pressure Range",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Weight",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Peak Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "Standby Power Consumption",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ],
+      [
+        "CSA/ANSI B22734:2023 Ed.1",
+        "Conformity"
+      ],
+      [
+        "Power Supply",
+        "table_a01099d4a0f1356cd04b854534af4fb2"
+      ]
+    ],
+    "count": 69,
+    "update_time": 1790710807,
+    "_id": "doc-enapter-el40-table-cloud-1"
+  }
+}

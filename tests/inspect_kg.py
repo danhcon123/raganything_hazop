@@ -3,7 +3,7 @@ import networkx as nx
 
 
 GRAPH_PATH = Path(
-    "rag_storage_table_test_2/graph_chunk_entity_relation.graphml"
+    "rag_storage_table_test_4/graph_chunk_entity_relation.graphml"
 )
 
 SEARCH_TERMS = [

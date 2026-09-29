@@ -1,5 +1,33 @@
 # UPDATE Working step
 
+# 29.08.2026
+### What we did
+
+- Verified that MinerU parsed the datasheet’s technical table.
+- Inserted the table directly and used engineering entity types and extraction instructions.
+- Built a KG with **36 nodes and 72 edges**, including equipment parameters, limits, and table membership links.
+- Confirmed that **EL 4.0 and EL40 share one entity**.
+- Tested vector retrieval (`naive`) and KG retrieval (`local`), then answer generation. Both modes correctly answered pressure, power consumption, and water input pressure questions.
+
+### Problems and solutions
+
+- **Original ingestion missed table evidence:** the parsed table existed, but the initial LightRAG index contained only text. Direct table insertion isolated and bypassed this issue.
+- **Extraction was incomplete and local inference failed:** relationships were missing in earlier experiments, and later local runs encountered LLM errors. We adjusted generation/context settings and timeouts, then switched to **Ollama Cloud for the LLM**, keeping **local embeddings**. The cloud run successfully stored engineering relationships.
+- **Table processing raised `'hashing_kv'`:** the successful run used fallback table content. This bug remains unresolved; the fallback also duplicates table HTML.
+
+### Current state and next step
+
+The **isolated table → KG/vector storage → retrieval → answer** pipeline works for the tested questions. Next, validate **full-document ingestion in a fresh directory**, then expand to multiple documents.
+
+### Lessons learned
+
+- Check each stage separately: **parsed content → stored chunks → KG facts → retrieved evidence → answers**.
+- A “test complete” message does not prove extraction succeeded.
+- Correct answers on one small table establish basic functionality, not retrieval quality at scale.
+- Distinguish a successful workaround from a resolved root cause.
+
+# 28.08.2026
+
 # 27.09.2026
 Running the whole pipeline from .pdf to KG:  
 - KG created successfully

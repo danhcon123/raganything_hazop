@@ -1,0 +1,317 @@
+{
+  "EL 4.0": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94",
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 2,
+    "update_time": 1790710760,
+    "_id": "EL 4.0"
+  },
+  "Enapter": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94",
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 2,
+    "update_time": 1790710769,
+    "_id": "Enapter"
+  },
+  "Technical Specifications Table": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94"
+    ],
+    "count": 1,
+    "create_time": 1790710721,
+    "update_time": 1790710721,
+    "_id": "Technical Specifications Table"
+  },
+  "Source Document": {
+    "chunk_ids": [
+      "chunk-b5c89217037bf7757266979c0a494a94"
+    ],
+    "count": 1,
+    "create_time": 1790710722,
+    "update_time": 1790710722,
+    "_id": "Source Document"
+  },
+  "Production Rate": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710760,
+    "update_time": 1790710760,
+    "_id": "Production Rate"
+  },
+  "Hydrogen Output Purity": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710761,
+    "update_time": 1790710761,
+    "_id": "Hydrogen Output Purity"
+  },
+  "Output Pressure": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710761,
+    "update_time": 1790710761,
+    "_id": "Output Pressure"
+  },
+  "Nominal Power Consumption Per Nm³ of H₂ Produced": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710762,
+    "update_time": 1790710762,
+    "_id": "Nominal Power Consumption Per Nm³ of H₂ Produced"
+  },
+  "Operative Power Consumption": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710762,
+    "update_time": 1790710762,
+    "_id": "Operative Power Consumption"
+  },
+  "Peak Power Consumption": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710762,
+    "update_time": 1790710762,
+    "_id": "Peak Power Consumption"
+  },
+  "Heat Dissipation": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710762,
+    "update_time": 1790710762,
+    "_id": "Heat Dissipation"
+  },
+  "Max Heat Dissipation": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710763,
+    "update_time": 1790710763,
+    "_id": "Max Heat Dissipation"
+  },
+  "Standby Power Consumption": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710763,
+    "update_time": 1790710763,
+    "_id": "Standby Power Consumption"
+  },
+  "Power Supply": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710763,
+    "update_time": 1790710763,
+    "_id": "Power Supply"
+  },
+  "Maximum Water Input Conductivity": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710763,
+    "update_time": 1790710763,
+    "_id": "Maximum Water Input Conductivity"
+  },
+  "Water Consumption": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710764,
+    "update_time": 1790710764,
+    "_id": "Water Consumption"
+  },
+  "Water Input Pressure Range": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710764,
+    "update_time": 1790710764,
+    "_id": "Water Input Pressure Range"
+  },
+  "Ambient Operative Temperature Range": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710764,
+    "update_time": 1790710764,
+    "_id": "Ambient Operative Temperature Range"
+  },
+  "Ambient Operative Humidity Range": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710764,
+    "update_time": 1790710764,
+    "_id": "Ambient Operative Humidity Range"
+  },
+  "IP Rating": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710765,
+    "update_time": 1790710765,
+    "_id": "IP Rating"
+  },
+  "Dimensions": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710765,
+    "update_time": 1790710765,
+    "_id": "Dimensions"
+  },
+  "Weight": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710765,
+    "update_time": 1790710765,
+    "_id": "Weight"
+  },
+  "Space Inside Cabinet": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710766,
+    "update_time": 1790710766,
+    "_id": "Space Inside Cabinet"
+  },
+  "Control and Monitoring": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710766,
+    "update_time": 1790710766,
+    "_id": "Control and Monitoring"
+  },
+  "Enapter's EMS": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710766,
+    "update_time": 1790710766,
+    "_id": "Enapter's EMS"
+  },
+  "Conformity": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710766,
+    "update_time": 1790710766,
+    "_id": "Conformity"
+  },
+  "CE Mark": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710767,
+    "update_time": 1790710767,
+    "_id": "CE Mark"
+  },
+  "UKCA Mark": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710767,
+    "update_time": 1790710767,
+    "_id": "UKCA Mark"
+  },
+  "CSA/ANSI B22734:2023 Ed.1": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710767,
+    "update_time": 1790710767,
+    "_id": "CSA/ANSI B22734:2023 Ed.1"
+  },
+  "ASTM D1193-06": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710768,
+    "update_time": 1790710768,
+    "_id": "ASTM D1193-06"
+  },
+  "Hydrogen": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710768,
+    "update_time": 1790710768,
+    "_id": "Hydrogen"
+  },
+  "Water": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710768,
+    "update_time": 1790710768,
+    "_id": "Water"
+  },
+  "Electricity": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710769,
+    "update_time": 1790710769,
+    "_id": "Electricity"
+  },
+  "Oxygen": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710769,
+    "update_time": 1790710769,
+    "_id": "Oxygen"
+  },
+  "Water Electrolysis": {
+    "chunk_ids": [
+      "chunk-ccc2a7da10d8d7b6995d26a2b7d87a82"
+    ],
+    "count": 1,
+    "create_time": 1790710769,
+    "update_time": 1790710769,
+    "_id": "Water Electrolysis"
+  }
+}
