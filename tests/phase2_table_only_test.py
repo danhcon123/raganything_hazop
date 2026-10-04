@@ -15,13 +15,13 @@ from raganything import RAGAnything, RAGAnythingConfig
 # ---------------------------------------------------------------------
 
 PARSE_CACHE = Path(
-    "rag_storage_phase2/kv_store_parse_cache.json"
+    "output_stores/rag_storage_phase2/kv_store_parse_cache.json"
 )
 
 # IMPORTANT:
 # Use a NEW directory so the result is not mixed with the previous
 # 18-node / 27-edge baseline.
-TEST_STORAGE = "./rag_storage_table_test_4"
+TEST_STORAGE = "./output_stores/rag_storage_3_docs_test_1"
 
 
 # ---------------------------------------------------------------------
@@ -93,7 +93,8 @@ technical values only inside the equipment description.
 
 #### 2. Preserve exact values and units
 
-Preserve values and units exactly as stated in the source.
+Preserve each parameter's value, unit, range and qualifiers
+exactly as provided in the source.
 
 Preserve qualifiers such as:
 
@@ -107,49 +108,27 @@ Preserve qualifiers such as:
 - beginning of life
 - end of life
 
-Examples:
+Preserve associated conditions, such as temperature, pressure
+and equipment operating state.
 
-"Operative power consumption | 2.4 kW, beginning of life"
-
-should produce an entity similar to:
-
-Operative Power Consumption
-
-with a description containing exactly:
-
-"The EL 4.0 operative power consumption is 2.4 kW,
-beginning of life."
+Include these facts in the entity and relationship descriptions.
+Do not substitute example values or values from other equipment.
 
 
-"Water input pressure range | 1 – 4 barg"
+#### 3. Canonical equipment and parameter naming
 
-should produce:
+Choose the equipment name from the source being processed.
+Preserve model identifiers and equipment tags.
 
-Water Input Pressure Range
+Merge aliases only when the source clearly identifies the same
+equipment. Do not merge different models or equipment tags.
 
-with a description containing the range "1 – 4 barg".
+For equipment-specific parameters and limits, include the owning
+equipment name in the entity name, for example:
+"<equipment name> :: Output Pressure".
 
-
-#### 3. Canonical equipment naming
-
-Use one canonical name for the same real-world equipment.
-
-For this document:
-
-- "EL40"
-- "EL 4.0"
-- "AEM Electrolyser EL 4.0"
-- "AEM Electrolyser EL40"
-
-all refer to the same Enapter electrolyser.
-
-Use the canonical entity name:
-
-EL 4.0
-
-Do not create separate entities solely because an abbreviation,
-spacing difference, capitalization difference, or longer product name
-is used.
+Use the same name consistently for repeated references to that
+equipment and parameter.
 
 
 #### 4. Engineering relationships
@@ -341,17 +320,28 @@ async def main():
     for entity_type in ENGINEERING_ENTITY_TYPES:
         print(f"  - {entity_type}")
 
+    documents = [ 
+        Path("data/documents/Enapter_Datasheet_EL40_EN.pdf"),
+        Path("data/documents/Hydrogen_compressed_Datasheet.pdf"),
+        Path("data/documents/SITRANS-P-EN.pdf")
+    ]
+
+    for document in documents:
+        if not document.is_file():
+            raise FileNotFoundError(document.resolve())
+
+
     config = RAGAnythingConfig(
         parser="mineru",
-        parser_output_dir="./output",
+        parser_output_dir="./output_stores/output",
 
         # Fresh KG for this experiment.
         working_dir=TEST_STORAGE,
 
-        # Isolate table processing.
+        # Process the full document's text, tables and equations.
         enable_image_processing=False,
         enable_table_processing=True,
-        enable_equation_processing=False,
+        enable_equation_processing=True,
     )
 
     embedding_func = EmbeddingFunc(
@@ -364,6 +354,7 @@ async def main():
         ),
         model_name="qwen3-embedding:8b",
     )
+
     rag = RAGAnything(
         config=config,
         llm_model_func=ollama_model_complete,
@@ -388,79 +379,22 @@ async def main():
             },
         },
     )
-    
-    """rag = RAGAnything(
-        config=config,
-        llm_model_func=debug_llm,
-        embedding_func=embedding_func,
-        lightrag_kwargs={
-            "llm_model_name": "qwen3.8:latest",
-            "default_llm_timeout": 600,
-            "llm_model_kwargs": {
-                "host": "http://localhost:11434",
-                "timeout": 600,
-                "options": {
-                    "num_ctx": 16384,
-                },
-                "timeout": 300,
-            },
 
-            # LightRAG v1.4.16 reads these during KG extraction.
-            "addon_params": {
-                "language": "English",
-                "entity_types": ENGINEERING_ENTITY_TYPES,
-                "example_number": 1,
-            },
-        },
-    )"""
+    try:
+        for document in documents:
+            print(f"\nProcessing: {document.name}")
 
+            await rag.process_document_complete(
+                file_path=str(document),
+                output_dir="./output_stores/output",
+                parse_method="auto",
+                display_stats=True,
+            )
 
-    table = load_table_from_cache()
+    finally:
+        await rag.finalize_storages()
 
-    print("\n=== TABLE LOADED FROM PARSE CACHE ===")
-    print("type:", table.get("type"))
-    print("page_idx:", table.get("page_idx"))
-    print("table_type:", table.get("table_type"))
-
-    print("\nTABLE BODY:")
-    print(table.get("table_body"))
-
-    # Keep the contextual text very small.
-    #
-    # Its purpose is only to tell the extractor what equipment the
-    # following table belongs to.
-    content_list = [
-        {
-            "type": "text",
-            "text": (
-                "The equipment described in this document is the "
-                "Enapter EL 4.0 AEM electrolyser. "
-                "The following table contains technical specifications "
-                "for the EL 4.0."
-            ),
-            "page_idx": 1,
-        },
-        table,
-    ]
-
-    print("\n=== STARTING HAZOP TABLE INSERTION ===")
-
-    await rag.insert_content_list(
-        content_list=content_list,
-        file_path="Enapter_Datasheet_EL40_EN.pdf",
-
-        # New ID for this experiment.
-        doc_id="doc-enapter-el40-table-cloud-1",
-
-        display_stats=True,
-
-        # Avoid the old multimodal_processed status preventing processing.
-        force_multimodal_reprocess=True,
-    )
-
-    await rag.finalize_storages()
-
-    print("\n=== HAZOP TABLE TEST COMPLETE ===")
+    print("\n=== HAZOP INGESTION TEST COMPLETE ===")
     print(f"Storage: {TEST_STORAGE}")
 
 
