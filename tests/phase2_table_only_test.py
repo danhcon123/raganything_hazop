@@ -21,7 +21,7 @@ PARSE_CACHE = Path(
 # IMPORTANT:
 # Use a NEW directory so the result is not mixed with the previous
 # 18-node / 27-edge baseline.
-TEST_STORAGE = "./output_stores/rag_storage_3_docs_test_1"
+TEST_STORAGE = "./output_stores/rag_storage_dexpi_llm_engineering_test_1"
 
 
 # ---------------------------------------------------------------------
@@ -31,14 +31,29 @@ TEST_STORAGE = "./output_stores/rag_storage_3_docs_test_1"
 ENGINEERING_ENTITY_TYPES = [
     "Equipment",
     "Component",
+
+    # DEXPI / P&ID
+    "Pipe",
+    "Pipeline",
+    "Valve",
+    "Instrument",
+    "Nozzle",
+    "Connection",
+    "PlantArea",
+
+    # Process / properties
     "Substance",
     "Process",
     "OperatingParameter",
     "OperatingLimit",
     "Utility",
+
+    # Control / safety
     "ControlSystem",
     "ProtectionSystem",
     "SafetyRequirement",
+
+    # Reference
     "Standard",
     "Organization",
     "Document",
@@ -150,6 +165,18 @@ Use concise relationship keywords such as:
 - communicates_via
 - protected_by
 - located_in
+- connected_to
+- up_stream_of
+- down_stream_of
+- contains
+- part_of
+- measures
+- controls
+- feeds
+- discharges_to
+
+For equipment parameters and limit, connect the parameter or limit to its owning equipment whenever
+this relationship is explicitly supported by the source.
 
 For example:
 
@@ -164,6 +191,12 @@ has_parameter
 and the relationship description should explain that the EL 4.0 has
 an operative power consumption of 2.4 kW at beginning of life.
 
+For process topology, use connected_to when a physical connection is explicitly represented.
+
+Use upstream_of or downstream_of only when the source explicitly provides
+flow direction or source/target semantics, or other information that clearly establishs directionality.
+
+Do not infer process from graphical order, naming, or proximity alone.
 
 #### 5. Parameter ownership
 
@@ -320,13 +353,17 @@ async def main():
     for entity_type in ENGINEERING_ENTITY_TYPES:
         print(f"  - {entity_type}")
 
-    documents = [ 
+    PDF_DOCUMENTS = [ 
         Path("data/documents/Enapter_Datasheet_EL40_EN.pdf"),
         Path("data/documents/Hydrogen_compressed_Datasheet.pdf"),
-        Path("data/documents/SITRANS-P-EN.pdf")
+        Path("data/documents/SITRANS-P-EN.pdf"),
     ]
 
-    for document in documents:
+    DEXPI_DOCUMENTS = [
+        Path("data/others/C01V04-VER.EX01.xml")
+    ]
+
+    for document in PDF_DOCUMENTS + DEXPI_DOCUMENTS:
         if not document.is_file():
             raise FileNotFoundError(document.resolve())
 
@@ -381,7 +418,7 @@ async def main():
     )
 
     try:
-        for document in documents:
+        for document in PDF_DOCUMENTS:
             print(f"\nProcessing: {document.name}")
 
             await rag.process_document_complete(
@@ -389,6 +426,22 @@ async def main():
                 output_dir="./output_stores/output",
                 parse_method="auto",
                 display_stats=True,
+            )
+
+        for document in DEXPI_DOCUMENTS:
+            xml_text = document.read_text(encoding="utf-8")
+
+            content_list = [
+                {
+                    "type": "dexpi",
+                    "content": xml_text,
+                    "page_idx": 0,
+                }
+            ]
+
+            await rag.insert_content_list(
+                content_list=content_list,
+                file_path=str(document),
             )
 
     finally:
