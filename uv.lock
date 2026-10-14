@@ -3828,7 +3828,9 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "chromadb" },
+    { name = "ipykernel" },
     { name = "jupyter" },
+    { name = "jupyterlab" },
     { name = "langchain" },
     { name = "magic-pdf" },
     { name = "matplotlib" },
@@ -3852,7 +3854,9 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
+    { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyterlab", specifier = ">=4.6.4" },
     { name = "langchain", specifier = ">=1.4.2" },
     { name = "magic-pdf", specifier = ">=1.0.1" },
     { name = "matplotlib", specifier = ">=3.11.2" },

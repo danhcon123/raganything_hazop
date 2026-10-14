@@ -29,3 +29,10 @@ Run the program
 uv run python -m raganything_hazop.main
 ```
 
+Visualize Graph
+```bash
+# from root
+uv run python tests/visualization/inspect_kg.py ".graphml file directory"
+# e.g.
+uv run python tests/visualization/inspect_kg.py "./output_stores/rag_storage_table_test_4/graph_chunk_entity_relation.graphml" --open
+```

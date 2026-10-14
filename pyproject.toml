@@ -27,6 +27,8 @@ dependencies = [
     "torchaudio==2.11.0",
     "matplotlib>=3.11.2",
     "pyvis>=0.3.2",
+    "jupyterlab>=4.6.4",
+    "ipykernel>=7.3.0",
 ]
 
 [project.scripts]
