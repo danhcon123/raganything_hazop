@@ -36,3 +36,10 @@ uv run python tests/visualization/inspect_kg.py ".graphml file directory"
 # e.g.
 uv run python tests/visualization/inspect_kg.py "./output_stores/rag_storage_table_test_4/graph_chunk_entity_relation.graphml" --open
 ```
+
+Start jupyter notebook
+```bash
+uv run --no-sync python -m ipykernel install --user --name raganything-hazop --display-name "Python (raganything-hazop)"
+
+uv run --no-sync jupyter lab
+```

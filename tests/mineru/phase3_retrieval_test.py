@@ -239,17 +239,28 @@ or citations. Give a short answer."""
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--storage", type=Path, default=Path("rag_storage_table_test_4"))
+    parser.add_argument("--storage", type=Path, default=Path("/home/duc/Desktop/raganything_hazop/output_stores/rag_storage_ollama_ocr_3docs"))
     parser.add_argument("--output-dir", type=Path, default=Path("reports/retrieval"))
     parser.add_argument("--model", default="deepseek-v4.1-flash:cloud")
     parser.add_argument("--host", default="http://localhost:11434")
     parser.add_argument("--top-k", type=int, default=5) # Retrieval limit
     parser.add_argument("--answers", action="store_true", # Enable answer generation
-                        help="Generate answers from the exact captured contexts (extra LLM calls).") 
+                        help="Generate answers from the exact captured contexts (extra LLM calls).")
+    parser.add_argument("--cases", nargs="+", default=None, # e.g. --cases el40_ sitrans_
+                        help="Run only cases whose id starts with one of these prefixes.")
     args = parser.parse_args()
     if args.top_k < 1:
         parser.error("--top-k must be positive")
     return args
+
+
+def select_cases(prefixes):
+    if not prefixes:
+        return CASES
+    selected = [c for c in CASES if c["id"].startswith(tuple(prefixes))]
+    if not selected:
+        raise ValueError(f"No case id starts with {prefixes}")
+    return selected
 
 
 
@@ -317,6 +328,7 @@ async def main(args):
         "top_k": args.top_k,
         "reranking": False,
         "answers_requested": args.answers,
+        "cases_filter": args.cases,
         "note": "Expected facts are review references, not automatic accuracy scores. "
                 "The same small table may supply all answers through vector retrieval.",
         "results": [],
@@ -348,7 +360,7 @@ async def main(args):
         print(f"Saved chunks: {chunk_count}; report: {report_path}")
 
         # Sequential calls suit the current Ollama Cloud concurrency limit.
-        for case in CASES: # Run retrieval test through question loops
+        for case in select_cases(args.cases): # Run retrieval test through question loops
             for mode in ("naive", "local"):
                 result = {**case, "mode": mode}
                 report["results"].append(result)

@@ -1,5 +1,41 @@
 # UPDATE Working step
 
+# 15.10.2026
+### What we did
+- **MinerU workaround on Jetson:** MinerU needs PyTorch with CUDA, which doesn't work on Jetson (the `.venv` has x86 cu128 wheels, so `cuda.is_available()` is False). Replaced it with an Ollama OCR parser.
+  - `src/raganything_hazop/parsers/ollama_ocr.py`: `OllamaOCRParser`, registered as `parser="ollama_ocr"`.
+  - Each PDF page is rendered with PyMuPDF (150 dpi) and sent to `glm-ocr` twice: `Text Recognition:` and `Table Recognition: Keep line breaks inside cells as <br>.`
+  - Output is a normal RAG-Anything `content_list`. Text lines that are already in a table are removed (no duplicates), and the table keeps its reading position.
+  - Env vars: `OLLAMA_OCR_MODEL`, `OLLAMA_HOST`.
+- **`hashing_kv` bug fixed** (`src/raganything_hazop/llm.py`, `make_ollama_llm_func`): binds the model, host and timeout up front, so RAG-Anything's table processor gets a real table description instead of the fallback.
+- **Extraction prompt moved** to `src/raganything_hazop/extraction_prompt.py` (20 engineering entity types plus rules).
+- **Tests reorganised:** `tests/mineru/` (old MinerU tests) and `tests/ollama_ocr_parser/` (phase 1 parser test, phase 2 KG test). `phase3_retrieval_test.py` gained a `--cases` filter.
+
+### Results
+- **Phase 1 (parser):** passed (about 2 min on EL40).
+- **Phase 2 (KG, 3 PDFs: EL40, SITRANS P, Hydrogen SDS):** passed. 15 chunks, 631 nodes / 1,228 edges, `output_stores/rag_storage_ollama_ocr_3docs`. Took about 70 min (≈25 OCR + 50 KG); deepseek-v4.1-flash:cloud with `max_async=1`.
+- **Phase 3 (retrieval):** **29/30 correct** (naive + local), 5.5 min. Report: `reports/retrieval/retrieval_20261015T110322_239166Z.json`.
+  - The only failure was `cross_document_purity` in **local** mode: it missed the SDS purity of ≥99.8% even though that value is in the KG. Likely cause: top-k 5 was filled by EL 4.0 nodes.
+  - Trick (missing-value) questions: no hallucinated values.
+
+### Problems and solutions
+- **Multi-line cells glued together** ("25 °C8 barg") → ask glm-ocr to keep `<br>` inside cells.
+- **Table values duplicated in text** → drop text lines that match table cells.
+- **`KeyError: 'hashing_kv'`** made the table description fall back to raw HTML, and the LLM invented a "Hydrogen Generator" → custom LLM wrapper.
+- **Image input fell back to MinerU** → implemented `parse_image`.
+
+### Open points
+- Duplicate entities (`SITRANS P Compact` / `P COMPACT`; Accuracy / Measuring Accuracy) → entity merging.
+- Local mode on cross-document questions → try `hybrid`/`mix` or a higher top-k.
+- Speed: skip OCR on pages with a text layer; `max_async` > 1; don't run other GPU jobs in parallel (they slowed the build about 3×).
+- Unload glm-ocr after parsing (`keep_alive=0`); set `num_ctx` for local LLMs (gemma ran with a 262k context, 110–260 s per answer).
+- Deferred: deepseek vs gemma4:12b, with/without the engineering prompt. Next big step: DEXPI.
+
+### Lessons learned
+- Scanned PDFs (EL40, Hydrogen SDS) have no text layer, so the SITRANS text layer is useful for checking OCR values.
+- Phase 3 results are only valid on a **fully built** index (earlier reports from a partial index are invalid).
+- Saying "not in the evidence" is better than inventing a value, but it still points to a retrieval gap.
+
 # 29.08.2026
 ### What we did
 
