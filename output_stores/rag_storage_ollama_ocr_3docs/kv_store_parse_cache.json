@@ -1,0 +1,710 @@
+{
+  "c91a90fa7ca61d7274878912d0b14921": {
+    "content_list": [
+      {
+        "type": "text",
+        "text": "AEM Electrolyser EL 4.0",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Enapter’s patented anion exchange membrane (AEM) electrolyser is a standardised, stackable and flexible system to produce on-site hydrogen. The modular design – paired with advanced software integration – allows set up in minutes and remote control and management. Stack this electrolyser to achieve the required hydrogen flowrate.",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "AEM Electrolyser EL 4.0\nwww.enapter.com/aem-electrolyser",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Specifications",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Enapter\nAEM Electrolyser EL 4.0",
+        "page_idx": 1
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td>Production rate</td><td>Up to 500 NL/h, up to 1.0785 kg/24 h</td></tr><tr><td>Hydrogen output purity</td><td>35 barg: 99.9% (&lt; 1,000 ppm H₂O and &lt; 5 ppm O₂) at 25 °C<br>8 barg: 98.8% (&lt; 12,000 ppm H₂O and &lt; 5 ppm O₂) at 25 °C</td></tr><tr><td>Output pressure</td><td>Up to 35 barg</td></tr><tr><td>Nominal power consumption per Nm³ of H₂ produced</td><td>4.8 kWh/Nm³, beginning of life</td></tr><tr><td>Operative power consumption</td><td>2.4 kW, beginning of life</td></tr><tr><td>Peak power consumption</td><td>3 kW</td></tr><tr><td>Heat dissipation</td><td>0.6 kW, beginning of life</td></tr><tr><td>Max heat dissipation</td><td>0.9 kW, end of life</td></tr><tr><td>Standby power consumption¹</td><td>0.3 kW</td></tr><tr><td>Power supply</td><td>220 – 240 V (AC), 50/60 Hz</td></tr><tr><td>Maximum water input conductivity</td><td>Minimum ASTM D1193-06 Type IV or recommended Type II or Type III²</td></tr><tr><td>Water consumption</td><td>~ 420 mL/h at 25 °C</td></tr><tr><td>Water input pressure range</td><td>1 – 4 barg</td></tr><tr><td>Ambient operative temperature range</td><td>5 °C – 45 °C</td></tr><tr><td>Ambient operative humidity range</td><td>Up to 90% humidity, non-condensing</td></tr><tr><td>IP rating</td><td>IP 20</td></tr><tr><td>Dimensions</td><td>W: 482 mm × D: 635 mm × H: 266 mm</td></tr><tr><td>Weight</td><td>42 kg</td></tr><tr><td>Space inside cabinet</td><td>6 U</td></tr><tr><td>Control and monitoring</td><td>Fully automatic with Enapter’s EMS via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet</td></tr><tr><td>Conformity</td><td>CE mark according to the machine directive 2006/42/CE³<br>UKCA mark according to Supply Machinery (Safety) Regulations 2008⁴<br>CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications⁵</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "¹ Standby refers to the condition in which no hydrogen is being produced and the auxiliary components are not powered.\n² Please, check the Battery limits and the Owner’s Manual for the complete requirements list.\n³ The Electrolyser belongs to S.E.P. category according to Pressure Equipment Directive 2014/68/EU\n⁴ The Electrolyser belongs to S.E.P. category according to Pressure Equipment (Safety) Regulations 2016\n⁵ ETL recognized electrolyser versions only",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Note: The product is under continuous improvement and the technical specifications might be subject to change. Please make sure to refer to our website for the most recent specifications.",
+        "page_idx": 1
+      }
+    ],
+    "doc_id": "doc-2ce829fed2f8a4655f1f97eb5c7a54c0",
+    "mtime": 1790261769.7418208,
+    "parse_config": {
+      "parser": "ollama_ocr",
+      "parse_method": "auto"
+    },
+    "cached_at": 1792057500.0464654,
+    "cache_version": "1.0",
+    "create_time": 1792057500,
+    "update_time": 1792057500,
+    "_id": "c91a90fa7ca61d7274878912d0b14921"
+  },
+  "7f2929e826955498d3e7ba66a691122b": {
+    "content_list": [
+      {
+        "type": "text",
+        "text": "DIGITAL PROCESSES REQUIRE PRECISION",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Reliable, low-maintenance pressure measurement with SITRANS P",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "siemens.com/pressure",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Pressure measurement under control",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "It’s impossible to imagine today’s process industries without modern measurement technology. Each industry has its own specific demands, whether they are requirements for safety-related devices or harsh, rugged environmental conditions. The SITRANS P family offers the right portfolio for your applications.",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Uncompromising precision\nSITRANS P pressure transmitters are a complete family of measuring instruments for measuring gauge, differential, and absolute pressure that includes a range of performance values, load capacities, and materials. In addition to high measuring accuracy and ruggedness, the modular system features superb operating convenience and functionality as well as an ideal safety concept. Whether it’s international approvals or industry standards, our transmitters meet the challenges presented by increasingly complex tasks in the process industries.",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Safety included\nYou can select device versions that also offer comprehensive safety features. Warnings and alarms signal critical measured values for plant monitoring, while service or calibration intervals can be displayed predictively through self-diagnostics based on a maintenance scheduler.",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Configure your devices using our PIA Portal: pia-portal.automation.siemens.com",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Your benefits at a glance",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• High process quality thanks to reliable measured values, even after years of operation",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• Superior communication capabilities based on industry standards such as 4...20mA, HART®, PROFIBUS PA, and FOUNDATION Fieldbus",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• Seamless integration in SIMATIC PCS 7 thanks to specific faceplates and special support from the SIMATIC PDM (Process Device Manager) central maintenance station",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• Support for parameterization, commissioning, diagnostics, and maintenance for all current process control systems thanks to EDD, DTM, and FDI packages",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• Devices for SIL applications up to Level 2/3 can be used",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "• Rugged enough for use in difficult environmental conditions",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "SITRANS P pressure measurement",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "For gases, liquids, and paste-like media, the gauge pressure, absolute pressure, and differential pressure must be measured constantly to detect values that are too low or a potential overload. Whether for pipe-lines, valves, or reactors, the SITRANS P transmitter family offers the right solution for every application.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "The most important factor in selecting the right pressure transmitter is the required accuracy of the measuring range. SITRANS P transmitters offer a variety of choices from 0.04% to 0.3%. They are suitable for safety-related applications, with certifications according to SIL2 and SIL2/3. Numerous bus systems for communication are also supported, including HART®, PROFIBUS PA, and FOUNDATION Fieldbus. In addition, the transmitters have all the most current approvals and certificates. Our pressure measuring devices give you the instrumentation reliability you need to meet your own specific requirements.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "Benefits at a glance",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "• All applications supported thanks to a highly diverse portfolio\n• Meet all current explosion protection requirements\n• High product variance thanks to standard options and customizations\n• A variety of materials and process connection options available, including stainless-steel enclosure versions\n• Expanded diagnostics\n• Maintenance benefits",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "Communicating digitally",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "Distributed automation solutions based on open fieldbuses are now standard in many areas of the manufacturing and process industries. That’s because the benefits of digital communication can be maximized in combination with fieldbuses, including transmission of measured values that retain the original accuracy, diagnostic options, and remote parameterization.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "All the data at a glance\nThanks to modern fieldbus communication, field devices can be optimally integrated into the overall plant. Process and diagnostic data can be transferred from smart measuring devices to the control desk as well as to the control or maintenance system. An additional benefit: When the devices are integrated into PCS 7 Asset Management, users can access diagnostic information at all times, and can thus optimize plant maintenance and prevent downtimes. If desired, the data can be uploaded to MindSphere, the open cloud solution, for comprehensive analysis.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "Ready for digitalization\nWith trend recording, 1,500 measured values are stored directly in the pressure transmitter. Thanks to limit monitoring and event counters, limit violations are recorded and displayed as a specific message, both on the device and in the control system.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "Remote safety handling\nDigital transfer enables centralized SIL commissioning and validation – for example, from the control desk, without on-site device operation. Time saved through remote safety handling results in significantly reduced commissioning costs.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "Focus on the process industries",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Safety is integrated",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Stringent safety requirements must be met in all areas and sectors of the process industries. One example is chemicals, and our portfolio for pressure measurement unequivocally satisfies the high demands of the chemical industry (SIL 3). Thanks to comprehensive diagnostic functions, you always know whether your process is running according to plan and can intervene and correct it, if necessary, for example in reactors. They are part of the overall plant and must be seamlessly integrated into the process for maximum safety, efficiency, and availability. Interventions such as filling, heating, cooling, mixing, and the monitoring of all process conditions are performed on an ongoing basis. In addition, parameters such as pump performance, temperature, energy consumption, and emissions must be measured, analyzed, and monitored.",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Our product range for your application",
+        "page_idx": 7
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td>SITRANS P420</td><td>• High measurement accuracy of 0.04%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\n• Ready for digitalization\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering</td></tr><tr><td>SITRANS P200/210/220</td><td>A series for all pressure types</td></tr><tr><td>• P200: gauge and absolute pressure with ceramic diaphragm for medium measuring ranges (up to 60 bar)\n• P210: gauge and absolute pressure with stainless-steel diaphragm for low measuring ranges (up to 600 mbar)\n• P220: gauge and absolute pressure with fully welded stainless-steel diaphragm for high measuring ranges (up to 1,000 bar)</td><td>• Features a wide range of aseptic process connections\n• Space-saving transmitter thanks to compact enclosure\n• Easy cleaning\n• Process temperatures up to 200 °C possible\nIndustry: mechanical engineering, shipbuilding, energy</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "• High measurement accuracy of 0.04%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\n• Ready for digitalization\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "SITRANS P320\n• High measuring accuracy of 0.065%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering, water/wastewater",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "• P200: gauge and absolute pressure with ceramic diaphragm for medium measuring ranges (up to 60 bar)\n• P210: gauge and absolute pressure with stainless-steel diaphragm for low measuring ranges (up to 600 mbar)\n• P220: gauge and absolute pressure with fully welded stainless-steel diaphragm for high measuring ranges (up to 1,000 bar)\nIndustry: mechanical engineering, shipbuilding, energy",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "SITRANS P Compact\n• Features a wide range of aseptic process connections\n• Space-saving transmitter thanks to compact enclosure\n• Easy cleaning\n• Process temperatures up to 200 °C possible\nIndustry: food & beverage and pharmaceuticals",
+        "page_idx": 7
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td>SITRANS LH100, LH300</td><td>• Slim design with 23.4 mm diameter allows installation in pipes with 1\" inner diameter<br>• Easy and safe installation even without cable socket thanks to built-in humidity filter in the cable<br>• Resistant to harsh environmental conditions due to the piezoresistive ceramic sensor<br>• SITRANS LH300: outer diameter of 26 mm<br>Industry: water/wastewater</td></tr><tr><td>SITRANS P300</td><td>• Designed for hygienic applications and available with more than 90 process connections<br>• Ideally suited for external cleaning with high protection classes IP68 and IP69K<br>• Features all current hygiene, material, and calibration certificates<br>• Low measurement errors, even at high temperatures<br>Industry: food & beverage and pharmaceuticals</td></tr><tr><td>Accessories</td><td></td></tr><tr><td>Remote seal</td><td>• High variance to meet all the requirements of each industry<br>• Wide range of diaphragm materials ensures excellent chemical resistance to medium</td></tr><tr><td>Valves and valve blocks</td><td>• Save time with pre-mounted valve block<br>• Entire unit is seal-tested for leaks under pressure</td></tr><tr><td>SITRANS FP differential pressure sensor</td><td>Flow solution using the differential pressure method<br>• Suitable for many applications, even at high temperatures and high pressures<br>• Available as a pre-assembled compact system or as a separate version<br>• Traceability and easy communication thanks to web-based product design<br>• QAL1 approval for emission monitoring applications</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "Technical data",
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "| TYPE | SITRANS P420 | SITRANS P320 | SITRANS P300 | SITRANS P COMPACT |\n| :--- | :--- | :--- | :--- | :--- |\n| Brief description | Digital pressure transmitter as “high performance” version of the P320 for gauge and differential pressure measurements | Digital pressure transmitter for measurement of gauge pressure, absolute pressure, differential pressure, flow, and level | Digital pressure transmitter for complex hygienic applications | Pressure transmitter for hygienic applications for measuring gauge and absolute pressure |\n| Pressure types | Gauge pressure, absolute pressure, differential pressure | Gauge pressure, absolute pressure, differential pressure | Gauge pressure, absolute pressure | Gauge pressure, absolute pressure |\n| Measuring span | 1 mbar to 700 bar | 1 mbar to 700 bar | 10 mbar to 400 bar | 0 bar to 40 bar |\n| Communication | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation) | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation) | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus | 4...20 mA; 0...20 mA |\n| Accuracy¹) | 0.04% | 0.065% | 0.075% | 0.2% |\n| Max. turndown | 100:1 | 100:1 | 100:1 | - |\n| Long-term stability | 0.125% / 5 years²) | 0.125% / 5 years²) | 0.25% / 5 years | 0.2% / year |\n| Measured medium temperature | -40 °C to +100 °C | -40 °C to +100 °C | -40 °C to +200 °C | -10 °C to +200 °C |\n| Certificates / approvals | ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ... | ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ... | ATEX, Exia/ib, FM is/xp, CSA is/xp, NEPSI, ... | ATEX, Exib |\n| Diaphragm materials | Stainless steel, hastelloy, tantalum, monel, gold | Stainless steel, hastelloy, tantalum, monel, gold | Stainless steel, hastelloy | Stainless steel |\n| Special features | Remote safety handling, ready for digitalization | Remote safety handling | - | - |\n| | www.siemens.com/sitransp420 | www.siemens.com/sitransp320 | www.siemens.com/sitransp300 | www.siemens.com/sitranspcompact |",
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "1) Conformity error according to EN IEC 62828-1\n2) Depending on the version",
+        "page_idx": 9
+      },
+      {
+        "type": "table",
+        "table_body": "<table class=\"table table-bordered\"><thead><tr><th>TYPE</th><th>SITRANS P420</th><th>SITRANS P320</th><th>SITRANS P300</th><th>SITRANS P COMPACT</th></tr></thead><tbody><tr><td>Brief description</td><td>Digital pressure transmitter as \"high performance\" version of the P320 for gauge and differential pressure measurements</td><td>Digital pressure transmitter for measurement of gauge pressure, absolute pressure, differential pressure, flow, and level</td><td>Digital pressure transmitter for complex hygienic applications</td><td>Pressure transmitter for hygienic applications for measuring gauge and absolute pressure</td></tr><tr><td>Pressure types</td><td>Gauge pressure, absolute pressure, differential pressure</td><td>Gauge pressure, absolute pressure, differential pressure</td><td>Gauge pressure, absolute pressure</td><td>Gauge pressure, absolute pressure</td></tr><tr><td>Measuring span</td><td>1 mbar to 700 bar</td><td>1 mbar to 700 bar</td><td>10 mbar to 400 bar</td><td>0 bar to 40 bar</td></tr><tr><td>Communication</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation)</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation)</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus</td><td>4...20 mA; 0...20 mA</td></tr><tr><td>Accuracy¹)</td><td>0.04%</td><td>0.065%</td><td>0.075%</td><td>0.2%</td></tr><tr><td>Max. turndown</td><td>100:1</td><td>100:1</td><td>100:1</td><td>-</td></tr><tr><td>Long-term stability</td><td>0.125% / 5 years²)</td><td>0.125% / 5 years²)</td><td>0.25% / 5 years</td><td>0.2% / year</td></tr><tr><td>Measured medium temperature</td><td>-40 °C to +100 °C</td><td>-40 °C to +100 °C</td><td>-40 °C to +200 °C</td><td>-10 °C to +200 °C</td></tr><tr><td>Certificates / approvals</td><td>ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ...</td><td>ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ...</td><td>ATEX, Exia/ib, FM is/xp, CSA is/xp, NEPSI, ...</td><td>ATEX, Exib</td></tr><tr><td>Diaphragm materials</td><td>Stainless steel, hastelloy, tantalum, monel, gold</td><td>Stainless steel, hastelloy, tantalum, monel, gold</td><td>Stainless steel, hastelloy</td><td>Stainless steel</td></tr><tr><td>Special features</td><td>Remote safety handling, ready for digitalization</td><td>Remote safety handling</td><td>-</td><td>-</td></tr><tr><td></td><td>www.siemens.com/sitransp420</td><td>www.siemens.com/sitransp320</td><td>www.siemens.com/sitransp300</td><td>www.siemens.com/sitranspcompact</td></tr></tbody></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 9
+      },
+      {
+        "type": "table",
+        "table_body": "<table class=\"table table-bordered\"><thead><tr><th>SITRANS P200/210/220</th><th>SITRANS LH100</th><th>SITRANS LH300</th><th>SITRANS FP differential pressure sensor</th></tr></thead><tbody><tr><td>Compact single-range transmitter for measuring absolute and gauge pressure</td><td>Pressure transmitter for measuring hydrostatic levels</td><td>Submersible sensor for hydrostatic level measurement</td><td>Differential pressure sensors acc. to ISO 5167 (orifices) SITRANS FPS200 and pitot tube measuring system SITRANS FPS300 for flow measurement</td></tr><tr><td>Gauge pressure, absolute pressure</td><td>Level</td><td>Level</td><td>Differential pressure</td></tr><tr><td>100 mbar to 1000 bar</td><td>0–3 mH₂O to 0–20 mH₂O</td><td>0–1 mH₂O to 0–40 mH₂O</td><td>-</td></tr><tr><td>4...20 mA</td><td>4...20 mA</td><td>4...20 mA</td><td>As P320 or available without pressure transmitter</td></tr><tr><td>0.25%</td><td>0.3%</td><td>0.15%</td><td>0.5% to 1.2% resp. 1% for Re &gt; 20,000</td></tr><tr><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>0.25% / year</td><td>0.25% / year</td><td>0.15% / year</td><td>-</td></tr><tr><td>-30 °C to +120 °C</td><td>-10 °C to +80 °C</td><td>-10 °C to +80 °C</td><td>Acc. to EN 1092-1 / ASME B16.5 resp. -100 °C to +700 °C</td></tr><tr><td>ATEX, Exia, EAC, GL, BV, ABS, UL</td><td>ATEX, Exia, IEC Ex, EAC, UL, WRAS</td><td>ATEX, Exia, IEC Ex, EAC, UL, WRAS</td><td>As P320, QAL 1</td></tr><tr><td>Ceramic, stainless steel</td><td>Ceramic</td><td>Ceramic</td><td>Stainless steel, carbon steel, hastelloy (not for membrane)</td></tr><tr><td>-</td><td>-</td><td>-</td><td>Nominal size DN 10 to DN 4000, pressure up to PN 100, bidirectional measurement possible</td></tr></tbody></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "0–3 mH$_2$O to 0–20 mH$_2$O",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "0–1 mH$_2$O to 0–40 mH$_2$O",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "www.siemens.com/sitransp200",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "www.siemens.com/sitranslh100",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "www.siemens.com/sitranslh300",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "www.siemens.com/sitransfp",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "Subject to changes and errors. The information provided in this brochure contains descriptions or performance characteristics which, in case of actual use, do not always apply as described or which may change as a result of further development of the products. The desired performance characteristics are only binding if expressly agreed in the contract. Availability and technical specifications are subject to change without notice.",
+        "page_idx": 11
+      },
+      {
+        "type": "text",
+        "text": "All product designations may be trademarks or product names of Siemens AG or supplier companies, the use of which by third parties for their own purposes may violate the rights of the owners.",
+        "page_idx": 11
+      }
+    ],
+    "doc_id": "doc-49570492e67c367e82d8a50426cfd101",
+    "mtime": 1792051073.9046786,
+    "parse_config": {
+      "parser": "ollama_ocr",
+      "parse_method": "auto"
+    },
+    "cached_at": 1792058351.6448646,
+    "cache_version": "1.0",
+    "create_time": 1792058351,
+    "update_time": 1792058351,
+    "_id": "7f2929e826955498d3e7ba66a691122b"
+  },
+  "eb130e02076ff777e3deac0dfad195a4": {
+    "content_list": [
+      {
+        "type": "text",
+        "text": "SECTION 1: Identification of the substance or mixture and of the company",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "1.1 Product Identifier\nProduct name : Hydrogen, compressed\nChemical name : Hydrogen\nChemical formula : H₂\nCAS no. : 1333-74-0",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "1.2 Relevant identified uses of the substance or mixture and uses advised against\nIdentified uses : Industrial and professional. Aerosol propellant. Balance gas for mixtures. Calibration gas. Carrier gas. Chemical synthesis. Combustion, melting and cutting processes. Fuel cells. Fuel gas for welding, cutting, heating, brazing and soldering applications. Laboratory use. Laser gas. Process gas. Test gas. Consumer use. Fuel gas Propellant gas. Shielding gas in gas welding. It is the responsibility of the end user to ensure that the product as supplied is suitable for its intended use.",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "1.3 Details of the supplier of the safety data sheet\nSupplier name : Linde HKO Limited\nAddress : 12 Chun Yat Street, Tseung Kwan O Industrial Estate, Tseung Kwan O, Kowloon, Hong Kong\nPhone no. : (852) 2372-2288\nFax no. : (852) 2372-2508",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "1.3 Emergency telephone number\nEmergency no. : (852) 2661 0920 (24 hours)",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "SECTION 2: Hazards identification",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "2.1 Classification of the substance or mixture",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Classification according to Regulation (EC) No 1272/2008\n- Flammable gas (Category 1) : H220: Extremely flammable gas.\n- Gases under pressure (Compressed gas) : H280: Contains gas under pressure; may explode if heated.",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "2.2 Label Elements",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Pictograms :",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Signal word : Danger\nHazard statements : H220: Extremely flammable gas.",
+        "page_idx": 1
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td>Signal word</td><td>: Danger</td></tr><tr><td>Hazard statements</td><td>: H220: Extremely flammable gas.<br>: H280: Contains gas under pressure; may explode if heated.</td></tr><tr><td>Precautionary statements</td><td></td></tr><tr><td>General</td><td>: None</td></tr><tr><td>Prevention</td><td>: P210: Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.</td></tr><tr><td>Response</td><td>: P377: Leaking gas fire: Do not extinguish, unless leak can be stopped safely.<br>: P381: In case of leakage, eliminate all ignition sources.</td></tr><tr><td>Storage</td><td>: P403: Store in a well-ventilated place.</td></tr><tr><td>Disposal</td><td>: None</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "- General : None\n- Prevention : P210: Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.\n- Response : P377: Leaking gas fire: Do not extinguish, unless leak can be stopped safely.\n- Storage : P403: Store in a well-ventilated place.\n- Disposal : None",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "2.3 Other hazards\nNone",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "SECTION 3: Composition/ information on ingredients",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "3.1 Substances\nChemical name : Hydrogen\nChemical formula : H₂\nCAS no. : 1333-74-0\nEC no. : 215-605-7\nINDEX no. : 001-001-00-9\nREACH registration number : Listed in Annex IV/V of Regulation (EC) No 1907/2006 (REACH), exempted from registration.",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "| Ingredient(s) | CAS No. | EC no. | Purity |\n| :--- | :--- | :--- | :--- |\n| Hydrogen | 1333-74-0 | 215-605-7 | ≥99.8% |",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "3.2 Mixtures\nNot Applicable",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "SECTION 4: First Aid Measures",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "4.1 Description of first aid measures\nInhalation : In high concentrations may cause asphyxiation. Symptoms may include loss of mobility/consciousness. Victim may not be aware of asphyxiation. Remove victim to uncontaminated area wearing self contained breathing apparatus. Keep victim warm and rested. Call a doctor. Apply artificial respiration if breathing stopped.\nEye contact : Adverse effects not expected from this product.\nSkin Contact : Adverse effects not expected from this product.\nIngestion : Ingestion is not considered a potential route of exposure.",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "4.2 Most important symptoms and effects, both acute and delayed\nRespiratory arrest.",
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "4.3 Immediate medical attention and special treatment needed\nNone",
+        "page_idx": 2
+      },
+      {
+        "type": "table",
+        "table_body": "<table><thead><tr><th>Ingredient(s)</th><th>CAS No.</th><th>EC no.</th><th>Purity</th></tr></thead><tbody><tr><td>Hydrogen</td><td>1333-74-0</td><td>215-605-7</td><td>≥99.8%</td></tr></tbody></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "SECTION 5: Firefighting Measures",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "5.1 Extinguishing media\nSuitable extinguishing media : Water. Dry powder. Foam.\nUnsuitable extinguishing media : Carbon dioxide",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "5.2 Special hazards arising from the substance or mixture\nNone",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "5.3 Advice for firefighters\nSpecial fire fighting procedures : In case of fire: Stop leak if safe to do so. Do not extinguish flames at leak because possibility of uncontrolled explosive re-ignition exists. Continue water spray from protected position until container stays cool. Use extinguishants to contain the fire. Isolate the source of the fire or let it burn out.\nSpecial protective equipment for firefighters : Firefighters must use standard protective equipment including flame retardant coat, helmet with face shield, gloves, rubber boots, and Self-Contained Breathing Apparatus (SCBA).",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "SECTION 6: Accidental Release Measures",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "6.1 Personal precautions, protective equipment and emergency procedures\nEvacuate area. Provide adequate ventilation. Consider the risk of potentially explosive atmospheres. In case of leakage, eliminate all ignition sources. Monitor the concentration of the released product. Prevent from entering sewers, basements and workpits, or any place where its accumulation can be dangerous. Wear self-contained breathing apparatus (SCBA) when entering area unless atmosphere is proved to be safe.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "6.2 Environmental Precautions\nPrevent further leakage or spillage if safe to do so.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "6.3 Methods and material for containment and cleaning up\nProvide adequate ventilation. Eliminate sources of ignition.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "6.4 Reference to other sections\nSee also sections 8 and 13.",
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "SECTION 7: Handling and Storage",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "7.1 Precautions for safe handling",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "Only experienced and properly instructed persons should handle gases underpressure. Use only properly specified equipment which is suitable for this product, its supply pressure and temperature. Purge system with dry inert gas (e.g. helium or nitrogen) before gas is introduced and when system is placed out of service. Purge air from system before introducing gas. Containers, which contain or have contained flammable or explosive substances, must not be inerted with liquid carbon dioxide. Assess the risk of a potentially explosive atmosphere and the need for suitable equipment i.e. explosion-proof. Take precautionary measures against static discharges. Keep away from ignition sources (including static discharges). Provide electrical earthing of equipment and electrical equipment usable in explosive atmospheres. Use non-sparking tools. Refer to supplier's handling instructions. The substance must be handled in accordance with good industrial hygiene and safety procedures. Ensure the complete system has been (or is regularly) checked for leaks before use. Protect containers from physical damage; do not drag, roll, slide or drop. Do not remove or deface labels provided by the supplier for the identification of the container contents. When moving containers, even for short distances, use appropriate equipment eg. trolley, hand truck, fork truck etc. Secure cylinders in an upright position at all times, close all valves when not in use. Provide adequate ventilation. Suck back of water into the container must be prevented. Do not allow backfeed into the container. Avoid suckback of water, acid and alkalis. Keep container below 50°C in a well ventilated place. Observe all regulations and local requirements regarding storage of containers. When using do not eat, drink or smoke. Store in accordance with local/regional/national/international regulations. Never use direct flame or electrical heating devices to raise the pressure of a container. Leave valve protection caps in place until the container has been secured against either a wall or bench or placed in a container stand and is ready for use. Damaged valves should be reported immediately to the supplier. Close container valve after each use and when empty, even if still connected to equipment. Never attempt to repair or modify container valves or safety relief devices. Replace valve outlet caps or plugs and container caps where supplied as soon as container is disconnected from equipment. Keep container valve outlets clean and free from contaminates particularly oil and water. If user experiences any difficulty operating container valve discontinue use and contact supplier. Never attempt to transfer gases from one container to another. Container valve guards or caps should be in place.",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "7.2 Conditions for safe storage, including any incompatibilities",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "All electrical equipment in the storage areas should be compatible with the risk of a potentially explosive atmosphere. Segregate from oxidant gases and other oxidants being stored. Containers should not be stored in conditions likely to encourage corrosion. Stored containers should be periodically checked for general conditions and leakage. Container valve guards or caps should be in place. Store containers in location free from fire risk and away from sources of heat and ignition. Keep away from combustible material.",
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "7.3 Specific end uses\nNone",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "SECTION 8: Exposure Controls/Personal Protection",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "8.1 Control parameters\nOccupational Exposure Limits : No exposure limits have been established for this product.\nBiological limits : No biological limits have been established for this product.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "8.2 Exposure controls\nAppropriate engineering controls : Consider a work permit system e.g. for maintenance activities. Ensure adequate air ventilation. Provide adequate general and local exhaust ventilation. Keep concentrations well below lower explosion limits. Gas detectors should be used when quantities of flammable gases or vapours may be released. Provide adequate ventilation, including appropriate local extraction, to ensure that the defined occupational exposure limit is not exceeded. Systems under pressure should be regularly checked for leakages. Product to be handled in a closed system. Use only permanent leak tight installations (e.g. welded pipes). Take precautionary measures against static discharges.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "Individual protection measures, such as personal protective equipment.\nEye protection : Wear safety glasses.\nHand Protection : Wear leather gloves.\nBody protection : Wear safety boots.\nRespiratory Protection : Where an inhalation risk exists, wear Self Contained Breathing Apparatus (SCBA) or an Air-line respirator.",
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "SECTION 9: Physical and Chemical Properties",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "9.1 Information on basic physical and chemical properties",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Appearance\n- Physical state : Gas\n- Form : Compressed gas\n- Colour : Colorless\n- Odour : Odourless\n- Odour Threshold : No data available.\n- pH : No data available.\n- Melting Point : -259.2 °C\n- Boiling Point : -253 °C\n- Sublimation Point : No data available.\n- Critical Temp. (°C) : -240.0 °C\n- Flash Point : No data available.\n- Evaporation Rate : No data available.\n- Flammability (solid, gas) : Flammable gas\n- Flammability limit - upper (%) : 77 %(V)\n- Flammability limit - lower (%) : 4 %(V)\n- Vapour pressure : No data available.\n- Vapour density (air=1) : 0.069\n- Relative density : 0.07\n- Solubility (in Water) : 1.62 mg/l\n- Partition coefficient (n-octanol/water) : No data available.\n- Autoignition Temperature : 560 °C\n- Decomposition Temperature : No data available.\n- Viscosity\n  - Kinematic viscosity : No data available.\n  - Dynamic viscosity : No data available.\n- Explosive properties : No data available.\n- Oxidising Properties : No data available.",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "9.2 Other information",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Additional information : None",
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "SECTION 10: Stability and Reactivity",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.1 Reactivity\nNo reactivity hazard other than the effects described in sub-section below.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.2 Chemical Stability\nStable under normal conditions.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.3 Possibility of Hazardous Reactions\nCan form a potentially explosive atmosphere in air. May react violently with oxidants.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.4 Conditions to Avoid\nKeep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.5 Incompatible Materials\nAir and oxidisers.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "10.6 Hazardous decomposition products\nUnder normal conditions of storage and use, hazardous decomposition products should not be produced.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "SECTION 11: Toxicological Information",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "11.1 Information on toxicological effects\nAcute toxicity\n- Oral : Based on available data, the classification criteria are not met.\n- Inhalation : Based on available data, the classification criteria are not met.\n- Dermal : Based on available data, the classification criteria are not met.\nSkin Corrosion/Irritation : Based on available data, the classification criteria are not met.\nSerious Eye Damage/Eye Irritation : Based on available data, the classification criteria are not met.\nRespiratory or Skin Sensitisation : Based on available data, the classification criteria are not met.\nGerm Cell Mutagenicity : Based on available data, the classification criteria are not met.\nCarcinogenicity : Based on available data, the classification criteria are not met.\nReproductive toxicity : Based on available data, the classification criteria are not met.\nSpecific Target Organ Toxicity\n- Single Exposure : Based on available data, the classification criteria are not met.",
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "Repeated Exposure\nAspiration Hazard",
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": ": Based on available data, the classification criteria are not met.\n: Not applicable to gases and gas mixtures.",
+        "page_idx": 8
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td colspan=\"2\">SECTION 12: Ecological Information</td></tr><tr><td colspan=\"2\">12.1 Toxicity<br>No ecological damage caused by this product.</td></tr><tr><td colspan=\"2\">12.2 Persistence and Degradability<br>Not applicable.</td></tr><tr><td colspan=\"2\">12.3 Bioaccumulative Potential<br>The subject product is expected to biodegrade and is not expected to persist for long periods in an aquatic environment.</td></tr><tr><td colspan=\"2\">12.4 Mobility in Soil<br>Because of its high volatility, the product is unlikely to cause ground or water pollution.</td></tr><tr><td colspan=\"2\">12.5 Other Adverse Effects<br>Contains greenhouse gas(es). When discharged in large quantities may contribute to the greenhouse effect.</td></tr><tr><td colspan=\"2\">SECTION 13: Disposal Considerations</td></tr><tr><td colspan=\"2\">13.1 Waste treatment methods<br>Disposal method: Do not discharge into any place where its accumulation could be dangerous. Cylinders should be returned to the supplier for disposal of contents.</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "Disposal method\n: Do not discharge into any place where its accumulation could be dangerous. Cylinders should be returned to the supplier for disposal of contents.",
+        "page_idx": 8
+      },
+      {
+        "type": "table",
+        "table_body": "<table><thead><tr><th colspan=\"2\">SECTION 14: Transport Information</th></tr></thead><tbody><tr><td colspan=\"2\">ADR/RID</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Classification Code</td><td>: 1F</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Hazard No.</td><td>: 23</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">IMDG</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2.1</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">IATA</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2.1</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">Other information</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Passenger and cargo aircraft</td><td>: Forbidden</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Cargo aircraft only</td><td>: Allowed</td></tr></tbody></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2\n   Label(s) : 2.1: Flammable gases\n   Classification Code : 1F\n   Hazard No. : 23\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None",
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2.1\n   Label(s) : 2.1: Flammable gases\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None",
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2.1\n   Label(s) : 2.1: Flammable gases\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None\n   Passenger and cargo aircraft : Forbidden\n   Cargo aircraft only : Allowed",
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "14.7 Transport in bulk according to Annex II of MARPOL and the IBC Code\nNot Applicable",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "14.8 Additional information\nTransport precautions\nAvoid transport on vehicles where the load space is not separated from the driver's compartment. Ensure vehicle driver is aware of the potential hazards of the load and knows what to do in the event of an accident or an emergency. Before transporting product containers ensure that they are firmly secured. Ensure that the container valve is closed and not leaking. Container valve guards or caps should be in place. Ensure adequate air ventilation.",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "SECTION 15: Regulatory information",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "15.1 Safety, health and environmental regulations/legislation specific for the substance or mixture\nLocal legislation\nDangerous Goods Ordinance (Chapter 295)\nFactories And Industrial Undertakings (Dangerous Substances) Regulation (Chapter 59AB)",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "SECTION 16: Other Information",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "Other information\nBefore using this product in any new process or experiment, a thorough material compatibility and safety study should be carried out. Ensure adequate air ventilation. Ensure all national/local regulations are observed. Whilst proper care has been taken in the preparation of this document, no liability for injury or damage resulting from its use can be accepted.",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "Revision date\n28/11/2022",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "Disclaimer\nThe above information is believed to be correct. This information should be used to make an independent determination of the methods to safeguard workers and the environment.",
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "End of document",
+        "page_idx": 10
+      }
+    ],
+    "doc_id": "doc-799e66a841996087267ff2653ae877c2",
+    "mtime": 1790261769.76182,
+    "parse_config": {
+      "parser": "ollama_ocr",
+      "parse_method": "auto"
+    },
+    "cached_at": 1792060823.6148322,
+    "cache_version": "1.0",
+    "create_time": 1792060823,
+    "update_time": 1792060823,
+    "_id": "eb130e02076ff777e3deac0dfad195a4"
+  }
+}

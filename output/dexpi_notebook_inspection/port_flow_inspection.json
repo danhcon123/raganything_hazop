@@ -1,0 +1,3208 @@
+{
+  "source_file": "/home/duc/Desktop/raganything_hazop/data/others/C01V04-VER.EX01.xml",
+  "assumptions": {
+    "port_indexing": "zero-based among direct ConnectionPoints/Node children; confirm against applicable Proteus specification",
+    "from_to_direction": "connection endpoint ordering, NOT verified process flow",
+    "flow_arrow_direction": "not inferred from raw geometry",
+    "flow_direction_availability": "absence of evidence is not evidence of no flow"
+  },
+  "summary": {
+    "shape_catalogue_elements_excluded": 459,
+    "connection_count": 29,
+    "endpoint_count": 58,
+    "endpoint_status_counts": {
+      "index_resolved": 54,
+      "missing_endpoint": 4
+    },
+    "endpoint_type_counts": {
+      "process": 42,
+      "not_checked": 4,
+      "signal": 12
+    },
+    "duplicate_id_count": 0,
+    "pipe_flow_arrow_count": 8,
+    "direction_hint_count": 21
+  },
+  "duplicate_ids": {},
+  "endpoint_results": [
+    {
+      "connection_index": 0,
+      "connection_attributes": {
+        "FromID": "FlowInPipeOffPageConnector-1",
+        "FromNode": "1",
+        "ToID": "Nozzle-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-1",
+      "side": "From",
+      "component_id": "FlowInPipeOffPageConnector-1",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "FlowInPipeOffPageConnector-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-1"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-1"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 0,
+      "connection_attributes": {
+        "FromID": "FlowInPipeOffPageConnector-1",
+        "FromNode": "1",
+        "ToID": "Nozzle-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-1",
+      "side": "To",
+      "component_id": "Nozzle-1",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-52"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-30"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-52"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 1,
+      "connection_attributes": {
+        "FromID": "Nozzle-2",
+        "FromNode": "1",
+        "ToID": "Nozzle-3",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-2",
+      "side": "From",
+      "component_id": "Nozzle-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-53"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-31"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-53"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 1,
+      "connection_attributes": {
+        "FromID": "Nozzle-2",
+        "FromNode": "1",
+        "ToID": "Nozzle-3",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-2",
+      "side": "To",
+      "component_id": "Nozzle-3",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-3-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-44"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-22"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-44"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 2,
+      "connection_attributes": {
+        "FromID": "Nozzle-4",
+        "FromNode": "1",
+        "ToID": "Nozzle-5",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-3",
+      "side": "From",
+      "component_id": "Nozzle-4",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-4-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-45"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-23"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-45"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 2,
+      "connection_attributes": {
+        "FromID": "Nozzle-4",
+        "FromNode": "1",
+        "ToID": "Nozzle-5",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-3",
+      "side": "To",
+      "component_id": "Nozzle-5",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-5-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-56"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-34"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-56"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 3,
+      "connection_attributes": {
+        "FromID": "Nozzle-6",
+        "FromNode": "1",
+        "ToID": "SwingCheckValve-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-4",
+      "side": "From",
+      "component_id": "Nozzle-6",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-6-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-57"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-35"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-57"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 3,
+      "connection_attributes": {
+        "FromID": "Nozzle-6",
+        "FromNode": "1",
+        "ToID": "SwingCheckValve-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-4",
+      "side": "To",
+      "component_id": "SwingCheckValve-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "SwingCheckValve-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-6"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-7"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-7"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 4,
+      "connection_attributes": {
+        "FromID": "SwingCheckValve-1",
+        "FromNode": "2",
+        "ToID": "PipeReducer-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-5",
+      "side": "From",
+      "component_id": "SwingCheckValve-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "SwingCheckValve-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-6"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-7"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-7"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 4,
+      "connection_attributes": {
+        "FromID": "SwingCheckValve-1",
+        "FromNode": "2",
+        "ToID": "PipeReducer-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-5",
+      "side": "To",
+      "component_id": "PipeReducer-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeReducer-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-8"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-9"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-9"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 5,
+      "connection_attributes": {
+        "FromID": "PipeReducer-1",
+        "FromNode": "2",
+        "ToID": "Nozzle-7",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-6",
+      "side": "From",
+      "component_id": "PipeReducer-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeReducer-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-8"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-9"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-9"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 5,
+      "connection_attributes": {
+        "FromID": "PipeReducer-1",
+        "FromNode": "2",
+        "ToID": "Nozzle-7",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-6",
+      "side": "To",
+      "component_id": "Nozzle-7",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-7-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-54"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-32"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-54"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 6,
+      "connection_attributes": {
+        "FromID": "PipeTee-1",
+        "FromNode": "3",
+        "ToID": "SpringLoadedGlobeSafetyValve-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-7",
+      "side": "From",
+      "component_id": "PipeTee-1",
+      "port_ref": "3",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-19"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-20"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-21"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-21"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 6,
+      "connection_attributes": {
+        "FromID": "PipeTee-1",
+        "FromNode": "3",
+        "ToID": "SpringLoadedGlobeSafetyValve-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-7",
+      "side": "To",
+      "component_id": "SpringLoadedGlobeSafetyValve-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "SpringLoadedGlobeSafetyValve-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-12"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-13"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-13"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 7,
+      "connection_attributes": {
+        "FromID": "SpringLoadedGlobeSafetyValve-1",
+        "FromNode": "2",
+        "ToID": "Nozzle-8",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-8",
+      "side": "From",
+      "component_id": "SpringLoadedGlobeSafetyValve-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "SpringLoadedGlobeSafetyValve-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-12"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-13"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-13"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 7,
+      "connection_attributes": {
+        "FromID": "SpringLoadedGlobeSafetyValve-1",
+        "FromNode": "2",
+        "ToID": "Nozzle-8",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-8",
+      "side": "To",
+      "component_id": "Nozzle-8",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-8-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-59"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-37"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-59"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 8,
+      "connection_attributes": {
+        "FromID": "Nozzle-9",
+        "FromNode": "1",
+        "ToID": "PipeTee-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-9",
+      "side": "From",
+      "component_id": "Nozzle-9",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-9-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-55"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-33"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-55"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 8,
+      "connection_attributes": {
+        "FromID": "Nozzle-9",
+        "FromNode": "1",
+        "ToID": "PipeTee-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-9",
+      "side": "To",
+      "component_id": "PipeTee-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-14"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-15"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-16"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-14"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 9,
+      "connection_attributes": {
+        "FromID": "PipeTee-2",
+        "FromNode": "3",
+        "ToID": "BallValve-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-10",
+      "side": "From",
+      "component_id": "PipeTee-2",
+      "port_ref": "3",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-14"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-15"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-16"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-16"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 9,
+      "connection_attributes": {
+        "FromID": "PipeTee-2",
+        "FromNode": "3",
+        "ToID": "BallValve-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-10",
+      "side": "To",
+      "component_id": "BallValve-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "BallValve-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-17"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-18"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-17"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 10,
+      "connection_attributes": {
+        "FromID": "PipeTee-2",
+        "FromNode": "1",
+        "ToID": "PipeTee-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-11",
+      "side": "From",
+      "component_id": "PipeTee-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-14"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-15"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-16"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-14"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 10,
+      "connection_attributes": {
+        "FromID": "PipeTee-2",
+        "FromNode": "1",
+        "ToID": "PipeTee-1",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-11",
+      "side": "To",
+      "component_id": "PipeTee-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-19"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-20"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-21"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-20"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 11,
+      "connection_attributes": {
+        "FromID": "PipeTee-1",
+        "FromNode": "2",
+        "ToID": "PipeTee-3",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-12",
+      "side": "From",
+      "component_id": "PipeTee-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-19"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-20"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-21"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-20"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 11,
+      "connection_attributes": {
+        "FromID": "PipeTee-1",
+        "FromNode": "2",
+        "ToID": "PipeTee-3",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-12",
+      "side": "To",
+      "component_id": "PipeTee-3",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-3-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-22"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-23"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-24"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-23"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 12,
+      "connection_attributes": {
+        "FromID": "PipeTee-3",
+        "FromNode": "3",
+        "ToID": "BlindFlange-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-13",
+      "side": "From",
+      "component_id": "PipeTee-3",
+      "port_ref": "3",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-3-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-22"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-23"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-24"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-24"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 12,
+      "connection_attributes": {
+        "FromID": "PipeTee-3",
+        "FromNode": "3",
+        "ToID": "BlindFlange-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-13",
+      "side": "To",
+      "component_id": "BlindFlange-1",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "BlindFlange-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-27"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-4"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-27"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 13,
+      "connection_attributes": {
+        "FromID": "PipeTee-3",
+        "FromNode": "2",
+        "ToID": "PipeTee-4",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-14",
+      "side": "From",
+      "component_id": "PipeTee-3",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-3-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-22"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-23"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-24"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-23"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 13,
+      "connection_attributes": {
+        "FromID": "PipeTee-3",
+        "FromNode": "2",
+        "ToID": "PipeTee-4",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-14",
+      "side": "To",
+      "component_id": "PipeTee-4",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-4-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-30"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-31"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-32"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-31"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 14,
+      "connection_attributes": {
+        "FromID": "PipeTee-4",
+        "FromNode": "3",
+        "ToID": "Nozzle-10",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-15",
+      "side": "From",
+      "component_id": "PipeTee-4",
+      "port_ref": "3",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-4-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-30"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-31"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-32"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-32"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 14,
+      "connection_attributes": {
+        "FromID": "PipeTee-4",
+        "FromNode": "3",
+        "ToID": "Nozzle-10",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-15",
+      "side": "To",
+      "component_id": "Nozzle-10",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-10-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-48"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-26"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-48"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 15,
+      "connection_attributes": {
+        "FromID": "PipeTee-4",
+        "FromNode": "2",
+        "ToID": "PipeTee-5",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-16",
+      "side": "From",
+      "component_id": "PipeTee-4",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-4-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-30"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-31"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-32"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-31"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 15,
+      "connection_attributes": {
+        "FromID": "PipeTee-4",
+        "FromNode": "2",
+        "ToID": "PipeTee-5",
+        "ToNode": "2"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-16",
+      "side": "To",
+      "component_id": "PipeTee-5",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-5-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-33"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-34"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-35"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-34"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 16,
+      "connection_attributes": {
+        "FromID": "PipeTee-5",
+        "FromNode": "3",
+        "ToID": "BlindFlange-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-17",
+      "side": "From",
+      "component_id": "PipeTee-5",
+      "port_ref": "3",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-5-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-33"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-34"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-35"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-35"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 16,
+      "connection_attributes": {
+        "FromID": "PipeTee-5",
+        "FromNode": "3",
+        "ToID": "BlindFlange-2",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-17",
+      "side": "To",
+      "component_id": "BlindFlange-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "BlindFlange-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-38"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-5"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-38"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 17,
+      "connection_attributes": {
+        "FromID": "PipeTee-5",
+        "FromNode": "2",
+        "ToID": "FlowOutPipeOffPageConnector-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-18",
+      "side": "From",
+      "component_id": "PipeTee-5",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "PipeTee-5-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-33"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-34"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-35"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-34"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 17,
+      "connection_attributes": {
+        "FromID": "PipeTee-5",
+        "FromNode": "2",
+        "ToID": "FlowOutPipeOffPageConnector-1",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-18",
+      "side": "To",
+      "component_id": "FlowOutPipeOffPageConnector-1",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "FlowOutPipeOffPageConnector-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-39"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-39"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 18,
+      "connection_attributes": {
+        "FromID": "Nozzle-11",
+        "FromNode": "1",
+        "ToID": "Nozzle-12",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-19",
+      "side": "From",
+      "component_id": "Nozzle-11",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-11-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-49"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-27"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-49"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 18,
+      "connection_attributes": {
+        "FromID": "Nozzle-11",
+        "FromNode": "1",
+        "ToID": "Nozzle-12",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-19",
+      "side": "To",
+      "component_id": "Nozzle-12",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-12-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-60"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-38"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-60"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 19,
+      "connection_attributes": {
+        "ToID": "Nozzle-13",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-20",
+      "side": "From",
+      "component_id": null,
+      "port_ref": null,
+      "status": "missing_endpoint",
+      "declared_nodes": [],
+      "resolved_node": null,
+      "node_type": null,
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "not_checked"
+    },
+    {
+      "connection_index": 19,
+      "connection_attributes": {
+        "ToID": "Nozzle-13",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-20",
+      "side": "To",
+      "component_id": "Nozzle-13",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-13-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-46"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-24"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-46"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 20,
+      "connection_attributes": {
+        "FromID": "Nozzle-14",
+        "FromNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-21",
+      "side": "From",
+      "component_id": "Nozzle-14",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-14-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-47"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-25"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-47"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 20,
+      "connection_attributes": {
+        "FromID": "Nozzle-14",
+        "FromNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-21",
+      "side": "To",
+      "component_id": null,
+      "port_ref": null,
+      "status": "missing_endpoint",
+      "declared_nodes": [],
+      "resolved_node": null,
+      "node_type": null,
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "not_checked"
+    },
+    {
+      "connection_index": 21,
+      "connection_attributes": {
+        "ToID": "Nozzle-15",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-22",
+      "side": "From",
+      "component_id": null,
+      "port_ref": null,
+      "status": "missing_endpoint",
+      "declared_nodes": [],
+      "resolved_node": null,
+      "node_type": null,
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "not_checked"
+    },
+    {
+      "connection_index": 21,
+      "connection_attributes": {
+        "ToID": "Nozzle-15",
+        "ToNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-22",
+      "side": "To",
+      "component_id": "Nozzle-15",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-15-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-51"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-29"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-51"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 22,
+      "connection_attributes": {
+        "FromID": "Nozzle-16",
+        "FromNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-23",
+      "side": "From",
+      "component_id": "Nozzle-16",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-16-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-50"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-28"
+        }
+      ],
+      "resolved_node": {
+        "Type": "process",
+        "ID": "PipingNode-50"
+      },
+      "node_type": "process",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "process"
+    },
+    {
+      "connection_index": 22,
+      "connection_attributes": {
+        "FromID": "Nozzle-16",
+        "FromNode": "1"
+      },
+      "parent_tag": "PipingNetworkSegment",
+      "parent_id": "PipingNetworkSegment-23",
+      "side": "To",
+      "component_id": null,
+      "port_ref": null,
+      "status": "missing_endpoint",
+      "declared_nodes": [],
+      "resolved_node": null,
+      "node_type": null,
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "not_checked"
+    },
+    {
+      "connection_index": 23,
+      "connection_attributes": {
+        "FromID": "BlindFlange-1",
+        "ToID": "ProcessInstrumentationFunction-1",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-1",
+      "side": "From",
+      "component_id": "BlindFlange-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "BlindFlange-1-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-27"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-4"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-4"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 23,
+      "connection_attributes": {
+        "FromID": "BlindFlange-1",
+        "ToID": "ProcessInstrumentationFunction-1",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-1",
+      "side": "To",
+      "component_id": "ProcessInstrumentationFunction-1",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-1-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-6"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-7"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-8"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-9"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-7"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 24,
+      "connection_attributes": {
+        "FromID": "BlindFlange-2",
+        "ToID": "ProcessInstrumentationFunction-2",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-2",
+      "side": "From",
+      "component_id": "BlindFlange-2",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "BlindFlange-2-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-38"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-5"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-5"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 24,
+      "connection_attributes": {
+        "FromID": "BlindFlange-2",
+        "ToID": "ProcessInstrumentationFunction-2",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-2",
+      "side": "To",
+      "component_id": "ProcessInstrumentationFunction-2",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-2-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-10"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-11"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-12"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-13"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-11"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 25,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-2",
+        "ToID": "ControlledActuator-1",
+        "FromNode": "1",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-1",
+      "side": "From",
+      "component_id": "ProcessInstrumentationFunction-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-2-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-10"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-11"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-12"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-13"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-10"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 25,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-2",
+        "ToID": "ControlledActuator-1",
+        "FromNode": "1",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-1",
+      "side": "To",
+      "component_id": "ControlledActuator-1",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ControlledActuator-1-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-1"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-1"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 26,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-3",
+        "ToID": "ControlledActuator-2",
+        "FromNode": "4",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-2",
+      "side": "From",
+      "component_id": "ProcessInstrumentationFunction-3",
+      "port_ref": "4",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-3-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-14"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-15"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-16"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-17"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-17"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 26,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-3",
+        "ToID": "ControlledActuator-2",
+        "FromNode": "4",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-2",
+      "side": "To",
+      "component_id": "ControlledActuator-2",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ControlledActuator-2-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-2"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-2"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 27,
+      "connection_attributes": {
+        "FromID": "Nozzle-17",
+        "ToID": "ProcessInstrumentationFunction-4",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-3",
+      "side": "From",
+      "component_id": "Nozzle-17",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "Nozzle-17-DefaultNode"
+        },
+        {
+          "Type": "process",
+          "ID": "PipingNode-61"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-39"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-39"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 27,
+      "connection_attributes": {
+        "FromID": "Nozzle-17",
+        "ToID": "ProcessInstrumentationFunction-4",
+        "FromNode": "2",
+        "ToNode": "2"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "MeasuringLineFunction-3",
+      "side": "To",
+      "component_id": "ProcessInstrumentationFunction-4",
+      "port_ref": "2",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-4-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-18"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-19"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-20"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-21"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-19"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 28,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-4",
+        "ToID": "ControlledActuator-3",
+        "FromNode": "4",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-3",
+      "side": "From",
+      "component_id": "ProcessInstrumentationFunction-4",
+      "port_ref": "4",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ProcessInstrumentationFunction-4-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-18"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-19"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-20"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-21"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-21"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    },
+    {
+      "connection_index": 28,
+      "connection_attributes": {
+        "FromID": "ProcessInstrumentationFunction-4",
+        "ToID": "ControlledActuator-3",
+        "FromNode": "4",
+        "ToNode": "1"
+      },
+      "parent_tag": "InformationFlow",
+      "parent_id": "SignalConveyingFunction-3",
+      "side": "To",
+      "component_id": "ControlledActuator-3",
+      "port_ref": "1",
+      "status": "index_resolved",
+      "declared_nodes": [
+        {
+          "ID": "ControlledActuator-3-DefaultNode"
+        },
+        {
+          "Type": "signal",
+          "ID": "InstrumentationNodePosition-3"
+        }
+      ],
+      "resolved_node": {
+        "Type": "signal",
+        "ID": "InstrumentationNodePosition-3"
+      },
+      "node_type": "signal",
+      "port_index_convention": "zero_based_all_direct_Node_children",
+      "type_consistency": "signal"
+    }
+  ],
+  "flow_arrows": [
+    {
+      "id": "PipeFlowArrow-1",
+      "attributes": {
+        "ID": "PipeFlowArrow-1",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_PRIMARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-3"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-3"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-3",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-1",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_PRIMARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "181",
+            "Y": "231.359003909",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "0",
+            "Y": "-1",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-2",
+      "attributes": {
+        "ID": "PipeFlowArrow-2",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-8"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-5"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-8",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-2",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "217",
+            "Y": "203",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "-1",
+            "Y": "0",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-3",
+      "attributes": {
+        "ID": "PipeFlowArrow-3",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_PRIMARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-18"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-18",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-3",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_PRIMARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "375",
+            "Y": "143",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "1",
+            "Y": "0",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-4",
+      "attributes": {
+        "ID": "PipeFlowArrow-4",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-19"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-7"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-19",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-4",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "217",
+            "Y": "214",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "-1",
+            "Y": "0",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-5",
+      "attributes": {
+        "ID": "PipeFlowArrow-5",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-20"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-8"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-20",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-5",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "120",
+            "Y": "136",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "0",
+            "Y": "1",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-6",
+      "attributes": {
+        "ID": "PipeFlowArrow-6",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-21"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-9"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-21",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-6",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "153",
+            "Y": "134.25",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "0",
+            "Y": "-1",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-7",
+      "attributes": {
+        "ID": "PipeFlowArrow-7",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-22"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-10"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-22",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-7",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "344.5",
+            "Y": "136",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "0",
+            "Y": "1",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    },
+    {
+      "id": "PipeFlowArrow-8",
+      "attributes": {
+        "ID": "PipeFlowArrow-8",
+        "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-23"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-11"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ],
+      "containing_segment_id": "PipingNetworkSegment-23",
+      "generic_attributes": [],
+      "descendants": [
+        {
+          "tag": "PipeFlowArrow",
+          "attributes": {
+            "ID": "PipeFlowArrow-8",
+            "ComponentName": "DIRECTION_OF_FLOW_SHAPE_FOR_SECONDARY_SEGMENT"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Position",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "Location",
+          "attributes": {
+            "X": "353",
+            "Y": "134.25",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Axis",
+          "attributes": {
+            "X": "0",
+            "Y": "0",
+            "Z": "1"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Reference",
+          "attributes": {
+            "X": "0",
+            "Y": "-1",
+            "Z": "0"
+          },
+          "text": ""
+        },
+        {
+          "tag": "Scale",
+          "attributes": {
+            "X": "0.7",
+            "Y": "0.7"
+          },
+          "text": ""
+        }
+      ],
+      "descendants_truncated": false,
+      "direction_status": "not_inferred"
+    }
+  ],
+  "direction_hints": [
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowOut": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipeOffPageConnector",
+          "id": "FlowInPipeOffPageConnector-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-1"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-1"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "GlobeValve-2"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-3"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-3"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "2",
+        "FlowOut": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "ButterflyValve-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-4"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-4"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "SwingCheckValve-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-4"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-4"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeReducer-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-5"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-4"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BallValve-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-6"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-4"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "SpringLoadedGlobeSafetyValve-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-7"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-5"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeTee-2"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-9"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BallValve-2"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-10"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeTee-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-11"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeTee-3"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-12"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BallValve-3"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-13"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BlindFlange-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-13"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BallValve-4"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-14"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeTee-4"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-14"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "PipeTee-5"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-16"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BallValve-5"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-17"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "BlindFlange-2"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-17"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1"
+      },
+      "ancestors": [
+        {
+          "tag": "PipeOffPageConnector",
+          "id": "FlowOutPipeOffPageConnector-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-18"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-6"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "GlobeValve-1"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-19"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-7"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    },
+    {
+      "tag": "ConnectionPoints",
+      "id": null,
+      "attributes": {
+        "FlowIn": "1",
+        "FlowOut": "2"
+      },
+      "ancestors": [
+        {
+          "tag": "PipingComponent",
+          "id": "GlobeValve-3"
+        },
+        {
+          "tag": "PipingNetworkSegment",
+          "id": "PipingNetworkSegment-23"
+        },
+        {
+          "tag": "PipingNetworkSystem",
+          "id": "PipingNetworkSystem-11"
+        },
+        {
+          "tag": "PlantModel",
+          "id": null
+        }
+      ]
+    }
+  ]
+}

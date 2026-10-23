@@ -1,0 +1,375 @@
+[
+  {
+    "type": "text",
+    "text": "SECTION 1: Identification of the substance or mixture and of the company",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.1 Product Identifier\nProduct name : Hydrogen, compressed\nChemical name : Hydrogen\nChemical formula : H₂\nCAS no. : 1333-74-0",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.2 Relevant identified uses of the substance or mixture and uses advised against\nIdentified uses : Industrial and professional. Aerosol propellant. Balance gas for mixtures. Calibration gas. Carrier gas. Chemical synthesis. Combustion, melting and cutting processes. Fuel cells. Fuel gas for welding, cutting, heating, brazing and soldering applications. Laboratory use. Laser gas. Process gas. Test gas. Consumer use. Fuel gas Propellant gas. Shielding gas in gas welding. It is the responsibility of the end user to ensure that the product as supplied is suitable for its intended use.",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.3 Details of the supplier of the safety data sheet\nSupplier name : Linde HKO Limited\nAddress : 12 Chun Yat Street, Tseung Kwan O Industrial Estate, Tseung Kwan O, Kowloon, Hong Kong\nPhone no. : (852) 2372-2288\nFax no. : (852) 2372-2508",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "1.3 Emergency telephone number\nEmergency no. : (852) 2661 0920 (24 hours)",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "SECTION 2: Hazards identification",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.1 Classification of the substance or mixture",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Classification according to Regulation (EC) No 1272/2008\n- Flammable gas (Category 1) : H220: Extremely flammable gas.\n- Gases under pressure (Compressed gas) : H280: Contains gas under pressure; may explode if heated.",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.2 Label Elements",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Pictograms :",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Signal word : Danger\nHazard statements : H220: Extremely flammable gas.",
+    "page_idx": 1
+  },
+  {
+    "type": "table",
+    "table_body": "<table><tr><td>Signal word</td><td>: Danger</td></tr><tr><td>Hazard statements</td><td>: H220: Extremely flammable gas.<br>: H280: Contains gas under pressure; may explode if heated.</td></tr><tr><td>Precautionary statements</td><td></td></tr><tr><td>General</td><td>: None</td></tr><tr><td>Prevention</td><td>: P210: Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.</td></tr><tr><td>Response</td><td>: P377: Leaking gas fire: Do not extinguish, unless leak can be stopped safely.<br>: P381: In case of leakage, eliminate all ignition sources.</td></tr><tr><td>Storage</td><td>: P403: Store in a well-ventilated place.</td></tr><tr><td>Disposal</td><td>: None</td></tr></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "- General : None\n- Prevention : P210: Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.\n- Response : P377: Leaking gas fire: Do not extinguish, unless leak can be stopped safely.\n- Storage : P403: Store in a well-ventilated place.\n- Disposal : None",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "2.3 Other hazards\nNone",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "SECTION 3: Composition/ information on ingredients",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.1 Substances\nChemical name : Hydrogen\nChemical formula : H₂\nCAS no. : 1333-74-0\nEC no. : 215-605-7\nINDEX no. : 001-001-00-9\nREACH registration number : Listed in Annex IV/V of Regulation (EC) No 1907/2006 (REACH), exempted from registration.",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "| Ingredient(s) | CAS No. | EC no. | Purity |\n| :--- | :--- | :--- | :--- |\n| Hydrogen | 1333-74-0 | 215-605-7 | ≥99.8% |",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "3.2 Mixtures\nNot Applicable",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "SECTION 4: First Aid Measures",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4.1 Description of first aid measures\nInhalation : In high concentrations may cause asphyxiation. Symptoms may include loss of mobility/consciousness. Victim may not be aware of asphyxiation. Remove victim to uncontaminated area wearing self contained breathing apparatus. Keep victim warm and rested. Call a doctor. Apply artificial respiration if breathing stopped.\nEye contact : Adverse effects not expected from this product.\nSkin Contact : Adverse effects not expected from this product.\nIngestion : Ingestion is not considered a potential route of exposure.",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4.2 Most important symptoms and effects, both acute and delayed\nRespiratory arrest.",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "4.3 Immediate medical attention and special treatment needed\nNone",
+    "page_idx": 2
+  },
+  {
+    "type": "table",
+    "table_body": "<table><thead><tr><th>Ingredient(s)</th><th>CAS No.</th><th>EC no.</th><th>Purity</th></tr></thead><tbody><tr><td>Hydrogen</td><td>1333-74-0</td><td>215-605-7</td><td>≥99.8%</td></tr></tbody></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "SECTION 5: Firefighting Measures",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "5.1 Extinguishing media\nSuitable extinguishing media : Water. Dry powder. Foam.\nUnsuitable extinguishing media : Carbon dioxide",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "5.2 Special hazards arising from the substance or mixture\nNone",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "5.3 Advice for firefighters\nSpecial fire fighting procedures : In case of fire: Stop leak if safe to do so. Do not extinguish flames at leak because possibility of uncontrolled explosive re-ignition exists. Continue water spray from protected position until container stays cool. Use extinguishants to contain the fire. Isolate the source of the fire or let it burn out.\nSpecial protective equipment for firefighters : Firefighters must use standard protective equipment including flame retardant coat, helmet with face shield, gloves, rubber boots, and Self-Contained Breathing Apparatus (SCBA).",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "SECTION 6: Accidental Release Measures",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "6.1 Personal precautions, protective equipment and emergency procedures\nEvacuate area. Provide adequate ventilation. Consider the risk of potentially explosive atmospheres. In case of leakage, eliminate all ignition sources. Monitor the concentration of the released product. Prevent from entering sewers, basements and workpits, or any place where its accumulation can be dangerous. Wear self-contained breathing apparatus (SCBA) when entering area unless atmosphere is proved to be safe.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "6.2 Environmental Precautions\nPrevent further leakage or spillage if safe to do so.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "6.3 Methods and material for containment and cleaning up\nProvide adequate ventilation. Eliminate sources of ignition.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "6.4 Reference to other sections\nSee also sections 8 and 13.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "SECTION 7: Handling and Storage",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "7.1 Precautions for safe handling",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Only experienced and properly instructed persons should handle gases underpressure. Use only properly specified equipment which is suitable for this product, its supply pressure and temperature. Purge system with dry inert gas (e.g. helium or nitrogen) before gas is introduced and when system is placed out of service. Purge air from system before introducing gas. Containers, which contain or have contained flammable or explosive substances, must not be inerted with liquid carbon dioxide. Assess the risk of a potentially explosive atmosphere and the need for suitable equipment i.e. explosion-proof. Take precautionary measures against static discharges. Keep away from ignition sources (including static discharges). Provide electrical earthing of equipment and electrical equipment usable in explosive atmospheres. Use non-sparking tools. Refer to supplier's handling instructions. The substance must be handled in accordance with good industrial hygiene and safety procedures. Ensure the complete system has been (or is regularly) checked for leaks before use. Protect containers from physical damage; do not drag, roll, slide or drop. Do not remove or deface labels provided by the supplier for the identification of the container contents. When moving containers, even for short distances, use appropriate equipment eg. trolley, hand truck, fork truck etc. Secure cylinders in an upright position at all times, close all valves when not in use. Provide adequate ventilation. Suck back of water into the container must be prevented. Do not allow backfeed into the container. Avoid suckback of water, acid and alkalis. Keep container below 50°C in a well ventilated place. Observe all regulations and local requirements regarding storage of containers. When using do not eat, drink or smoke. Store in accordance with local/regional/national/international regulations. Never use direct flame or electrical heating devices to raise the pressure of a container. Leave valve protection caps in place until the container has been secured against either a wall or bench or placed in a container stand and is ready for use. Damaged valves should be reported immediately to the supplier. Close container valve after each use and when empty, even if still connected to equipment. Never attempt to repair or modify container valves or safety relief devices. Replace valve outlet caps or plugs and container caps where supplied as soon as container is disconnected from equipment. Keep container valve outlets clean and free from contaminates particularly oil and water. If user experiences any difficulty operating container valve discontinue use and contact supplier. Never attempt to transfer gases from one container to another. Container valve guards or caps should be in place.",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "7.2 Conditions for safe storage, including any incompatibilities",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "All electrical equipment in the storage areas should be compatible with the risk of a potentially explosive atmosphere. Segregate from oxidant gases and other oxidants being stored. Containers should not be stored in conditions likely to encourage corrosion. Stored containers should be periodically checked for general conditions and leakage. Container valve guards or caps should be in place. Store containers in location free from fire risk and away from sources of heat and ignition. Keep away from combustible material.",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "7.3 Specific end uses\nNone",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "SECTION 8: Exposure Controls/Personal Protection",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "8.1 Control parameters\nOccupational Exposure Limits : No exposure limits have been established for this product.\nBiological limits : No biological limits have been established for this product.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "8.2 Exposure controls\nAppropriate engineering controls : Consider a work permit system e.g. for maintenance activities. Ensure adequate air ventilation. Provide adequate general and local exhaust ventilation. Keep concentrations well below lower explosion limits. Gas detectors should be used when quantities of flammable gases or vapours may be released. Provide adequate ventilation, including appropriate local extraction, to ensure that the defined occupational exposure limit is not exceeded. Systems under pressure should be regularly checked for leakages. Product to be handled in a closed system. Use only permanent leak tight installations (e.g. welded pipes). Take precautionary measures against static discharges.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Individual protection measures, such as personal protective equipment.\nEye protection : Wear safety glasses.\nHand Protection : Wear leather gloves.\nBody protection : Wear safety boots.\nRespiratory Protection : Where an inhalation risk exists, wear Self Contained Breathing Apparatus (SCBA) or an Air-line respirator.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "SECTION 9: Physical and Chemical Properties",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "9.1 Information on basic physical and chemical properties",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Appearance\n- Physical state : Gas\n- Form : Compressed gas\n- Colour : Colorless\n- Odour : Odourless\n- Odour Threshold : No data available.\n- pH : No data available.\n- Melting Point : -259.2 °C\n- Boiling Point : -253 °C\n- Sublimation Point : No data available.\n- Critical Temp. (°C) : -240.0 °C\n- Flash Point : No data available.\n- Evaporation Rate : No data available.\n- Flammability (solid, gas) : Flammable gas\n- Flammability limit - upper (%) : 77 %(V)\n- Flammability limit - lower (%) : 4 %(V)\n- Vapour pressure : No data available.\n- Vapour density (air=1) : 0.069\n- Relative density : 0.07\n- Solubility (in Water) : 1.62 mg/l\n- Partition coefficient (n-octanol/water) : No data available.\n- Autoignition Temperature : 560 °C\n- Decomposition Temperature : No data available.\n- Viscosity\n  - Kinematic viscosity : No data available.\n  - Dynamic viscosity : No data available.\n- Explosive properties : No data available.\n- Oxidising Properties : No data available.",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "9.2 Other information",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Additional information : None",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "SECTION 10: Stability and Reactivity",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.1 Reactivity\nNo reactivity hazard other than the effects described in sub-section below.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.2 Chemical Stability\nStable under normal conditions.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.3 Possibility of Hazardous Reactions\nCan form a potentially explosive atmosphere in air. May react violently with oxidants.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.4 Conditions to Avoid\nKeep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.5 Incompatible Materials\nAir and oxidisers.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "10.6 Hazardous decomposition products\nUnder normal conditions of storage and use, hazardous decomposition products should not be produced.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "SECTION 11: Toxicological Information",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "11.1 Information on toxicological effects\nAcute toxicity\n- Oral : Based on available data, the classification criteria are not met.\n- Inhalation : Based on available data, the classification criteria are not met.\n- Dermal : Based on available data, the classification criteria are not met.\nSkin Corrosion/Irritation : Based on available data, the classification criteria are not met.\nSerious Eye Damage/Eye Irritation : Based on available data, the classification criteria are not met.\nRespiratory or Skin Sensitisation : Based on available data, the classification criteria are not met.\nGerm Cell Mutagenicity : Based on available data, the classification criteria are not met.\nCarcinogenicity : Based on available data, the classification criteria are not met.\nReproductive toxicity : Based on available data, the classification criteria are not met.\nSpecific Target Organ Toxicity\n- Single Exposure : Based on available data, the classification criteria are not met.",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "Repeated Exposure\nAspiration Hazard",
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": ": Based on available data, the classification criteria are not met.\n: Not applicable to gases and gas mixtures.",
+    "page_idx": 8
+  },
+  {
+    "type": "table",
+    "table_body": "<table><tr><td colspan=\"2\">SECTION 12: Ecological Information</td></tr><tr><td colspan=\"2\">12.1 Toxicity<br>No ecological damage caused by this product.</td></tr><tr><td colspan=\"2\">12.2 Persistence and Degradability<br>Not applicable.</td></tr><tr><td colspan=\"2\">12.3 Bioaccumulative Potential<br>The subject product is expected to biodegrade and is not expected to persist for long periods in an aquatic environment.</td></tr><tr><td colspan=\"2\">12.4 Mobility in Soil<br>Because of its high volatility, the product is unlikely to cause ground or water pollution.</td></tr><tr><td colspan=\"2\">12.5 Other Adverse Effects<br>Contains greenhouse gas(es). When discharged in large quantities may contribute to the greenhouse effect.</td></tr><tr><td colspan=\"2\">SECTION 13: Disposal Considerations</td></tr><tr><td colspan=\"2\">13.1 Waste treatment methods<br>Disposal method: Do not discharge into any place where its accumulation could be dangerous. Cylinders should be returned to the supplier for disposal of contents.</td></tr></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "Disposal method\n: Do not discharge into any place where its accumulation could be dangerous. Cylinders should be returned to the supplier for disposal of contents.",
+    "page_idx": 8
+  },
+  {
+    "type": "table",
+    "table_body": "<table><thead><tr><th colspan=\"2\">SECTION 14: Transport Information</th></tr></thead><tbody><tr><td colspan=\"2\">ADR/RID</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Classification Code</td><td>: 1F</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Hazard No.</td><td>: 23</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">IMDG</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2.1</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">IATA</td></tr><tr><td>14.1 UN Number</td><td>: UN 1049</td></tr><tr><td>14.2 UN proper shipping name</td><td>: HYDROGEN, COMPRESSED</td></tr><tr><td>14.3 Transport Hazard Class(es)</td><td></td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Class</td><td>: 2.1</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Label(s)</td><td>: 2.1: Flammable gases</td></tr><tr><td>14.4 Packaging group</td><td>: None</td></tr><tr><td>14.5 Environmental hazards</td><td>: Not Applicable</td></tr><tr><td>14.6 Special precautions for user</td><td>: None</td></tr><tr><td colspan=\"2\">Other information</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Passenger and cargo aircraft</td><td>: Forbidden</td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Cargo aircraft only</td><td>: Allowed</td></tr></tbody></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2\n   Label(s) : 2.1: Flammable gases\n   Classification Code : 1F\n   Hazard No. : 23\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None",
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2.1\n   Label(s) : 2.1: Flammable gases\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None",
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "14.1 UN Number : UN 1049\n14.2 UN proper shipping name : HYDROGEN, COMPRESSED\n   Class : 2.1\n   Label(s) : 2.1: Flammable gases\n14.4 Packaging group : None\n14.5 Environmental hazards : Not Applicable\n14.6 Special precautions for user : None\n   Passenger and cargo aircraft : Forbidden\n   Cargo aircraft only : Allowed",
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "14.7 Transport in bulk according to Annex II of MARPOL and the IBC Code\nNot Applicable",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "14.8 Additional information\nTransport precautions\nAvoid transport on vehicles where the load space is not separated from the driver's compartment. Ensure vehicle driver is aware of the potential hazards of the load and knows what to do in the event of an accident or an emergency. Before transporting product containers ensure that they are firmly secured. Ensure that the container valve is closed and not leaking. Container valve guards or caps should be in place. Ensure adequate air ventilation.",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "SECTION 15: Regulatory information",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "15.1 Safety, health and environmental regulations/legislation specific for the substance or mixture\nLocal legislation\nDangerous Goods Ordinance (Chapter 295)\nFactories And Industrial Undertakings (Dangerous Substances) Regulation (Chapter 59AB)",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "SECTION 16: Other Information",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "Other information\nBefore using this product in any new process or experiment, a thorough material compatibility and safety study should be carried out. Ensure adequate air ventilation. Ensure all national/local regulations are observed. Whilst proper care has been taken in the preparation of this document, no liability for injury or damage resulting from its use can be accepted.",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "Revision date\n28/11/2022",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "Disclaimer\nThe above information is believed to be correct. This information should be used to make an independent determination of the methods to safeguard workers and the environment.",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "End of document",
+    "page_idx": 10
+  }
+]

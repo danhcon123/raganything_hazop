@@ -1,5 +1,8 @@
 # UPDATE Working step
 
+# 19.10.2026
+
+
 # 15.10.2026
 ### What we did
 - **MinerU workaround on Jetson:** MinerU needs PyTorch with CUDA, which doesn't work on Jetson (the `.venv` has x86 cu128 wheels, so `cuda.is_available()` is False). Replaced it with an Ollama OCR parser.
@@ -11,7 +14,7 @@
 - **Extraction prompt moved** to `src/raganything_hazop/extraction_prompt.py` (20 engineering entity types plus rules).
 - **Tests reorganised:** `tests/mineru/` (old MinerU tests) and `tests/ollama_ocr_parser/` (phase 1 parser test, phase 2 KG test). `phase3_retrieval_test.py` gained a `--cases` filter.
 
-### Results
+### Result
 - **Phase 1 (parser):** passed (about 2 min on EL40).
 - **Phase 2 (KG, 3 PDFs: EL40, SITRANS P, Hydrogen SDS):** passed. 15 chunks, 631 nodes / 1,228 edges, `output_stores/rag_storage_ollama_ocr_3docs`. Took about 70 min (≈25 OCR + 50 KG); deepseek-v4.1-flash:cloud with `max_async=1`.
 - **Phase 3 (retrieval):** **29/30 correct** (naive + local), 5.5 min. Report: `reports/retrieval/retrieval_20261015T110322_239166Z.json`.
@@ -19,7 +22,7 @@
   - Trick (missing-value) questions: no hallucinated values.
 
 ### Problems and solutions
-- **Multi-line cells glued together** ("25 °C8 barg") → ask glm-ocr to keep `<br>` inside cells.
+- **Multi-line cells glued together** ("25 °C8 barg") → ask glm-ocr to keep `pa<br>` inside cells.
 - **Table values duplicated in text** → drop text lines that match table cells.
 - **`KeyError: 'hashing_kv'`** made the table description fall back to raw HTML, and the LLM invented a "Hydrogen Generator" → custom LLM wrapper.
 - **Image input fell back to MinerU** → implemented `parse_image`.

@@ -1,0 +1,59 @@
+{
+  "c91a90fa7ca61d7274878912d0b14921": {
+    "content_list": [
+      {
+        "type": "text",
+        "text": "AEM Electrolyser EL 4.0",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Enapter’s patented anion exchange membrane (AEM) electrolyser is a standardised, stackable and flexible system to produce on-site hydrogen. The modular design – paired with advanced software integration – allows set up in minutes and remote control and management. Stack this electrolyser to achieve the required hydrogen flowrate.",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "AEM Electrolyser EL 4.0\nwww.enapter.com/aem-electrolyser",
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Specifications",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Enapter\nAEM Electrolyser EL 4.0",
+        "page_idx": 1
+      },
+      {
+        "type": "table",
+        "table_body": "<table><tr><td>Production rate</td><td>Up to 500 NL/h, up to 1.0785 kg/24 h</td></tr><tr><td>Hydrogen output purity</td><td>35 barg: 99.9% (&lt; 1,000 ppm H₂O and &lt; 5 ppm O₂) at 25 °C<br>8 barg: 98.8% (&lt; 12,000 ppm H₂O and &lt; 5 ppm O₂) at 25 °C</td></tr><tr><td>Output pressure</td><td>Up to 35 barg</td></tr><tr><td>Nominal power consumption per Nm³ of H₂ produced</td><td>4.8 kWh/Nm³, beginning of life</td></tr><tr><td>Operative power consumption</td><td>2.4 kW, beginning of life</td></tr><tr><td>Peak power consumption</td><td>3 kW</td></tr><tr><td>Heat dissipation</td><td>0.6 kW, beginning of life</td></tr><tr><td>Max heat dissipation</td><td>0.9 kW, end of life</td></tr><tr><td>Standby power consumption¹</td><td>0.3 kW</td></tr><tr><td>Power supply</td><td>220 – 240 V (AC), 50/60 Hz</td></tr><tr><td>Maximum water input conductivity</td><td>Minimum ASTM D1193-06 Type IV or recommended Type II or Type III²</td></tr><tr><td>Water consumption</td><td>~ 420 mL/h at 25 °C</td></tr><tr><td>Water input pressure range</td><td>1 – 4 barg</td></tr><tr><td>Ambient operative temperature range</td><td>5 °C – 45 °C</td></tr><tr><td>Ambient operative humidity range</td><td>Up to 90% humidity, non-condensing</td></tr><tr><td>IP rating</td><td>IP 20</td></tr><tr><td>Dimensions</td><td>W: 482 mm × D: 635 mm × H: 266 mm</td></tr><tr><td>Weight</td><td>42 kg</td></tr><tr><td>Space inside cabinet</td><td>6 U</td></tr><tr><td>Control and monitoring</td><td>Fully automatic with Enapter’s EMS via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet</td></tr><tr><td>Conformity</td><td>CE mark according to the machine directive 2006/42/CE³<br>UKCA mark according to Supply Machinery (Safety) Regulations 2008⁴<br>CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications⁵</td></tr></table>",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "¹ Standby refers to the condition in which no hydrogen is being produced and the auxiliary components are not powered.\n² Please, check the Battery limits and the Owner’s Manual for the complete requirements list.\n³ The Electrolyser belongs to S.E.P. category according to Pressure Equipment Directive 2014/68/EU\n⁴ The Electrolyser belongs to S.E.P. category according to Pressure Equipment (Safety) Regulations 2016\n⁵ ETL recognized electrolyser versions only",
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "Note: The product is under continuous improvement and the technical specifications might be subject to change. Please make sure to refer to our website for the most recent specifications.",
+        "page_idx": 1
+      }
+    ],
+    "doc_id": "doc-2ce829fed2f8a4655f1f97eb5c7a54c0",
+    "mtime": 1790261769.7418208,
+    "parse_config": {
+      "parser": "ollama_ocr",
+      "parse_method": "auto"
+    },
+    "cached_at": 1792055208.251235,
+    "cache_version": "1.0",
+    "create_time": 1792055208,
+    "update_time": 1792055208,
+    "_id": "c91a90fa7ca61d7274878912d0b14921"
+  }
+}

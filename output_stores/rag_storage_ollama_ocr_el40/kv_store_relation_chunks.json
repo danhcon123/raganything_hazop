@@ -1,0 +1,1091 @@
+{
+  "AEM Electrolyser EL 4.0<SEP>Hydrogen": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055322,
+    "update_time": 1792055322,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Hydrogen"
+  },
+  "AEM Electrolyser EL 4.0<SEP>On-Site Hydrogen Production": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055322,
+    "update_time": 1792055322,
+    "_id": "AEM Electrolyser EL 4.0<SEP>On-Site Hydrogen Production"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Anion Exchange Membrane (AEM)": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055323,
+    "update_time": 1792055323,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Anion Exchange Membrane (AEM)"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Hydrogen Flowrate": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055324,
+    "update_time": 1792055324,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Hydrogen Flowrate"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Standby Condition": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055324,
+    "update_time": 1792055324,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Standby Condition"
+  },
+  "Auxiliary Components<SEP>Standby Condition": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055325,
+    "update_time": 1792055325,
+    "_id": "Auxiliary Components<SEP>Standby Condition"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Advanced Software Integration": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055325,
+    "update_time": 1792055325,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Advanced Software Integration"
+  },
+  "Advanced Software Integration<SEP>Remote Control And Management": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055326,
+    "update_time": 1792055326,
+    "_id": "Advanced Software Integration<SEP>Remote Control And Management"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Remote Control And Management": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055326,
+    "update_time": 1792055326,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Remote Control And Management"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Battery Limits": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055327,
+    "update_time": 1792055327,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Battery Limits"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Owner's Manual": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055327,
+    "update_time": 1792055327,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Owner's Manual"
+  },
+  "Battery Limits<SEP>Owner's Manual": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055328,
+    "update_time": 1792055328,
+    "_id": "Battery Limits<SEP>Owner's Manual"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Pressure Equipment Directive 2014/68/EU": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055328,
+    "update_time": 1792055328,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Pressure Equipment Directive 2014/68/EU"
+  },
+  "AEM Electrolyser EL 4.0<SEP>S.E.P. Category": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055328,
+    "update_time": 1792055328,
+    "_id": "AEM Electrolyser EL 4.0<SEP>S.E.P. Category"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Pressure Equipment (Safety) Regulations 2016": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055329,
+    "update_time": 1792055329,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Pressure Equipment (Safety) Regulations 2016"
+  },
+  "Pressure Equipment Directive 2014/68/EU<SEP>S.E.P. Category": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055329,
+    "update_time": 1792055329,
+    "_id": "Pressure Equipment Directive 2014/68/EU<SEP>S.E.P. Category"
+  },
+  "Pressure Equipment (Safety) Regulations 2016<SEP>S.E.P. Category": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055331,
+    "update_time": 1792055331,
+    "_id": "Pressure Equipment (Safety) Regulations 2016<SEP>S.E.P. Category"
+  },
+  "AEM Electrolyser EL 4.0<SEP>ETL Recognized Electrolyser Versions": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055331,
+    "update_time": 1792055331,
+    "_id": "AEM Electrolyser EL 4.0<SEP>ETL Recognized Electrolyser Versions"
+  },
+  "ETL<SEP>ETL Recognized Electrolyser Versions": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055331,
+    "update_time": 1792055331,
+    "_id": "ETL<SEP>ETL Recognized Electrolyser Versions"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Enapter Website": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055332,
+    "update_time": 1792055332,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Enapter Website"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Enapter": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055333,
+    "update_time": 1792055333,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Enapter"
+  },
+  "Enapter<SEP>Enapter Website": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055334,
+    "update_time": 1792055334,
+    "_id": "Enapter<SEP>Enapter Website"
+  },
+  "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Hydrogen Flowrate": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055334,
+    "update_time": 1792055334,
+    "_id": "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Hydrogen Flowrate"
+  },
+  "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Standby Condition": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055334,
+    "update_time": 1792055334,
+    "_id": "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Standby Condition"
+  },
+  "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Setup Time": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055335,
+    "update_time": 1792055335,
+    "_id": "AEM Electrolyser EL 4.0<SEP>AEM Electrolyser EL 4.0 :: Setup Time"
+  },
+  "AEM Electrolyser EL 4.0 :: Standby Condition<SEP>Auxiliary Components": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055335,
+    "update_time": 1792055335,
+    "_id": "AEM Electrolyser EL 4.0 :: Standby Condition<SEP>Auxiliary Components"
+  },
+  "AEM Electrolyser EL 4.0 :: Setup Time<SEP>Advanced Software Integration": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055336,
+    "update_time": 1792055336,
+    "_id": "AEM Electrolyser EL 4.0 :: Setup Time<SEP>Advanced Software Integration"
+  },
+  "Battery Limits<SEP>Complete Requirements List": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055336,
+    "update_time": 1792055336,
+    "_id": "Battery Limits<SEP>Complete Requirements List"
+  },
+  "Complete Requirements List<SEP>Owner's Manual": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055337,
+    "update_time": 1792055337,
+    "_id": "Complete Requirements List<SEP>Owner's Manual"
+  },
+  "AEM Electrolyser EL 4.0<SEP>Complete Requirements List": {
+    "chunk_ids": [
+      "chunk-93ea68f378840f4523d46204f5b6f641"
+    ],
+    "count": 1,
+    "create_time": 1792055337,
+    "update_time": 1792055337,
+    "_id": "AEM Electrolyser EL 4.0<SEP>Complete Requirements List"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055456,
+    "update_time": 1792055456,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055456,
+    "update_time": 1792055456,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Output Pressure": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055457,
+    "update_time": 1792055457,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Output Pressure"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055457,
+    "update_time": 1792055457,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055458,
+    "update_time": 1792055458,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055459,
+    "update_time": 1792055459,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055459,
+    "update_time": 1792055459,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055460,
+    "update_time": 1792055460,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055460,
+    "update_time": 1792055460,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Power Supply": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055461,
+    "update_time": 1792055461,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Power Supply"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055461,
+    "update_time": 1792055461,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055462,
+    "update_time": 1792055462,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055463,
+    "update_time": 1792055463,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055463,
+    "update_time": 1792055463,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055464,
+    "update_time": 1792055464,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: IP Rating": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055464,
+    "update_time": 1792055464,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: IP Rating"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Dimensions": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055465,
+    "update_time": 1792055465,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Dimensions"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Weight": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055465,
+    "update_time": 1792055465,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Weight"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055466,
+    "update_time": 1792055466,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055466,
+    "update_time": 1792055466,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Conformity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055467,
+    "update_time": 1792055467,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 :: Conformity"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Hydrogen": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055467,
+    "update_time": 1792055467,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Hydrogen"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Oxygen": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055468,
+    "update_time": 1792055468,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Oxygen"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Water": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055468,
+    "update_time": 1792055468,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Water"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapters EMS": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055469,
+    "update_time": 1792055469,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapters EMS"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Wi-Fi": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055470,
+    "update_time": 1792055470,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Wi-Fi"
+  },
+  "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055470,
+    "update_time": 1792055470,
+    "_id": "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Modbus TCP over Ethernet": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055471,
+    "update_time": 1792055471,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Modbus TCP over Ethernet"
+  },
+  "CE mark<SEP>Enapter AEM Electrolyser EL 4.0": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055471,
+    "update_time": 1792055471,
+    "_id": "CE mark<SEP>Enapter AEM Electrolyser EL 4.0"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>UKCA mark": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055472,
+    "update_time": 1792055472,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>UKCA mark"
+  },
+  "CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications<SEP>Enapter AEM Electrolyser EL 4.0": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055472,
+    "update_time": 1792055472,
+    "_id": "CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications<SEP>Enapter AEM Electrolyser EL 4.0"
+  },
+  "CE mark<SEP>Machine Directive 2006/42/CE": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055472,
+    "update_time": 1792055472,
+    "_id": "CE mark<SEP>Machine Directive 2006/42/CE"
+  },
+  "Supply Machinery (Safety) Regulations 2008<SEP>UKCA mark": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055473,
+    "update_time": 1792055473,
+    "_id": "Supply Machinery (Safety) Regulations 2008<SEP>UKCA mark"
+  },
+  "ASTM D1193-06 Type IV<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055473,
+    "update_time": 1792055473,
+    "_id": "ASTM D1193-06 Type IV<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity"
+  },
+  "ASTM D1193-06 Type II<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055474,
+    "update_time": 1792055474,
+    "_id": "ASTM D1193-06 Type II<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity"
+  },
+  "ASTM D1193-06 Type III<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055475,
+    "update_time": 1792055475,
+    "_id": "ASTM D1193-06 Type III<SEP>Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Enapter AEM Electrolyser EL 4.0 :: Output Pressure": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055475,
+    "update_time": 1792055475,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Enapter AEM Electrolyser EL 4.0 :: Output Pressure"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055475,
+    "update_time": 1792055475,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Production Rate<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055476,
+    "update_time": 1792055476,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Production Rate<SEP>Enapter AEM Electrolyser EL 4.0 :: Water Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055477,
+    "update_time": 1792055477,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 :: Production Rate"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055477,
+    "update_time": 1792055477,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055478,
+    "update_time": 1792055478,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055478,
+    "update_time": 1792055478,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055478,
+    "update_time": 1792055478,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 :: Weight": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055479,
+    "update_time": 1792055479,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 :: Weight"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055480,
+    "update_time": 1792055480,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range<SEP>Enapter AEM Electrolyser EL 4.0 :: IP Rating": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055480,
+    "update_time": 1792055480,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range<SEP>Enapter AEM Electrolyser EL 4.0 :: IP Rating"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Enapters EMS": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055480,
+    "update_time": 1792055480,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Enapters EMS"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Wi-Fi": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055481,
+    "update_time": 1792055481,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Wi-Fi"
+  },
+  "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055481,
+    "update_time": 1792055481,
+    "_id": "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Modbus TCP over Ethernet": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055482,
+    "update_time": 1792055482,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Modbus TCP over Ethernet"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Hydrogen": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055482,
+    "update_time": 1792055482,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Hydrogen"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Water Consumption<SEP>Water": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055483,
+    "update_time": 1792055483,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Water Consumption<SEP>Water"
+  },
+  "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055483,
+    "update_time": 1792055483,
+    "_id": "Enapter AEM Electrolyser EL 4.0<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Production Rate<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055484,
+    "update_time": 1792055484,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Production Rate<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055484,
+    "update_time": 1792055484,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Output Pressure<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055485,
+    "update_time": 1792055485,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Output Pressure<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055485,
+    "update_time": 1792055485,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055486,
+    "update_time": 1792055486,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055486,
+    "update_time": 1792055486,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055487,
+    "update_time": 1792055487,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055488,
+    "update_time": 1792055488,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055488,
+    "update_time": 1792055488,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Power Supply<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055489,
+    "update_time": 1792055489,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Power Supply<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055489,
+    "update_time": 1792055489,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Water Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055490,
+    "update_time": 1792055490,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Water Consumption<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055490,
+    "update_time": 1792055490,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055491,
+    "update_time": 1792055491,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055491,
+    "update_time": 1792055491,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: IP Rating<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055492,
+    "update_time": 1792055492,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: IP Rating<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055492,
+    "update_time": 1792055492,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Dimensions<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Weight<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055493,
+    "update_time": 1792055493,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Weight<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055493,
+    "update_time": 1792055493,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055494,
+    "update_time": 1792055494,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 :: Conformity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055494,
+    "update_time": 1792055494,
+    "_id": "Enapter AEM Electrolyser EL 4.0 :: Conformity<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Enapters EMS": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055495,
+    "update_time": 1792055495,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Enapters EMS"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Wi-Fi": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055495,
+    "update_time": 1792055495,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Wi-Fi"
+  },
+  "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055496,
+    "update_time": 1792055496,
+    "_id": "Bluetooth<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Modbus TCP over Ethernet": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055496,
+    "update_time": 1792055496,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Modbus TCP over Ethernet"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Hydrogen": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055497,
+    "update_time": 1792055497,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Hydrogen"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Water": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055497,
+    "update_time": 1792055497,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Water"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Oxygen": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055498,
+    "update_time": 1792055498,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Oxygen"
+  },
+  "ASTM D1193-06 Type IV<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055498,
+    "update_time": 1792055498,
+    "_id": "ASTM D1193-06 Type IV<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "ASTM D1193-06 Type II<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055499,
+    "update_time": 1792055499,
+    "_id": "ASTM D1193-06 Type II<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "ASTM D1193-06 Type III<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055499,
+    "update_time": 1792055499,
+    "_id": "ASTM D1193-06 Type III<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "CE mark<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055500,
+    "update_time": 1792055500,
+    "_id": "CE mark<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Machine Directive 2006/42/CE": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055500,
+    "update_time": 1792055500,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Machine Directive 2006/42/CE"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>UKCA mark": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055501,
+    "update_time": 1792055501,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>UKCA mark"
+  },
+  "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Supply Machinery (Safety) Regulations 2008": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055501,
+    "update_time": 1792055501,
+    "_id": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)<SEP>Supply Machinery (Safety) Regulations 2008"
+  },
+  "CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055502,
+    "update_time": 1792055502,
+    "_id": "CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  },
+  "Enapter<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)": {
+    "chunk_ids": [
+      "chunk-d9f905a36fae7e407107d1a11e7b7200"
+    ],
+    "count": 1,
+    "create_time": 1792055502,
+    "update_time": 1792055502,
+    "_id": "Enapter<SEP>Enapter AEM Electrolyser EL 4.0 Specifications Table (table)"
+  }
+}

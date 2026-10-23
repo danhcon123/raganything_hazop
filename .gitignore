@@ -9,7 +9,8 @@ wheels/
 # Virtual environments
 
 .venv
+*.png
 uv.lock
-output/
-output_stores/
-reports/
+# output/
+# output_stores/
+# reports/

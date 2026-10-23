@@ -1,0 +1,250 @@
+[
+  {
+    "type": "text",
+    "text": "DIGITAL PROCESSES REQUIRE PRECISION",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Reliable, low-maintenance pressure measurement with SITRANS P",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "siemens.com/pressure",
+    "page_idx": 0
+  },
+  {
+    "type": "text",
+    "text": "Pressure measurement under control",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "It’s impossible to imagine today’s process industries without modern measurement technology. Each industry has its own specific demands, whether they are requirements for safety-related devices or harsh, rugged environmental conditions. The SITRANS P family offers the right portfolio for your applications.",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Uncompromising precision\nSITRANS P pressure transmitters are a complete family of measuring instruments for measuring gauge, differential, and absolute pressure that includes a range of performance values, load capacities, and materials. In addition to high measuring accuracy and ruggedness, the modular system features superb operating convenience and functionality as well as an ideal safety concept. Whether it’s international approvals or industry standards, our transmitters meet the challenges presented by increasingly complex tasks in the process industries.",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Safety included\nYou can select device versions that also offer comprehensive safety features. Warnings and alarms signal critical measured values for plant monitoring, while service or calibration intervals can be displayed predictively through self-diagnostics based on a maintenance scheduler.",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Configure your devices using our PIA Portal: pia-portal.automation.siemens.com",
+    "page_idx": 1
+  },
+  {
+    "type": "text",
+    "text": "Your benefits at a glance",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• High process quality thanks to reliable measured values, even after years of operation",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• Superior communication capabilities based on industry standards such as 4...20mA, HART®, PROFIBUS PA, and FOUNDATION Fieldbus",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• Seamless integration in SIMATIC PCS 7 thanks to specific faceplates and special support from the SIMATIC PDM (Process Device Manager) central maintenance station",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• Support for parameterization, commissioning, diagnostics, and maintenance for all current process control systems thanks to EDD, DTM, and FDI packages",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• Devices for SIL applications up to Level 2/3 can be used",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "• Rugged enough for use in difficult environmental conditions",
+    "page_idx": 2
+  },
+  {
+    "type": "text",
+    "text": "SITRANS P pressure measurement",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "For gases, liquids, and paste-like media, the gauge pressure, absolute pressure, and differential pressure must be measured constantly to detect values that are too low or a potential overload. Whether for pipe-lines, valves, or reactors, the SITRANS P transmitter family offers the right solution for every application.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "The most important factor in selecting the right pressure transmitter is the required accuracy of the measuring range. SITRANS P transmitters offer a variety of choices from 0.04% to 0.3%. They are suitable for safety-related applications, with certifications according to SIL2 and SIL2/3. Numerous bus systems for communication are also supported, including HART®, PROFIBUS PA, and FOUNDATION Fieldbus. In addition, the transmitters have all the most current approvals and certificates. Our pressure measuring devices give you the instrumentation reliability you need to meet your own specific requirements.",
+    "page_idx": 3
+  },
+  {
+    "type": "text",
+    "text": "Benefits at a glance",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "• All applications supported thanks to a highly diverse portfolio\n• Meet all current explosion protection requirements\n• High product variance thanks to standard options and customizations\n• A variety of materials and process connection options available, including stainless-steel enclosure versions\n• Expanded diagnostics\n• Maintenance benefits",
+    "page_idx": 4
+  },
+  {
+    "type": "text",
+    "text": "Communicating digitally",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Distributed automation solutions based on open fieldbuses are now standard in many areas of the manufacturing and process industries. That’s because the benefits of digital communication can be maximized in combination with fieldbuses, including transmission of measured values that retain the original accuracy, diagnostic options, and remote parameterization.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "All the data at a glance\nThanks to modern fieldbus communication, field devices can be optimally integrated into the overall plant. Process and diagnostic data can be transferred from smart measuring devices to the control desk as well as to the control or maintenance system. An additional benefit: When the devices are integrated into PCS 7 Asset Management, users can access diagnostic information at all times, and can thus optimize plant maintenance and prevent downtimes. If desired, the data can be uploaded to MindSphere, the open cloud solution, for comprehensive analysis.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Ready for digitalization\nWith trend recording, 1,500 measured values are stored directly in the pressure transmitter. Thanks to limit monitoring and event counters, limit violations are recorded and displayed as a specific message, both on the device and in the control system.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Remote safety handling\nDigital transfer enables centralized SIL commissioning and validation – for example, from the control desk, without on-site device operation. Time saved through remote safety handling results in significantly reduced commissioning costs.",
+    "page_idx": 5
+  },
+  {
+    "type": "text",
+    "text": "Focus on the process industries",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Safety is integrated",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Stringent safety requirements must be met in all areas and sectors of the process industries. One example is chemicals, and our portfolio for pressure measurement unequivocally satisfies the high demands of the chemical industry (SIL 3). Thanks to comprehensive diagnostic functions, you always know whether your process is running according to plan and can intervene and correct it, if necessary, for example in reactors. They are part of the overall plant and must be seamlessly integrated into the process for maximum safety, efficiency, and availability. Interventions such as filling, heating, cooling, mixing, and the monitoring of all process conditions are performed on an ongoing basis. In addition, parameters such as pump performance, temperature, energy consumption, and emissions must be measured, analyzed, and monitored.",
+    "page_idx": 6
+  },
+  {
+    "type": "text",
+    "text": "Our product range for your application",
+    "page_idx": 7
+  },
+  {
+    "type": "table",
+    "table_body": "<table><tr><td>SITRANS P420</td><td>• High measurement accuracy of 0.04%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\n• Ready for digitalization\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering</td></tr><tr><td>SITRANS P200/210/220</td><td>A series for all pressure types</td></tr><tr><td>• P200: gauge and absolute pressure with ceramic diaphragm for medium measuring ranges (up to 60 bar)\n• P210: gauge and absolute pressure with stainless-steel diaphragm for low measuring ranges (up to 600 mbar)\n• P220: gauge and absolute pressure with fully welded stainless-steel diaphragm for high measuring ranges (up to 1,000 bar)</td><td>• Features a wide range of aseptic process connections\n• Space-saving transmitter thanks to compact enclosure\n• Easy cleaning\n• Process temperatures up to 200 °C possible\nIndustry: mechanical engineering, shipbuilding, energy</td></tr></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "• High measurement accuracy of 0.04%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\n• Ready for digitalization\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "SITRANS P320\n• High measuring accuracy of 0.065%\n• Developed according to IEC61508 standards for SIL2/3\n• Improved HMI display: larger, new, and improved display with NAMUR NE107\n• 4-key operation\n• Remote safety handling\nIndustry: chemical, oil & gas, energy, shipbuilding, mechanical engineering, water/wastewater",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "• P200: gauge and absolute pressure with ceramic diaphragm for medium measuring ranges (up to 60 bar)\n• P210: gauge and absolute pressure with stainless-steel diaphragm for low measuring ranges (up to 600 mbar)\n• P220: gauge and absolute pressure with fully welded stainless-steel diaphragm for high measuring ranges (up to 1,000 bar)\nIndustry: mechanical engineering, shipbuilding, energy",
+    "page_idx": 7
+  },
+  {
+    "type": "text",
+    "text": "SITRANS P Compact\n• Features a wide range of aseptic process connections\n• Space-saving transmitter thanks to compact enclosure\n• Easy cleaning\n• Process temperatures up to 200 °C possible\nIndustry: food & beverage and pharmaceuticals",
+    "page_idx": 7
+  },
+  {
+    "type": "table",
+    "table_body": "<table><tr><td>SITRANS LH100, LH300</td><td>• Slim design with 23.4 mm diameter allows installation in pipes with 1\" inner diameter<br>• Easy and safe installation even without cable socket thanks to built-in humidity filter in the cable<br>• Resistant to harsh environmental conditions due to the piezoresistive ceramic sensor<br>• SITRANS LH300: outer diameter of 26 mm<br>Industry: water/wastewater</td></tr><tr><td>SITRANS P300</td><td>• Designed for hygienic applications and available with more than 90 process connections<br>• Ideally suited for external cleaning with high protection classes IP68 and IP69K<br>• Features all current hygiene, material, and calibration certificates<br>• Low measurement errors, even at high temperatures<br>Industry: food & beverage and pharmaceuticals</td></tr><tr><td>Accessories</td><td></td></tr><tr><td>Remote seal</td><td>• High variance to meet all the requirements of each industry<br>• Wide range of diaphragm materials ensures excellent chemical resistance to medium</td></tr><tr><td>Valves and valve blocks</td><td>• Save time with pre-mounted valve block<br>• Entire unit is seal-tested for leaks under pressure</td></tr><tr><td>SITRANS FP differential pressure sensor</td><td>Flow solution using the differential pressure method<br>• Suitable for many applications, even at high temperatures and high pressures<br>• Available as a pre-assembled compact system or as a separate version<br>• Traceability and easy communication thanks to web-based product design<br>• QAL1 approval for emission monitoring applications</td></tr></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 8
+  },
+  {
+    "type": "text",
+    "text": "Technical data",
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "| TYPE | SITRANS P420 | SITRANS P320 | SITRANS P300 | SITRANS P COMPACT |\n| :--- | :--- | :--- | :--- | :--- |\n| Brief description | Digital pressure transmitter as “high performance” version of the P320 for gauge and differential pressure measurements | Digital pressure transmitter for measurement of gauge pressure, absolute pressure, differential pressure, flow, and level | Digital pressure transmitter for complex hygienic applications | Pressure transmitter for hygienic applications for measuring gauge and absolute pressure |\n| Pressure types | Gauge pressure, absolute pressure, differential pressure | Gauge pressure, absolute pressure, differential pressure | Gauge pressure, absolute pressure | Gauge pressure, absolute pressure |\n| Measuring span | 1 mbar to 700 bar | 1 mbar to 700 bar | 10 mbar to 400 bar | 0 bar to 40 bar |\n| Communication | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation) | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation) | 4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus | 4...20 mA; 0...20 mA |\n| Accuracy¹) | 0.04% | 0.065% | 0.075% | 0.2% |\n| Max. turndown | 100:1 | 100:1 | 100:1 | - |\n| Long-term stability | 0.125% / 5 years²) | 0.125% / 5 years²) | 0.25% / 5 years | 0.2% / year |\n| Measured medium temperature | -40 °C to +100 °C | -40 °C to +100 °C | -40 °C to +200 °C | -10 °C to +200 °C |\n| Certificates / approvals | ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ... | ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ... | ATEX, Exia/ib, FM is/xp, CSA is/xp, NEPSI, ... | ATEX, Exib |\n| Diaphragm materials | Stainless steel, hastelloy, tantalum, monel, gold | Stainless steel, hastelloy, tantalum, monel, gold | Stainless steel, hastelloy | Stainless steel |\n| Special features | Remote safety handling, ready for digitalization | Remote safety handling | - | - |\n| | www.siemens.com/sitransp420 | www.siemens.com/sitransp320 | www.siemens.com/sitransp300 | www.siemens.com/sitranspcompact |",
+    "page_idx": 9
+  },
+  {
+    "type": "text",
+    "text": "1) Conformity error according to EN IEC 62828-1\n2) Depending on the version",
+    "page_idx": 9
+  },
+  {
+    "type": "table",
+    "table_body": "<table class=\"table table-bordered\"><thead><tr><th>TYPE</th><th>SITRANS P420</th><th>SITRANS P320</th><th>SITRANS P300</th><th>SITRANS P COMPACT</th></tr></thead><tbody><tr><td>Brief description</td><td>Digital pressure transmitter as \"high performance\" version of the P320 for gauge and differential pressure measurements</td><td>Digital pressure transmitter for measurement of gauge pressure, absolute pressure, differential pressure, flow, and level</td><td>Digital pressure transmitter for complex hygienic applications</td><td>Pressure transmitter for hygienic applications for measuring gauge and absolute pressure</td></tr><tr><td>Pressure types</td><td>Gauge pressure, absolute pressure, differential pressure</td><td>Gauge pressure, absolute pressure, differential pressure</td><td>Gauge pressure, absolute pressure</td><td>Gauge pressure, absolute pressure</td></tr><tr><td>Measuring span</td><td>1 mbar to 700 bar</td><td>1 mbar to 700 bar</td><td>10 mbar to 400 bar</td><td>0 bar to 40 bar</td></tr><tr><td>Communication</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation)</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus (in preparation)</td><td>4...20 mA/HART®, PROFIBUS PA, FOUNDATION Fieldbus</td><td>4...20 mA; 0...20 mA</td></tr><tr><td>Accuracy¹)</td><td>0.04%</td><td>0.065%</td><td>0.075%</td><td>0.2%</td></tr><tr><td>Max. turndown</td><td>100:1</td><td>100:1</td><td>100:1</td><td>-</td></tr><tr><td>Long-term stability</td><td>0.125% / 5 years²)</td><td>0.125% / 5 years²)</td><td>0.25% / 5 years</td><td>0.2% / year</td></tr><tr><td>Measured medium temperature</td><td>-40 °C to +100 °C</td><td>-40 °C to +100 °C</td><td>-40 °C to +200 °C</td><td>-10 °C to +200 °C</td></tr><tr><td>Certificates / approvals</td><td>ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ...</td><td>ATEX, Exia/ib, Exd, FM is/xp, CSA is/xp, NEPSI, SIL, ...</td><td>ATEX, Exia/ib, FM is/xp, CSA is/xp, NEPSI, ...</td><td>ATEX, Exib</td></tr><tr><td>Diaphragm materials</td><td>Stainless steel, hastelloy, tantalum, monel, gold</td><td>Stainless steel, hastelloy, tantalum, monel, gold</td><td>Stainless steel, hastelloy</td><td>Stainless steel</td></tr><tr><td>Special features</td><td>Remote safety handling, ready for digitalization</td><td>Remote safety handling</td><td>-</td><td>-</td></tr><tr><td></td><td>www.siemens.com/sitransp420</td><td>www.siemens.com/sitransp320</td><td>www.siemens.com/sitransp300</td><td>www.siemens.com/sitranspcompact</td></tr></tbody></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 9
+  },
+  {
+    "type": "table",
+    "table_body": "<table class=\"table table-bordered\"><thead><tr><th>SITRANS P200/210/220</th><th>SITRANS LH100</th><th>SITRANS LH300</th><th>SITRANS FP differential pressure sensor</th></tr></thead><tbody><tr><td>Compact single-range transmitter for measuring absolute and gauge pressure</td><td>Pressure transmitter for measuring hydrostatic levels</td><td>Submersible sensor for hydrostatic level measurement</td><td>Differential pressure sensors acc. to ISO 5167 (orifices) SITRANS FPS200 and pitot tube measuring system SITRANS FPS300 for flow measurement</td></tr><tr><td>Gauge pressure, absolute pressure</td><td>Level</td><td>Level</td><td>Differential pressure</td></tr><tr><td>100 mbar to 1000 bar</td><td>0–3 mH₂O to 0–20 mH₂O</td><td>0–1 mH₂O to 0–40 mH₂O</td><td>-</td></tr><tr><td>4...20 mA</td><td>4...20 mA</td><td>4...20 mA</td><td>As P320 or available without pressure transmitter</td></tr><tr><td>0.25%</td><td>0.3%</td><td>0.15%</td><td>0.5% to 1.2% resp. 1% for Re &gt; 20,000</td></tr><tr><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>0.25% / year</td><td>0.25% / year</td><td>0.15% / year</td><td>-</td></tr><tr><td>-30 °C to +120 °C</td><td>-10 °C to +80 °C</td><td>-10 °C to +80 °C</td><td>Acc. to EN 1092-1 / ASME B16.5 resp. -100 °C to +700 °C</td></tr><tr><td>ATEX, Exia, EAC, GL, BV, ABS, UL</td><td>ATEX, Exia, IEC Ex, EAC, UL, WRAS</td><td>ATEX, Exia, IEC Ex, EAC, UL, WRAS</td><td>As P320, QAL 1</td></tr><tr><td>Ceramic, stainless steel</td><td>Ceramic</td><td>Ceramic</td><td>Stainless steel, carbon steel, hastelloy (not for membrane)</td></tr><tr><td>-</td><td>-</td><td>-</td><td>Nominal size DN 10 to DN 4000, pressure up to PN 100, bidirectional measurement possible</td></tr></tbody></table>",
+    "table_caption": [],
+    "table_footnote": [],
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "0–3 mH$_2$O to 0–20 mH$_2$O",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "0–1 mH$_2$O to 0–40 mH$_2$O",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "www.siemens.com/sitransp200",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "www.siemens.com/sitranslh100",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "www.siemens.com/sitranslh300",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "www.siemens.com/sitransfp",
+    "page_idx": 10
+  },
+  {
+    "type": "text",
+    "text": "Subject to changes and errors. The information provided in this brochure contains descriptions or performance characteristics which, in case of actual use, do not always apply as described or which may change as a result of further development of the products. The desired performance characteristics are only binding if expressly agreed in the contract. Availability and technical specifications are subject to change without notice.",
+    "page_idx": 11
+  },
+  {
+    "type": "text",
+    "text": "All product designations may be trademarks or product names of Siemens AG or supplier companies, the use of which by third parties for their own purposes may violate the rights of the owners.",
+    "page_idx": 11
+  }
+]

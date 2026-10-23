@@ -1,226 +1,225 @@
-"""Inspect DEXPI Proteus XML port references and flow-direction evidence.
-
-This is a *read-only* source audit, not a DEXPI schema validator or a
-flow-simulation tool. It does not assume FromID -> ToID is process flow.
+"""Enrich a DEXPI port-flow inspection report with human-readable component metadata.
 
 Usage:
-    python dexpi_port_flow_inspection.py data/others/C01V04-VER.EX01.xml \
-        --output output/dexpi_notebook_inspection/port_flow_inspection.json
+    python dexpi_inspection_enrich.py --xml C01V04-VER.EX01.xml \
+        --report port_flow_inspection.json --output-dir inspection_enriched
 
-No pyDEXPI, NetworkX, LLM, or LightRAG is needed for this source-level audit.
+Only reads DEXPI XML and an existing inspection report. No LLM or GraphML required.
 """
-
 from __future__ import annotations
 
 import argparse
-from collections import Counter, defaultdict
+import csv
 import json
-from pathlib import Path
-import re
 import xml.etree.ElementTree as ET
+from collections import defaultdict
+from pathlib import Path
 
 
-def local_name(tag: str) -> str:
-    """Remove a namespace in Clark notation: '{uri}Node' -> 'Node'."""
+def local(tag: str) -> str:
     return tag.rsplit('}', 1)[-1]
 
 
-def parse_xml(path: Path) -> ET.Element:
-    """Parse a trusted local file; reject DTD/entity declarations.
-
-    For hostile/untrusted XML, use a hardened parser such as defusedxml and
-    apply file-size/resource limits. This simple check is not an XML firewall.
-    """
-    data = path.read_bytes()
-    if re.search(rb'<!\s*(DOCTYPE|ENTITY)\b', data, re.IGNORECASE):
-        raise ValueError('DTD/entity declarations are not supported')
-    return ET.fromstring(data)
+def direct_child(element: ET.Element, name: str) -> ET.Element | None:
+    return next((c for c in element if local(c.tag) == name), None)
 
 
-def parent_chain(element: ET.Element, parents: dict) -> list[dict]:
-    """From immediate parent to document root, retaining original XML IDs."""
-    result = []
-    ancestor = parents.get(element)
-    while ancestor is not None:
-        result.append({'tag': local_name(ancestor.tag), 'id': ancestor.get('ID')})
-        ancestor = parents.get(ancestor)
-    return result
+def direct_children(element: ET.Element, name: str) -> list[ET.Element]:
+    return [c for c in element if local(c.tag) == name]
 
 
-def own_generic_attributes(element: ET.Element) -> list[dict]:
-    """Only attributes directly owned by this object (not its descendants)."""
-    return [dict(attr.attrib)
-            for group in element if local_name(group.tag) == 'GenericAttributes'
-            for attr in group if local_name(attr.tag) == 'GenericAttribute']
+def generic_attributes(element: ET.Element) -> dict[str, list[str]]:
+    attrs: dict[str, list[str]] = defaultdict(list)
+    for group in direct_children(element, 'GenericAttributes'):
+        for attr in direct_children(group, 'GenericAttribute'):
+            if attr.get('Value') is not None:
+                attrs[attr.get('Name', '')].append(attr.get('Value', ''))
+    return dict(attrs)
 
 
-def inspect(xml_path: Path) -> dict:
-    root = parse_xml(xml_path)
-    parents = {root: None}
+def first(attrs: dict[str, list[str]], name: str) -> str:
+    return next(iter(attrs.get(name, [])), '')
+
+
+def own_position(element: ET.Element) -> dict[str, str] | None:
+    position = direct_child(element, 'Position')
+    loc = direct_child(position, 'Location') if position is not None else None
+    return dict(loc.attrib) if loc is not None else None
+
+
+def own_labels(element: ET.Element) -> list[str]:
+    labels = []
+    for label in direct_children(element, 'Label'):
+        for child in label.iter():
+            if local(child.tag) == 'Text' and child.get('String'):
+                labels.append(child.get('String', ''))
+    return list(dict.fromkeys(labels))
+
+
+def export_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
+    with path.open('w', newline='', encoding='utf-8-sig') as output:
+        writer = csv.DictWriter(output, fieldnames=fields, extrasaction='ignore')
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def enrich(xml_path: Path, report_path: Path, output_dir: Path) -> dict:
+    raw = xml_path.read_bytes()
+    if b'<!DOCTYPE' in raw.upper() or b'<!ENTITY' in raw.upper():
+        raise ValueError('DTD and entity declarations are not accepted')
+    root = ET.fromstring(raw)
+    parents = {child: parent for parent in root.iter() for child in parent}
+    # All live IDs; catalogue entries are intentionally excluded.
     live = []
-    excluded_count = 0
-    stack = [(root, False)]
-
-    # Walk in XML order, excluding the entire ShapeCatalogue subtree from
-    # source engineering inventory. Keep parent mappings for later provenance.
-    while stack:
-        element, in_catalogue = stack.pop()
-        in_catalogue = in_catalogue or local_name(element.tag) == 'ShapeCatalogue'
-        if in_catalogue:
-            excluded_count += 1
-        else:
+    for element in root.iter():
+        if not element.get('ID'):
+            continue
+        cur = element
+        in_catalogue = False
+        while cur in parents:
+            cur = parents[cur]
+            if local(cur.tag) == 'ShapeCatalogue':
+                in_catalogue = True
+                break
+        if not in_catalogue:
             live.append(element)
-        for child in reversed(element):
-            parents[child] = element
-            stack.append((child, in_catalogue))
-
-    ids = defaultdict(list)
+    index = {}
     for element in live:
-        if element.get('ID'):
-            ids[element.get('ID')].append(element)
+        identifier = element.get('ID')
+        if identifier in index:
+            raise ValueError(f'Duplicate live XML ID: {identifier}')
+        index[identifier] = element
 
-    duplicate_ids = {key: len(elems) for key, elems in ids.items()
-                     if len(elems) != 1}
-    connections = [e for e in live if local_name(e.tag) == 'Connection']
-    endpoints = []
+    metadata = {}
+    for identifier, element in index.items():
+        attrs = generic_attributes(element)
+        parent = parents.get(element)
+        owners = {}
+        while parent is not None:
+            tag = local(parent.tag)
+            if tag in ('Equipment', 'PipingNetworkSegment', 'PipingNetworkSystem') and tag not in owners:
+                owners[tag] = parent.get('ID', '')
+            parent = parents.get(parent)
+        position = own_position(element)
+        labels = own_labels(element)
+        name = (first(attrs, 'TagNameAssignmentClass') or
+                first(attrs, 'PipingComponentNameAssignmentClass') or
+                first(attrs, 'PositionNumberAssignmentClass') or
+                first(attrs, 'ActuatingSystemNumberAssignmentClass') or
+                first(attrs, 'SubTagNameAssignmentClass'))
+        metadata[identifier] = {
+            'xml_id': identifier,
+            'xml_type': local(element.tag),
+            'component_class': element.get('ComponentClass', ''),
+            'engineering_name': name,
+            'display_labels': labels,
+            'component_number': first(attrs, 'PipingComponentNumberAssignmentClass'),
+            'line_number': first(attrs, 'LineNumberAssignmentClass'),
+            'parent_equipment': owners.get('Equipment', ''),
+            'parent_segment': owners.get('PipingNetworkSegment', ''),
+            'parent_system': owners.get('PipingNetworkSystem', ''),
+            'x': position.get('X', '') if position else '',
+            'y': position.get('Y', '') if position else '',
+            'position_present': position is not None,
+        }
+    # Inherit line number from the owning piping network system for review convenience.
+    for item in metadata.values():
+        if not item['line_number'] and item['parent_system'] in metadata:
+            item['line_number'] = metadata[item['parent_system']]['line_number']
 
-    for connection_index, connection in enumerate(connections):
-        parent = parents.get(connection)
-        relation = local_name(parent.tag) if parent is not None else None
-        for side in ('From', 'To'):
-            component_id = connection.get(side + 'ID')
-            port_ref = connection.get(side + 'Node')
-            candidates = ids.get(component_id, []) if component_id else []
-            record = {
-                'connection_index': connection_index,
-                'connection_attributes': dict(connection.attrib),
-                'parent_tag': relation,
-                'parent_id': parent.get('ID') if parent is not None else None,
-                'side': side,
-                'component_id': component_id,
-                'port_ref': port_ref,
-                'status': None,
-                'declared_nodes': [],
-                'resolved_node': None,
-                'node_type': None,
-                'port_index_convention': 'zero_based_all_direct_Node_children',
-                'type_consistency': 'not_checked',
-            }
-            if not component_id:
-                record['status'] = 'missing_endpoint'
-            elif len(candidates) == 0:
-                record['status'] = 'unresolved_component_id'
-            elif len(candidates) != 1:
-                record['status'] = 'ambiguous_component_id'
-            else:
-                component = candidates[0]
-                # Node order comes from XML; direct Node children only.
-                nodes = [node for group in component
-                         if local_name(group.tag) == 'ConnectionPoints'
-                         for node in group if local_name(node.tag) == 'Node']
-                record['declared_nodes'] = [dict(node.attrib) for node in nodes]
+    with report_path.open(encoding='utf-8-sig') as f:
+        report = json.load(f)
+    endpoint_results = report.get('endpoint_results', [])
+    by_conn: dict[int, dict] = {}
+    for item in endpoint_results:
+        n = item['connection_index']
+        row = by_conn.setdefault(n, {
+            'connection_index': n,
+            'kind': 'process' if item.get('parent_tag') == 'PipingNetworkSegment' else 'signal',
+            'owner_id': item.get('parent_id', ''),
+            'from_id': item.get('connection_attributes', {}).get('FromID', ''),
+            'from_node': item.get('connection_attributes', {}).get('FromNode', ''),
+            'to_id': item.get('connection_attributes', {}).get('ToID', ''),
+            'to_node': item.get('connection_attributes', {}).get('ToNode', ''),
+        })
+        prefix = 'from' if item.get('side') == 'From' else 'to'
+        row[f'{prefix}_port_id'] = (item.get('resolved_node') or {}).get('ID', '')
+        row[f'{prefix}_status'] = item.get('status', '')
+        row[f'{prefix}_port_type'] = item.get('node_type') or ''
 
-                if port_ref is None or not port_ref.strip():
-                    record['status'] = 'missing_port_ref'
-                elif not re.fullmatch(r'[0-9]+', port_ref):
-                    record['status'] = 'invalid_port_ref_format'
-                else:
-                    index = int(port_ref)
-                    if index >= len(nodes):
-                        record['status'] = 'port_index_out_of_range'
-                    else:
-                        node = nodes[index]
-                        record['resolved_node'] = dict(node.attrib)
-                        record['node_type'] = node.get('Type')
-                        record['status'] = 'index_resolved'
-                        # Do not silently treat this as schema-level validity.
-                        if relation == 'PipingNetworkSegment':
-                            record['type_consistency'] = (
-                                'process' if node.get('Type') == 'process'
-                                else 'inspect_type')
-                        elif relation == 'InformationFlow':
-                            record['type_consistency'] = (
-                                'signal' if node.get('Type') == 'signal'
-                                else 'inspect_type')
-            endpoints.append(record)
+    connections = []
+    for n, row in sorted(by_conn.items()):
+        for prefix in ('from', 'to'):
+            meta = metadata.get(row[f'{prefix}_id'], {})
+            for field in ('component_class', 'engineering_name', 'display_labels', 'parent_equipment', 'x', 'y'):
+                v = meta.get(field, '')
+                row[f'{prefix}_{field}'] = ' | '.join(v) if isinstance(v, list) else v
+        owner = metadata.get(row['owner_id'], {})
+        row['line_number'] = owner.get('line_number', '')
+        row['owner_parent_system'] = owner.get('parent_system', '')
+        row['direction_status'] = 'unknown; FromID/ToID are not verified process flow'
+        connections.append(row)
 
-    # Extract evidence, NOT inferred physical direction. A PipeFlowArrow may
-    # be nested under display/presentation elements, so inspect full ancestry.
+    port_uses = defaultdict(list)
+    for row in connections:
+        if row['kind'] != 'process':
+            continue
+        for prefix in ('from', 'to'):
+            if row[f'{prefix}_id'] and row.get(f'{prefix}_port_id'):
+                port_uses[(row[f'{prefix}_id'], row[f'{prefix}_port_id'])].append(row['connection_index'])
+    reuse_flags = [{'component_id': obj, 'port_id': port, 'connection_indices': indices}
+                   for (obj, port), indices in sorted(port_uses.items()) if len(indices) > 1]
+
     arrows = []
-    for arrow in (e for e in live if local_name(e.tag) == 'PipeFlowArrow'):
-        chain = parent_chain(arrow, parents)
-        segment = next((a for a in chain if a['tag'] == 'PipingNetworkSegment'), None)
-        # Keep nearby source XML rather than interpreting geometry transforms.
-        descendants = list(arrow.iter())
+    for arrow in report.get('flow_arrows', []):
+        position = next((x['attributes'] for x in arrow.get('descendants', [])
+                         if x.get('tag') == 'Location'), {})
         arrows.append({
-            'id': arrow.get('ID'),
-            'attributes': dict(arrow.attrib),
-            'ancestors': chain,
-            'containing_segment_id': segment['id'] if segment else None,
-            'generic_attributes': own_generic_attributes(arrow),
-            'descendants': [
-                {'tag': local_name(e.tag), 'attributes': dict(e.attrib),
-                 'text': (e.text or '').strip()[:300]}
-                for e in descendants[:100]
-            ],
-            'descendants_truncated': len(descendants) > 100,
+            'arrow_id': arrow.get('id', ''),
+            'segment_id': arrow.get('containing_segment_id', ''),
+            'line_number': metadata.get(arrow.get('containing_segment_id', ''), {}).get('line_number', ''),
+            'x': position.get('X', ''), 'y': position.get('Y', ''),
             'direction_status': 'not_inferred',
         })
 
-    # Capture explicit direction-related metadata anywhere in live XML, so
-    # generic attributes and direction flags are not overlooked.
-    direction_hints = []
-    direction_pattern = re.compile(r'(flow.?direction|flow.?in|flow.?out|pipe.?flow.?arrow)', re.I)
-    for element in live:
-        matches = {k: v for k, v in element.attrib.items()
-                   if direction_pattern.search(k) or
-                   (local_name(element.tag) == 'GenericAttribute'
-                    and direction_pattern.search(str(element.get('Name', ''))))}
-        if matches:
-            direction_hints.append({
-                'tag': local_name(element.tag),
-                'id': element.get('ID'),
-                'attributes': matches,
-                'ancestors': parent_chain(element, parents),
-            })
-
-    return {
-        'source_file': str(xml_path),
-        'assumptions': {
-            'port_indexing': 'zero-based among direct ConnectionPoints/Node children; confirm against applicable Proteus specification',
-            'from_to_direction': 'connection endpoint ordering, NOT verified process flow',
-            'flow_arrow_direction': 'not inferred from raw geometry',
-            'flow_direction_availability': 'absence of evidence is not evidence of no flow',
-        },
-        'summary': {
-            'shape_catalogue_elements_excluded': excluded_count,
-            'connection_count': len(connections),
-            'endpoint_count': len(endpoints),
-            'endpoint_status_counts': dict(Counter(r['status'] for r in endpoints)),
-            'endpoint_type_counts': dict(Counter(r['type_consistency'] for r in endpoints)),
-            'duplicate_id_count': len(duplicate_ids),
-            'pipe_flow_arrow_count': len(arrows),
-            'direction_hint_count': len(direction_hints),
-        },
-        'duplicate_ids': duplicate_ids,
-        'endpoint_results': endpoints,
-        'flow_arrows': arrows,
-        'direction_hints': direction_hints,
+    output_dir.mkdir(parents=True, exist_ok=True)
+    component_rows = list(metadata.values())
+    export_csv(output_dir / 'dexpi_component_index.csv', component_rows,
+               ['xml_id','xml_type','component_class','engineering_name','display_labels',
+                'component_number','line_number','parent_equipment','parent_segment',
+                'parent_system','x','y','position_present'])
+    export_csv(output_dir / 'dexpi_connection_review.csv', connections,
+               ['connection_index','kind','owner_id','owner_parent_system','line_number',
+                'from_id','from_component_class','from_engineering_name','from_display_labels',
+                'from_parent_equipment','from_node','from_port_id','from_status','from_port_type','from_x','from_y',
+                'to_id','to_component_class','to_engineering_name','to_display_labels',
+                'to_parent_equipment','to_node','to_port_id','to_status','to_port_type','to_x','to_y',
+                'direction_status'])
+    export_csv(output_dir / 'dexpi_flow_arrows.csv', arrows,
+               ['arrow_id','segment_id','line_number','x','y','direction_status'])
+    enriched = {
+        'source_xml': str(xml_path), 'source_report': str(report_path),
+        'components': metadata, 'connections': connections,
+        'flow_arrows': arrows, 'process_port_reuse_review': reuse_flags,
+        'limitations': ['Port indices inherit the original report convention, which needs specification validation.',
+                        'No process flow direction is inferred from FromID/ToID or geometry.',
+                        'Display labels can be absent; engineering names and component numbers are distinct.',
+                        'Component positions require a matching graphical P&ID for visual confirmation.'],
     }
+    (output_dir / 'dexpi_enriched_inspection.json').write_text(
+        json.dumps(enriched, indent=2, ensure_ascii=False), encoding='utf-8')
+    return {'components': len(metadata), 'connections': len(connections),
+            'flow_arrows': len(arrows), 'port_reuse_flags': len(reuse_flags),
+            'output_dir': str(output_dir)}
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('xml', type=Path, help='DEXPI Proteus XML input')
-    parser.add_argument('--output', type=Path, default=Path('port_flow_inspection.json'))
+    parser.add_argument('--xml', type=Path, required=True)
+    parser.add_argument('--report', type=Path, required=True)
+    parser.add_argument('--output-dir', type=Path, required=True)
     args = parser.parse_args()
-    if not args.xml.is_file():
-        parser.error(f'Input XML not found: {args.xml}')
-    report = inspect(args.xml)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding='utf-8')
-    print(json.dumps(report['summary'], indent=2))
-    print(f'Saved: {args.output}')
+    print(json.dumps(enrich(args.xml, args.report, args.output_dir), indent=2))
 
 
 if __name__ == '__main__':

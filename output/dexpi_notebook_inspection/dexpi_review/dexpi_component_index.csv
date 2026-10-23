@@ -1,0 +1,340 @@
+﻿xml_id,xml_type,component_class,engineering_name,display_labels,component_number,line_number,parent_equipment,parent_segment,parent_system,x,y,position_present
+MetaData-1,MetaData,MetaData,,[],,,,,,,,False
+ActuatingSystem-1,ActuatingSystem,ActuatingSystem,PV4712.02,['PV4712.02'],,,,,,,,False
+ActuatingSystemNumberLabel-1,Label,ActuatingSystemNumberLabel,,[],,,,,,,,False
+ControlledActuator-1,ActuatingSystemComponent,ControlledActuator,PV4712.02_YC,['F.C.'],,,,,,323.5,199,True
+FailActionLabel-1,Label,FailActionLabel,,[],,,,,,,,False
+ControlledActuator-1-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-1,Node,,,[],,,,,,331.6,199,True
+OperatedValveReference-1,ActuatingSystemComponent,OperatedValveReference,PV4712.02_YV,[],,,,,,,,False
+ActuatingSystem-2,ActuatingSystem,ActuatingSystem,HV4750.01,[],,,,,,,,False
+ControlledActuator-2,ActuatingSystemComponent,ControlledActuator,HV4750.01_YC,['F.C.'],,,,,,160,178,True
+FailActionLabel-2,Label,FailActionLabel,,[],,,,,,,,False
+ControlledActuator-2-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-2,Node,,,[],,,,,,151.9,178,True
+OperatedValveReference-2,ActuatingSystemComponent,OperatedValveReference,HV4750.01_YV,[],,,,,,,,False
+ActuatingSystem-3,ActuatingSystem,ActuatingSystem,TV4750.03,['TV4750.03'],,,,,,,,False
+ActuatingSystemNumberLabel-2,Label,ActuatingSystemNumberLabel,,[],,,,,,,,False
+ControlledActuator-3,ActuatingSystemComponent,ControlledActuator,TV4750.03_YC,['F.O.'],,,,,,340.5,184,True
+FailActionLabel-3,Label,FailActionLabel,,[],,,,,,,,False
+ControlledActuator-3-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-3,Node,,,[],,,,,,340.5,192.1,True
+OperatedValveReference-3,ActuatingSystemComponent,OperatedValveReference,TV4750.03_YV,[],,,,,,,,False
+PipingNetworkSystem-1,PipingNetworkSystem,PipingNetworkSystem,,['MNb 47121 75HB13 80'],,47121,,,,,,False
+PipingNetworkSystemLabel-1,Label,PipingNetworkSystemLabel,,[],,47121,,,PipingNetworkSystem-1,,,False
+PipingNetworkSegment-1,PipingNetworkSegment,PipingNetworkSegment,,[],,47121,,,PipingNetworkSystem-1,,,False
+FlowInPipeOffPageConnector-1,PipeOffPageConnector,FlowInPipeOffPageConnector,,[],,47121,,PipingNetworkSegment-1,PipingNetworkSystem-1,38,143,True
+FlowInPipeOffPageConnector-1-DefaultNode,Node,,,[],,47121,,PipingNetworkSegment-1,PipingNetworkSystem-1,,,False
+PipingNode-1,Node,,,[],,47121,,PipingNetworkSegment-1,PipingNetworkSystem-1,38,143,True
+PipingNetworkSystem-2,PipingNetworkSystem,PipingNetworkSystem,,['MNb 47122 75HB13 80'],,47122,,,,,,False
+PipingNetworkSystemLabel-2,Label,PipingNetworkSystemLabel,,[],,47122,,,PipingNetworkSystem-2,,,False
+PipingNetworkSegment-2,PipingNetworkSegment,PipingNetworkSegment,,[],,47122,,,PipingNetworkSystem-2,,,False
+PipingNetworkSystem-3,PipingNetworkSystem,PipingNetworkSystem,,['MNb 47123 75HB13 80'],,47123,,,,,,False
+PipingNetworkSystemLabel-3,Label,PipingNetworkSystemLabel,,[],,47123,,,PipingNetworkSystem-3,,,False
+PipingNetworkSegment-3,PipingNetworkSegment,PipingNetworkSegment,,[],,47123,,,PipingNetworkSystem-3,,,False
+GlobeValve-2,PipingComponent,GlobeValve,,[],C1,47123,,PipingNetworkSegment-3,PipingNetworkSystem-3,160,178,True
+GlobeValve-2-DefaultNode,Node,,,[],,47123,,PipingNetworkSegment-3,PipingNetworkSystem-3,,,False
+PipingNode-2,Node,,,[],,47123,,PipingNetworkSegment-3,PipingNetworkSystem-3,160,176,True
+PipingNode-3,Node,,,[],,47123,,PipingNetworkSegment-3,PipingNetworkSystem-3,160,180,True
+PipeFlowArrow-1,PipeFlowArrow,,,[],,47123,,PipingNetworkSegment-3,PipingNetworkSystem-3,181,231.359003909,True
+PipingNetworkSystem-4,PipingNetworkSystem,PipingNetworkSystem,,['MNc 47124 75HB13 80'],,47124,,,,,,False
+PipingNetworkSystemLabel-4,Label,PipingNetworkSystemLabel,,[],,47124,,,PipingNetworkSystem-4,,,False
+PipingNetworkSegment-4,PipingNetworkSegment,PipingNetworkSegment,,[],,47124,,,PipingNetworkSystem-4,,,False
+ButterflyValve-1,PipingComponent,ButterflyValve,66KL21,['66KL21-80'],C1,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,194,160,True
+ButterflyValve-1-DefaultNode,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,,,False
+PipingNode-4,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,194,158,True
+PipingNode-5,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,194,162,True
+ValveLabel-1,Label,ValveLabel,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,,,False
+SwingCheckValve-1,PipingComponent,SwingCheckValve,75SA21,['75SA21-80'],C2,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,203,143,True
+SwingCheckValve-1-DefaultNode,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,,,False
+PipingNode-6,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,201,143,True
+PipingNode-7,Node,,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,205,143,True
+ValveLabel-2,Label,ValveLabel,,[],,47124,,PipingNetworkSegment-4,PipingNetworkSystem-4,,,False
+PipingNetworkSegment-5,PipingNetworkSegment,PipingNetworkSegment,,[],,47124,,,PipingNetworkSystem-4,,,False
+PipeReducer-1,PipingComponent,PipeReducer,,['80/50'],C3,47124,,PipingNetworkSegment-5,PipingNetworkSystem-4,217,143,True
+PipeReducer-1-DefaultNode,Node,,,[],,47124,,PipingNetworkSegment-5,PipingNetworkSystem-4,,,False
+PipingNode-8,Node,,,[],,47124,,PipingNetworkSegment-5,PipingNetworkSystem-4,215,143,True
+PipingNode-9,Node,,,[],,47124,,PipingNetworkSegment-5,PipingNetworkSystem-4,219,143,True
+ValveLabel-3,Label,ValveLabel,,[],,47124,,PipingNetworkSegment-5,PipingNetworkSystem-4,,,False
+PipingNetworkSegment-6,PipingNetworkSegment,PipingNetworkSegment,,[],,47124,,,PipingNetworkSystem-4,,,False
+BallValve-1,PipingComponent,BallValve,73KH12,['73KH12-50'],C4,47124,,PipingNetworkSegment-6,PipingNetworkSystem-4,231,143,True
+BallValve-1-DefaultNode,Node,,,[],,47124,,PipingNetworkSegment-6,PipingNetworkSystem-4,,,False
+PipingNode-10,Node,,,[],,47124,,PipingNetworkSegment-6,PipingNetworkSystem-4,229,143,True
+PipingNode-11,Node,,,[],,47124,,PipingNetworkSegment-6,PipingNetworkSystem-4,233,143,True
+ValveLabel-4,Label,ValveLabel,,[],,47124,,PipingNetworkSegment-6,PipingNetworkSystem-4,,,False
+PipingNetworkSystem-5,PipingNetworkSystem,PipingNetworkSystem,,['MNc 47125 73HG12 25'],,47125,,,,,,False
+PipingNetworkSystemLabel-5,Label,PipingNetworkSystemLabel,,[],,47125,,,PipingNetworkSystem-5,,,False
+PipingNetworkSegment-7,PipingNetworkSegment,PipingNetworkSegment,,[],,47125,,,PipingNetworkSystem-5,,,False
+SpringLoadedGlobeSafetyValve-1,PipingComponent,SpringLoadedGlobeSafetyValve,SV 104.01,"['SV 104.01', 'P = 6 barg', 'DN = 25/50']",,47125,,PipingNetworkSegment-7,PipingNetworkSystem-5,269,203,True
+SpringLoadedGlobeSafetyValve-1-DefaultNode,Node,,,[],,47125,,PipingNetworkSegment-7,PipingNetworkSystem-5,,,False
+PipingNode-12,Node,,,[],,47125,,PipingNetworkSegment-7,PipingNetworkSystem-5,269,201,True
+PipingNode-13,Node,,,[],,47125,,PipingNetworkSegment-7,PipingNetworkSystem-5,267,203,True
+SafetyValveOrFittingLabel-1,Label,SafetyValveOrFittingLabel,,[],,47125,,PipingNetworkSegment-7,PipingNetworkSystem-5,,,False
+PipingNetworkSegment-8,PipingNetworkSegment,PipingNetworkSegment,,['MNc 47125 75HB13 50'],,47125,,,PipingNetworkSystem-5,,,False
+PipingNetworkSegmentLabel-1,Label,PipingNetworkSegmentLabel,,[],,47125,,PipingNetworkSegment-8,PipingNetworkSystem-5,,,False
+PipeFlowArrow-2,PipeFlowArrow,,,[],,47125,,PipingNetworkSegment-8,PipingNetworkSystem-5,217,203,True
+PipeSlopeSymbol-1,PipeSlopeSymbol,,,[],,47125,,PipingNetworkSegment-8,PipingNetworkSystem-5,257,204.2,True
+PipingNetworkSystem-6,PipingNetworkSystem,PipingNetworkSystem,,['MNc 47126 75HB13 50'],,47126,,,,,,False
+PipingNetworkSystemLabel-6,Label,PipingNetworkSystemLabel,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipingNetworkSegment-9,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipeTee-2,PipingComponent,PipeTee,,[],C1,47126,,PipingNetworkSegment-9,PipingNetworkSystem-6,265,143,True
+PipeTee-2-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-9,PipingNetworkSystem-6,,,False
+PipingNode-14,Node,,,[],,47126,,PipingNetworkSegment-9,PipingNetworkSystem-6,265.001,143,True
+PipingNode-15,Node,,,[],,47126,,PipingNetworkSegment-9,PipingNetworkSystem-6,264.999,143,True
+PipingNode-16,Node,,,[],,47126,,PipingNetworkSegment-9,PipingNetworkSystem-6,265,142.999,True
+PipingNetworkSegment-10,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+BallValve-2,PipingComponent,BallValve,73KH12,['73KH12-25'],C2,47126,,PipingNetworkSegment-10,PipingNetworkSystem-6,265,137,True
+BallValve-2-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-10,PipingNetworkSystem-6,,,False
+PipingNode-17,Node,,,[],,47126,,PipingNetworkSegment-10,PipingNetworkSystem-6,265,135,True
+PipingNode-18,Node,,,[],,47126,,PipingNetworkSegment-10,PipingNetworkSystem-6,265,139,True
+ValveLabel-5,Label,ValveLabel,,[],,47126,,PipingNetworkSegment-10,PipingNetworkSystem-6,,,False
+PipingNetworkSegment-11,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipeTee-1,PipingComponent,PipeTee,,[],C3,47126,,PipingNetworkSegment-11,PipingNetworkSystem-6,269,143,True
+PipeTee-1-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-11,PipingNetworkSystem-6,,,False
+PipingNode-19,Node,,,[],,47126,,PipingNetworkSegment-11,PipingNetworkSystem-6,268.999,143,True
+PipingNode-20,Node,,,[],,47126,,PipingNetworkSegment-11,PipingNetworkSystem-6,269.001,143,True
+PipingNode-21,Node,,,[],,47126,,PipingNetworkSegment-11,PipingNetworkSystem-6,269,143.001,True
+PipingNetworkSegment-12,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipeTee-3,PipingComponent,PipeTee,,[],C4,47126,,PipingNetworkSegment-12,PipingNetworkSystem-6,281,143,True
+PipeTee-3-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-12,PipingNetworkSystem-6,,,False
+PipingNode-22,Node,,,[],,47126,,PipingNetworkSegment-12,PipingNetworkSystem-6,280.999,143,True
+PipingNode-23,Node,,,[],,47126,,PipingNetworkSegment-12,PipingNetworkSystem-6,281.001,143,True
+PipingNode-24,Node,,,[],,47126,,PipingNetworkSegment-12,PipingNetworkSystem-6,281,143.001,True
+PipingNetworkSegment-13,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+BallValve-3,PipingComponent,BallValve,73KH12,['73KH12-25'],C5,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,149,True
+BallValve-3-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,,,False
+PipingNode-25,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,147,True
+PipingNode-26,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,151,True
+ValveLabel-6,Label,ValveLabel,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,,,False
+BlindFlange-1,PipingComponent,BlindFlange,,[],C6,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,151.8,True
+BlindFlange-1-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,,,False
+PipingNode-27,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,151.8,True
+InstrumentationNodePosition-4,Node,,,[],,47126,,PipingNetworkSegment-13,PipingNetworkSystem-6,281,151.8,True
+PipingNetworkSegment-14,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+BallValve-4,PipingComponent,BallValve,73KH12,['73KH12-50'],C7,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,289,143,True
+BallValve-4-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,,,False
+PipingNode-28,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,287,143,True
+PipingNode-29,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,291,143,True
+ValveLabel-7,Label,ValveLabel,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,,,False
+PipeTee-4,PipingComponent,PipeTee,,[],C8,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,323.5,143,True
+PipeTee-4-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,,,False
+PipingNode-30,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,323.499,143,True
+PipingNode-31,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,323.501,143,True
+PipingNode-32,Node,,,[],,47126,,PipingNetworkSegment-14,PipingNetworkSystem-6,323.5,143.001,True
+PipingNetworkSegment-15,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipingNetworkSegment-16,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+PipeTee-5,PipingComponent,PipeTee,,[],C9,47126,,PipingNetworkSegment-16,PipingNetworkSystem-6,365,143,True
+PipeTee-5-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-16,PipingNetworkSystem-6,,,False
+PipingNode-33,Node,,,[],,47126,,PipingNetworkSegment-16,PipingNetworkSystem-6,364.999,143,True
+PipingNode-34,Node,,,[],,47126,,PipingNetworkSegment-16,PipingNetworkSystem-6,365.001,143,True
+PipingNode-35,Node,,,[],,47126,,PipingNetworkSegment-16,PipingNetworkSystem-6,365,143.001,True
+PipingNetworkSegment-17,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+BallValve-5,PipingComponent,BallValve,73KH12,['73KH12-25'],C10,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,149,True
+BallValve-5-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,,,False
+PipingNode-36,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,147,True
+PipingNode-37,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,151,True
+ValveLabel-8,Label,ValveLabel,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,,,False
+BlindFlange-2,PipingComponent,BlindFlange,,[],C11,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,151.8,True
+BlindFlange-2-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,,,False
+PipingNode-38,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,151.8,True
+InstrumentationNodePosition-5,Node,,,[],,47126,,PipingNetworkSegment-17,PipingNetworkSystem-6,365,151.8,True
+PipingNetworkSegment-18,PipingNetworkSegment,PipingNetworkSegment,,[],,47126,,,PipingNetworkSystem-6,,,False
+FlowOutPipeOffPageConnector-1,PipeOffPageConnector,FlowOutPipeOffPageConnector,,[],,47126,,PipingNetworkSegment-18,PipingNetworkSystem-6,378,143,True
+FlowOutPipeOffPageConnector-1-DefaultNode,Node,,,[],,47126,,PipingNetworkSegment-18,PipingNetworkSystem-6,,,False
+PipingNode-39,Node,,,[],,47126,,PipingNetworkSegment-18,PipingNetworkSystem-6,378,143,True
+PipeFlowArrow-3,PipeFlowArrow,,,[],,47126,,PipingNetworkSegment-18,PipingNetworkSystem-6,375,143,True
+PipingNetworkSystem-7,PipingNetworkSystem,PipingNetworkSystem,,['MNc 47127 75HB13 50 Q 80'],,47127,,,,,,False
+PipingNetworkSystemLabel-7,Label,PipingNetworkSystemLabel,,[],,47127,,,PipingNetworkSystem-7,,,False
+PipingNetworkSegment-19,PipingNetworkSegment,PipingNetworkSegment,,['Q80'],,47127,,,PipingNetworkSystem-7,,,False
+InsulationLabel-1,Label,InsulationLabel,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,,,False
+GlobeValve-1,PipingComponent,GlobeValve,,[],C1,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,323.5,199,True
+GlobeValve-1-DefaultNode,Node,,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,,,False
+PipingNode-40,Node,,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,323.5,197,True
+PipingNode-41,Node,,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,323.5,201,True
+PipeFlowArrow-4,PipeFlowArrow,,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,217,214,True
+InsulationSymbol-1,InsulationSymbol,,,[],,47127,,PipingNetworkSegment-19,PipingNetworkSystem-7,311.8,214,True
+PipingNetworkSystem-8,PipingNetworkSystem,PipingNetworkSystem,,['WKa 47130 75HB13 50'],,47130,,,,,,False
+PipingNetworkSystemLabel-8,Label,PipingNetworkSystemLabel,,[],,47130,,,PipingNetworkSystem-8,,,False
+PipingNetworkSegment-20,PipingNetworkSegment,PipingNetworkSegment,,[],,47130,,,PipingNetworkSystem-8,,,False
+PipeFlowArrow-5,PipeFlowArrow,,,[],,47130,,PipingNetworkSegment-20,PipingNetworkSystem-8,120,136,True
+PipingNetworkSystem-9,PipingNetworkSystem,PipingNetworkSystem,,['WKb 47131 75HB13 50'],,47131,,,,,,False
+PipingNetworkSystemLabel-9,Label,PipingNetworkSystemLabel,,[],,47131,,,PipingNetworkSystem-9,,,False
+PipingNetworkSegment-21,PipingNetworkSegment,PipingNetworkSegment,,[],,47131,,,PipingNetworkSystem-9,,,False
+PipeFlowArrow-6,PipeFlowArrow,,,[],,47131,,PipingNetworkSegment-21,PipingNetworkSystem-9,153,134.25,True
+PipingNetworkSystem-10,PipingNetworkSystem,PipingNetworkSystem,,['QSa 47140 75HB13 50 Q 80'],,47140,,,,,,False
+PipingNetworkSystemLabel-10,Label,PipingNetworkSystemLabel,,[],,47140,,,PipingNetworkSystem-10,,,False
+PipingNetworkSegment-22,PipingNetworkSegment,PipingNetworkSegment,,[],,47140,,,PipingNetworkSystem-10,,,False
+PipeFlowArrow-7,PipeFlowArrow,,,[],,47140,,PipingNetworkSegment-22,PipingNetworkSystem-10,344.5,136,True
+PipingNetworkSystem-11,PipingNetworkSystem,PipingNetworkSystem,,['QSb 47141 75HB13 50 Q 80'],,47141,,,,,,False
+PipingNetworkSystemLabel-11,Label,PipingNetworkSystemLabel,,[],,47141,,,PipingNetworkSystem-11,,,False
+PipingNetworkSegment-23,PipingNetworkSegment,PipingNetworkSegment,,[],,47141,,,PipingNetworkSystem-11,,,False
+GlobeValve-3,PipingComponent,GlobeValve,,[],C1,47141,,PipingNetworkSegment-23,PipingNetworkSystem-11,340.5,184,True
+GlobeValve-3-DefaultNode,Node,,,[],,47141,,PipingNetworkSegment-23,PipingNetworkSystem-11,,,False
+PipingNode-42,Node,,,[],,47141,,PipingNetworkSegment-23,PipingNetworkSystem-11,338.5,184,True
+PipingNode-43,Node,,,[],,47141,,PipingNetworkSegment-23,PipingNetworkSystem-11,342.5,184,True
+PipeFlowArrow-8,PipeFlowArrow,,,[],,47141,,PipingNetworkSegment-23,PipingNetworkSystem-11,353,134.25,True
+ProcessInstrumentationFunction-1,ProcessInstrumentationFunction,ProcessInstrumentationFunction,,"['PI', '4712.01']",,,,,,281,165,True
+ProcessInstrumentationFunctionLabel-1,Label,ProcessInstrumentationFunctionLabel,,[],,,,,,,,False
+ProcessInstrumentationFunction-1-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-6,Node,,,[],,,,,,281,168.75,True
+InstrumentationNodePosition-7,Node,,,[],,,,,,281,161.25,True
+InstrumentationNodePosition-8,Node,,,[],,,,,,274.25,165,True
+InstrumentationNodePosition-9,Node,,,[],,,,,,287.75,165,True
+MeasuringLineFunction-1,InformationFlow,MeasuringLineFunction,,[],,,,,,,,False
+ProcessSignalGeneratingFunction-1,ProcessSignalGeneratingFunction,ProcessSignalGeneratingFunction,,[],,,,,,,,False
+ProcessInstrumentationFunction-2,ProcessInstrumentationFunction,ProcessInstrumentationFunction,,"['PICSA', '4712.02']",,,,,,365,165,True
+ProcessInstrumentationFunctionLabel-2,Label,ProcessInstrumentationFunctionLabel,,[],,,,,,,,False
+ProcessInstrumentationFunction-2-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-10,Node,,,[],,,,,,365,168.75,True
+InstrumentationNodePosition-11,Node,,,[],,,,,,365,161.25,True
+InstrumentationNodePosition-12,Node,,,[],,,,,,358.25,165,True
+InstrumentationNodePosition-13,Node,,,[],,,,,,371.75,165,True
+MeasuringLineFunction-2,InformationFlow,MeasuringLineFunction,,[],,,,,,,,False
+SignalConveyingFunction-1,InformationFlow,SignalConveyingFunction,,[],,,,,,,,False
+ActuatingFunction-1,ActuatingFunction,ActuatingFunction,,[],,,,,,,,False
+ProcessSignalGeneratingFunction-2,ProcessSignalGeneratingFunction,ProcessSignalGeneratingFunction,,[],,,,,,,,False
+ProcessInstrumentationFunction-3,ProcessInstrumentationFunction,ProcessInstrumentationFunction,,"['HS', '4750.01']",,,,,,137,178,True
+ProcessInstrumentationFunctionLabel-3,Label,ProcessInstrumentationFunctionLabel,,[],,,,,,,,False
+ProcessInstrumentationFunction-3-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-14,Node,,,[],,,,,,137,181.75,True
+InstrumentationNodePosition-15,Node,,,[],,,,,,137,174.25,True
+InstrumentationNodePosition-16,Node,,,[],,,,,,130.25,178,True
+InstrumentationNodePosition-17,Node,,,[],,,,,,143.75,178,True
+SignalConveyingFunction-2,InformationFlow,SignalConveyingFunction,,[],,,,,,,,False
+ActuatingFunction-2,ActuatingFunction,ActuatingFunction,,[],,,,,,,,False
+ProcessInstrumentationFunction-4,ProcessInstrumentationFunction,ProcessInstrumentationFunction,,"['TICSA', '4750.03']",,,,,,204,236,True
+ProcessInstrumentationFunctionLabel-4,Label,ProcessInstrumentationFunctionLabel,,[],,,,,,,,False
+ProcessInstrumentationFunction-4-DefaultNode,Node,,,[],,,,,,,,False
+InstrumentationNodePosition-18,Node,,,[],,,,,,204,239.75,True
+InstrumentationNodePosition-19,Node,,,[],,,,,,204,232.25,True
+InstrumentationNodePosition-20,Node,,,[],,,,,,197.25,236,True
+InstrumentationNodePosition-21,Node,,,[],,,,,,210.75,236,True
+MeasuringLineFunction-3,InformationFlow,MeasuringLineFunction,,[],,,,,,,,False
+SignalConveyingFunction-3,InformationFlow,SignalConveyingFunction,,[],,,,,,,,False
+ActuatingFunction-3,ActuatingFunction,ActuatingFunction,,[],,,,,,,,False
+ProcessSignalGeneratingFunction-3,ProcessSignalGeneratingFunction,ProcessSignalGeneratingFunction,,[],,,,,,,,False
+PlateHeatExchanger-1,Equipment,PlateHeatExchanger,H1007,"['H1007', 'Ident', 'Design Press. min. Chamber 1 / 2', '-1 barg', 'Design Press. max. Chamber 1 / 2', '60 barg', '30 barg', 'Design Temp. min. Chamber 1 / 2', '-45 °C', 'Design Temp. max. Chamber 1 / 2', '100 °C', 'Design Duty / Design Heat Transfer Area', '313 kW', '46.8 m²', 'DesignPlate Height / Plate Width', '850 mm', '1100 mm', 'MaterialPlates', '1.4306']",,,,,,140,153.5,True
+EquipmentTagNameLabel-1,Label,EquipmentTagNameLabel,,[],,,PlateHeatExchanger-1,,,,,False
+EquipmentBarLabel-1,Label,EquipmentBarLabel,,[],,,PlateHeatExchanger-1,,,,,False
+Nozzle-3,Nozzle,Nozzle,N1,"['N1', '80']",,,PlateHeatExchanger-1,,,136,143,True
+Nozzle-3-DefaultNode,Node,,,[],,,PlateHeatExchanger-1,,,,,False
+PipingNode-44,Node,,,[],,,PlateHeatExchanger-1,,,132,143,True
+InstrumentationNodePosition-22,Node,,,[],,,PlateHeatExchanger-1,,,132,143,True
+NozzleStandardLabel-1,Label,NozzleStandardLabel,,[],,,PlateHeatExchanger-1,,,,,False
+Nozzle-4,Nozzle,Nozzle,N2,"['N2', '80']",,,PlateHeatExchanger-1,,,144,164,True
+Nozzle-4-DefaultNode,Node,,,[],,,PlateHeatExchanger-1,,,,,False
+PipingNode-45,Node,,,[],,,PlateHeatExchanger-1,,,148,164,True
+InstrumentationNodePosition-23,Node,,,[],,,PlateHeatExchanger-1,,,148,164,True
+NozzleStandardLabel-2,Label,NozzleStandardLabel,,[],,,PlateHeatExchanger-1,,,,,False
+Nozzle-13,Nozzle,Nozzle,N3,"['N3', '50']",,,PlateHeatExchanger-1,,,136,164,True
+Nozzle-13-DefaultNode,Node,,,[],,,PlateHeatExchanger-1,,,,,False
+PipingNode-46,Node,,,[],,,PlateHeatExchanger-1,,,132,164,True
+InstrumentationNodePosition-24,Node,,,[],,,PlateHeatExchanger-1,,,132,164,True
+NozzleStandardLabel-3,Label,NozzleStandardLabel,,[],,,PlateHeatExchanger-1,,,,,False
+Nozzle-14,Nozzle,Nozzle,N4,"['N4', '50']",,,PlateHeatExchanger-1,,,144,143,True
+Nozzle-14-DefaultNode,Node,,,[],,,PlateHeatExchanger-1,,,,,False
+PipingNode-47,Node,,,[],,,PlateHeatExchanger-1,,,148,143,True
+InstrumentationNodePosition-25,Node,,,[],,,PlateHeatExchanger-1,,,148,143,True
+NozzleStandardLabel-4,Label,NozzleStandardLabel,,[],,,PlateHeatExchanger-1,,,,,False
+Chamber-1,Equipment,Chamber,Chamber 1,[],,,PlateHeatExchanger-1,,,,,False
+Chamber-2,Equipment,Chamber,Chamber 2,[],,,PlateHeatExchanger-1,,,,,False
+TubularHeatExchanger-1,Equipment,TubularHeatExchanger,H1008,"['H1008', 'Ident', 'Design Press. min. Chamber 1 / 2', '-1 barg', 'Design Press. max. Chamber 1 / 2', '60 barg', '30 barg', 'Design Temp. min. Chamber 1 / 2', '-45 °C', 'Design Temp. max. Chamber 1 / 2', '100 °C', 'Design Duty / Design Heat Transfer Area', '313 kW', '46.8 m²', 'Nominal Diameter / Tube Length', 'DN 800', '2200 mm', 'MaterialTubes / Material Shell', '1.4306', '1.4308']",,,,,,334,167,True
+EquipmentTagNameLabel-2,Label,EquipmentTagNameLabel,,[],,,TubularHeatExchanger-1,,,,,False
+EquipmentBarLabel-2,Label,EquipmentBarLabel,,[],,,TubularHeatExchanger-1,,,,,False
+Nozzle-10,Nozzle,Nozzle,N1,"['N1', '50']",,,TubularHeatExchanger-1,,,323.5,163.5,True
+Nozzle-10-DefaultNode,Node,,,[],,,TubularHeatExchanger-1,,,,,False
+PipingNode-48,Node,,,[],,,TubularHeatExchanger-1,,,323.5,159.5,True
+InstrumentationNodePosition-26,Node,,,[],,,TubularHeatExchanger-1,,,323.5,159.5,True
+NozzleStandardLabel-5,Label,NozzleStandardLabel,,[],,,TubularHeatExchanger-1,,,,,False
+Nozzle-11,Nozzle,Nozzle,N2,"['N2', '50']",,,TubularHeatExchanger-1,,,323.5,170.5,True
+Nozzle-11-DefaultNode,Node,,,[],,,TubularHeatExchanger-1,,,,,False
+PipingNode-49,Node,,,[],,,TubularHeatExchanger-1,,,323.5,174.5,True
+InstrumentationNodePosition-27,Node,,,[],,,TubularHeatExchanger-1,,,323.5,174.5,True
+NozzleStandardLabel-6,Label,NozzleStandardLabel,,[],,,TubularHeatExchanger-1,,,,,False
+Nozzle-16,Nozzle,Nozzle,N3,"['N3', '50']",,,TubularHeatExchanger-1,,,328,170.5,True
+Nozzle-16-DefaultNode,Node,,,[],,,TubularHeatExchanger-1,,,,,False
+PipingNode-50,Node,,,[],,,TubularHeatExchanger-1,,,328,174.5,True
+InstrumentationNodePosition-28,Node,,,[],,,TubularHeatExchanger-1,,,328,174.5,True
+NozzleStandardLabel-7,Label,NozzleStandardLabel,,[],,,TubularHeatExchanger-1,,,,,False
+Nozzle-15,Nozzle,Nozzle,N4,"['N4', '50']",,,TubularHeatExchanger-1,,,344.5,163.5,True
+Nozzle-15-DefaultNode,Node,,,[],,,TubularHeatExchanger-1,,,,,False
+PipingNode-51,Node,,,[],,,TubularHeatExchanger-1,,,344.5,159.5,True
+InstrumentationNodePosition-29,Node,,,[],,,TubularHeatExchanger-1,,,344.5,159.5,True
+NozzleStandardLabel-8,Label,NozzleStandardLabel,,[],,,TubularHeatExchanger-1,,,,,False
+Chamber-3,Equipment,Chamber,Chamber 1,[],,,TubularHeatExchanger-1,,,,,False
+Chamber-4,Equipment,Chamber,Chamber 2,[],,,TubularHeatExchanger-1,,,,,False
+TubeBundle-1,Equipment,TubeBundle,,[],,,TubularHeatExchanger-1,,,,,False
+CentrifugalPump-1,Equipment,CentrifugalPump,P4711,"['P4711', 'Ident', 'Design Press. Casing min.', '-0.5 barg', 'Design Press. Casing max.', '60 barg', 'Design Temp. Casing min.', '-45 °C', 'Design Temp. Casing max.', '80 °C', 'Design Capacity / Design Press. Head', '200 m³/h', '10 m', 'Design Speed / Design Power max. Diam. Wheel', '600 1/min', '60 kW', 'Material Case Press. Side / Material Impeller', '1.4306', '1.4308']",,,,,,84,143,True
+EquipmentTagNameLabel-3,Label,EquipmentTagNameLabel,,[],,,CentrifugalPump-1,,,,,False
+EquipmentBarLabel-3,Label,EquipmentBarLabel,,[],,,CentrifugalPump-1,,,,,False
+Nozzle-1,Nozzle,Nozzle,N1,"['N1', '80']",,,CentrifugalPump-1,,,78.75,143,True
+Nozzle-1-DefaultNode,Node,,,[],,,CentrifugalPump-1,,,,,False
+PipingNode-52,Node,,,[],,,CentrifugalPump-1,,,74.75,143,True
+InstrumentationNodePosition-30,Node,,,[],,,CentrifugalPump-1,,,74.75,143,True
+NozzleStandardLabel-9,Label,NozzleStandardLabel,,[],,,CentrifugalPump-1,,,,,False
+Nozzle-2,Nozzle,Nozzle,N2,"['N2', '80']",,,CentrifugalPump-1,,,89.25,143,True
+Nozzle-2-DefaultNode,Node,,,[],,,CentrifugalPump-1,,,,,False
+PipingNode-53,Node,,,[],,,CentrifugalPump-1,,,93.25,143,True
+InstrumentationNodePosition-31,Node,,,[],,,CentrifugalPump-1,,,93.25,143,True
+NozzleStandardLabel-10,Label,NozzleStandardLabel,,[],,,CentrifugalPump-1,,,,,False
+Chamber-5,Equipment,Chamber,,[],,,CentrifugalPump-1,,,,,False
+Impeller-1,Equipment,Impeller,,[],,,CentrifugalPump-1,,,,,False
+ReciprocatingPump-1,Equipment,ReciprocatingPump,P4712,"['P4712', 'Ident', 'Design Press. Casing min.', '-1 barg', 'Design Press. Casing max.', '60 barg', 'Design Temp. Casing min.', '-45 °C', 'Design Temp. Casing max.', '100 °C', 'Design Capacity / Design Press. Head', '420 m³/h', '40 m', 'Design Speed / Design Power max. Diam. Wheel', '1400 1/min', '84 kW', 'Material Case Press. Side / Material Impeller', '1.4306', '1.4305']",,,,,,251,143,True
+EquipmentTagNameLabel-4,Label,EquipmentTagNameLabel,,[],,,ReciprocatingPump-1,,,,,False
+EquipmentBarLabel-4,Label,EquipmentBarLabel,,[],,,ReciprocatingPump-1,,,,,False
+Nozzle-7,Nozzle,Nozzle,N1,"['N1', '50']",,,ReciprocatingPump-1,,,245.75,143,True
+Nozzle-7-DefaultNode,Node,,,[],,,ReciprocatingPump-1,,,,,False
+PipingNode-54,Node,,,[],,,ReciprocatingPump-1,,,241.75,143,True
+InstrumentationNodePosition-32,Node,,,[],,,ReciprocatingPump-1,,,241.75,143,True
+NozzleStandardLabel-11,Label,NozzleStandardLabel,,[],,,ReciprocatingPump-1,,,,,False
+Nozzle-9,Nozzle,Nozzle,N2,"['N2', '50']",,,ReciprocatingPump-1,,,256.25,143,True
+Nozzle-9-DefaultNode,Node,,,[],,,ReciprocatingPump-1,,,,,False
+PipingNode-55,Node,,,[],,,ReciprocatingPump-1,,,260.25,143,True
+InstrumentationNodePosition-33,Node,,,[],,,ReciprocatingPump-1,,,260.25,143,True
+NozzleStandardLabel-12,Label,NozzleStandardLabel,,[],,,ReciprocatingPump-1,,,,,False
+Chamber-6,Equipment,Chamber,,[],,,ReciprocatingPump-1,,,,,False
+Displacer-1,Equipment,Displacer,,[],,,ReciprocatingPump-1,,,,,False
+Tank-1,Equipment,Tank,T4750,"['T4750', 'Ident', 'Design Press. min. Chamber 1 / 2', '-0.1 barg', 'Design Press. max. Chamber 1 / 2', '0.1 barg', '0.05 barg', 'Design Temp. min. Chamber 1 / 2', '-45 °C', 'Design Temp. max. Chamber 1 / 2', '100 °C', 'Nominal Diameter / Overall Height/Length', 'DN 20000', '4 m', 'Nominal Capacity', '26 m³', 'Material Chamber 1 / 2', '1.4306', '1.4305']",,,,,,194,198,True
+EquipmentTagNameLabel-5,Label,EquipmentTagNameLabel,,[],,,Tank-1,,,,,False
+EquipmentBarLabel-5,Label,EquipmentBarLabel,,[],,,Tank-1,,,,,False
+Nozzle-5,Nozzle,Nozzle,N1,"['N1', '80']",,,Tank-1,,,181,220.359003909,True
+Nozzle-5-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-56,Node,,,[],,,Tank-1,,,181,224.359003909,True
+InstrumentationNodePosition-34,Node,,,[],,,Tank-1,,,181,224.359003909,True
+NozzleStandardLabel-13,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-6,Nozzle,Nozzle,N2,"['N2', '80']",,,Tank-1,,,194,172.5,True
+Nozzle-6-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-57,Node,,,[],,,Tank-1,,,194,168.5,True
+InstrumentationNodePosition-35,Node,,,[],,,Tank-1,,,194,168.5,True
+NozzleStandardLabel-14,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-18,Nozzle,Nozzle,N3,"['N3', '80']",,,Tank-1,,,179,186,True
+Nozzle-18-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-58,Node,,,[],,,Tank-1,,,175,186,True
+InstrumentationNodePosition-36,Node,,,[],,,Tank-1,,,175,186,True
+NozzleStandardLabel-15,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-8,Nozzle,Nozzle,N5,"['N5', '50']",,,Tank-1,,,209,203,True
+Nozzle-8-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-59,Node,,,[],,,Tank-1,,,213,203,True
+InstrumentationNodePosition-37,Node,,,[],,,Tank-1,,,213,203,True
+NozzleStandardLabel-16,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-12,Nozzle,Nozzle,N6,"['N6', '50']",,,Tank-1,,,209,214,True
+Nozzle-12-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-60,Node,,,[],,,Tank-1,,,213,214,True
+InstrumentationNodePosition-38,Node,,,[],,,Tank-1,,,213,214,True
+NozzleStandardLabel-17,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-17,Nozzle,Nozzle,N7,"['N7', '25']",,,Tank-1,,,204,221.67618337,True
+Nozzle-17-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-61,Node,,,[],,,Tank-1,,,204,225.67618337,True
+InstrumentationNodePosition-39,Node,,,[],,,Tank-1,,,204,225.67618337,True
+NozzleStandardLabel-18,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-19,Nozzle,Nozzle,N8,"['N8', '800']",,,Tank-1,,,179,203,True
+NozzleStandardLabel-19,Label,NozzleStandardLabel,,[],,,Tank-1,,,,,False
+Nozzle-19-DefaultNode,Node,,,[],,,Tank-1,,,,,False
+PipingNode-62,Node,,,[],,,Tank-1,,,,,False
+Chamber-7,Equipment,Chamber,Chamber 1,[],,,Tank-1,,,,,False
+Chamber-8,Equipment,Chamber,Chamber 2,[],,,Tank-1,,,,,False
+InstrumentationLoopFunction-1,InstrumentationLoopFunction,InstrumentationLoopFunction,,[],,,,,,,,False
+InstrumentationLoopFunction-2,InstrumentationLoopFunction,InstrumentationLoopFunction,,[],,,,,,,,False
+InstrumentationLoopFunction-3,InstrumentationLoopFunction,InstrumentationLoopFunction,,[],,,,,,,,False
+InstrumentationLoopFunction-4,InstrumentationLoopFunction,InstrumentationLoopFunction,,[],,,,,,,,False
+Label-1,Label,Label,,[],,,,,,,,False

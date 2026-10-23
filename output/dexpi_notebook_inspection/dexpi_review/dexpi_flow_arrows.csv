@@ -1,0 +1,9 @@
+﻿arrow_id,segment_id,line_number,x,y,direction_status
+PipeFlowArrow-1,PipingNetworkSegment-3,47123,181,231.359003909,not_inferred
+PipeFlowArrow-2,PipingNetworkSegment-8,47125,217,203,not_inferred
+PipeFlowArrow-3,PipingNetworkSegment-18,47126,375,143,not_inferred
+PipeFlowArrow-4,PipingNetworkSegment-19,47127,217,214,not_inferred
+PipeFlowArrow-5,PipingNetworkSegment-20,47130,120,136,not_inferred
+PipeFlowArrow-6,PipingNetworkSegment-21,47131,153,134.25,not_inferred
+PipeFlowArrow-7,PipingNetworkSegment-22,47140,344.5,136,not_inferred
+PipeFlowArrow-8,PipingNetworkSegment-23,47141,353,134.25,not_inferred

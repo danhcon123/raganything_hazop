@@ -1,0 +1,146 @@
+{
+  "nodes": 59,
+  "edges": 121,
+  "directed": false,
+  "multigraph": false,
+  "entity_types": {
+    "equipment": 2,
+    "organization": 2,
+    "component": 2,
+    "substance": 3,
+    "process": 1,
+    "operatingparameter": 19,
+    "controlsystem": 5,
+    "document": 4,
+    "standard": 9,
+    "safetyrequirement": 4,
+    "table": 1,
+    "operatinglimit": 5,
+    "utility": 2
+  },
+  "relationship_keyword_strings": {
+    "produces": 3,
+    "performs": 1,
+    "contains,uses": 1,
+    "has_parameter": 18,
+    "controlled_by,uses": 1,
+    "controlled_by": 1,
+    "references,requires": 2,
+    "conforms_to": 12,
+    "categorized_as,conforms_to": 1,
+    "documented_in": 1,
+    "manufactures,patented": 1,
+    "requires": 1,
+    "provides": 1,
+    "belongs_to,contained_in,part_of": 38,
+    "measures": 2,
+    "involves_power_state": 2,
+    "enables": 2,
+    "referenced_with": 1,
+    "contains": 2,
+    "defines": 2,
+    "recognizes": 1,
+    "has_limit": 5,
+    "feeds,has_parameter": 2,
+    "consumes": 1,
+    "controls,monitors,uses": 1,
+    "communicates_via": 6,
+    "related_to": 10,
+    "influences": 1,
+    "uses": 1
+  },
+  "connected_components": 1,
+  "component_sizes": [
+    59
+  ],
+  "isolated_nodes": [],
+  "self_loops": 0,
+  "parameters_without_incident_owner_keyword": [],
+  "nodes_missing_source_id": 0,
+  "edges_missing_source_id": 0,
+  "highest_degree_nodes": [
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 Specifications Table (table)",
+      "degree": 38
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0",
+      "degree": 32
+    },
+    {
+      "node": "AEM Electrolyser EL 4.0",
+      "degree": 19
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring",
+      "degree": 6
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Production Rate",
+      "degree": 5
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption",
+      "degree": 5
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity",
+      "degree": 5
+    },
+    {
+      "node": "Hydrogen",
+      "degree": 4
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity",
+      "degree": 4
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced",
+      "degree": 4
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation",
+      "degree": 4
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Water Consumption",
+      "degree": 4
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Dimensions",
+      "degree": 4
+    },
+    {
+      "node": "Enapter",
+      "degree": 3
+    },
+    {
+      "node": "Advanced Software Integration",
+      "degree": 3
+    },
+    {
+      "node": "Battery Limits",
+      "degree": 3
+    },
+    {
+      "node": "Owner's Manual",
+      "degree": 3
+    },
+    {
+      "node": "S.E.P. Category",
+      "degree": 3
+    },
+    {
+      "node": "Complete Requirements List",
+      "degree": 3
+    },
+    {
+      "node": "Enapter AEM Electrolyser EL 4.0 :: Output Pressure",
+      "degree": 3
+    }
+  ],
+  "note": "Flags require source review. Components and edge keywords do not prove process topology or flow direction.",
+  "displayed_nodes": 59,
+  "displayed_edges": 121
+}

@@ -1,0 +1,1635 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="AEM Electrolyser EL 4.0">
+  <data key="d0">AEM Electrolyser EL 4.0</data>
+  <data key="d1">equipment</data>
+  <data key="d2">AEM Electrolyser EL 4.0 is Enapter's patented anion exchange membrane (AEM) electrolyser, a standardised, stackable and flexible system to produce on-site hydrogen; it has a modular design with advanced software integration that allows set up in minutes and remote control and management.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055311</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter">
+  <data key="d0">Enapter</data>
+  <data key="d1">organization</data>
+  <data key="d2">Enapter is the organization associated with the patented AEM Electrolyser EL 4.0 and provides the Enapter website for product information.&lt;SEP&gt;Enapter is the organization that developed the patented anion exchange membrane electrolyser EL 4.0 and its EMS.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641&lt;SEP&gt;chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055455</data>
+  <data key="d6"></data>
+</node>
+<node id="Anion Exchange Membrane (AEM)">
+  <data key="d0">Anion Exchange Membrane (AEM)</data>
+  <data key="d1">component</data>
+  <data key="d2">Anion exchange membrane (AEM) is the patented membrane technology used in Enapter's electrolyser for hydrogen production.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055312</data>
+  <data key="d6"></data>
+</node>
+<node id="Hydrogen">
+  <data key="d0">Hydrogen</data>
+  <data key="d1">substance</data>
+  <data key="d2">Hydrogen is the substance produced on-site by the AEM Electrolyser EL 4.0.&lt;SEP&gt;Hydrogen is produced by the Enapter AEM Electrolyser EL 4.0, with output purity specified at 35 barg and 8 barg.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641&lt;SEP&gt;chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055450</data>
+  <data key="d6"></data>
+</node>
+<node id="On-Site Hydrogen Production">
+  <data key="d0">On-Site Hydrogen Production</data>
+  <data key="d1">process</data>
+  <data key="d2">On-site hydrogen production is the process performed by the AEM Electrolyser EL 4.0 to generate hydrogen at the point of use.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055313</data>
+  <data key="d6"></data>
+</node>
+<node id="Hydrogen Flowrate">
+  <data key="d0">Hydrogen Flowrate</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">Hydrogen flowrate is the required production rate that can be achieved by stacking AEM Electrolyser EL 4.0 units; no numeric value is specified in the source.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055313</data>
+  <data key="d6"></data>
+</node>
+<node id="Standby Condition">
+  <data key="d0">Standby Condition</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">Standby condition refers to the condition in which no hydrogen is being produced and the auxiliary components are not powered.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055314</data>
+  <data key="d6"></data>
+</node>
+<node id="Auxiliary Components">
+  <data key="d0">Auxiliary Components</data>
+  <data key="d1">component</data>
+  <data key="d2">Auxiliary components are electrolyser components that are not powered during standby.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055314</data>
+  <data key="d6"></data>
+</node>
+<node id="Advanced Software Integration">
+  <data key="d0">Advanced Software Integration</data>
+  <data key="d1">controlsystem</data>
+  <data key="d2">Advanced software integration allows set up in minutes and remote control and management of the AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055315</data>
+  <data key="d6"></data>
+</node>
+<node id="Remote Control And Management">
+  <data key="d0">Remote Control And Management</data>
+  <data key="d1">controlsystem</data>
+  <data key="d2">Remote control and management is a capability of the AEM Electrolyser EL 4.0 enabled by advanced software integration.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055315</data>
+  <data key="d6"></data>
+</node>
+<node id="Battery Limits">
+  <data key="d0">Battery Limits</data>
+  <data key="d1">document</data>
+  <data key="d2">Battery limits are a referenced source that should be checked together with the Owner's Manual for the complete requirements list.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055316</data>
+  <data key="d6"></data>
+</node>
+<node id="Owner's Manual">
+  <data key="d0">Owner's Manual</data>
+  <data key="d1">document</data>
+  <data key="d2">Owner's Manual is a referenced document that should be checked for the complete requirements list for the AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055316</data>
+  <data key="d6"></data>
+</node>
+<node id="Pressure Equipment Directive 2014/68/EU">
+  <data key="d0">Pressure Equipment Directive 2014/68/EU</data>
+  <data key="d1">standard</data>
+  <data key="d2">Pressure Equipment Directive 2014/68/EU is the European directive according to which the AEM Electrolyser EL 4.0 belongs to the S.E.P. category.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055316</data>
+  <data key="d6"></data>
+</node>
+<node id="S.E.P. Category">
+  <data key="d0">S.E.P. Category</data>
+  <data key="d1">safetyrequirement</data>
+  <data key="d2">S.E.P. category is the pressure equipment safety classification to which the AEM Electrolyser EL 4.0 belongs according to Pressure Equipment Directive 2014/68/EU and Pressure Equipment (Safety) Regulations 2016.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055317</data>
+  <data key="d6"></data>
+</node>
+<node id="Pressure Equipment (Safety) Regulations 2016">
+  <data key="d0">Pressure Equipment (Safety) Regulations 2016</data>
+  <data key="d1">standard</data>
+  <data key="d2">Pressure Equipment (Safety) Regulations 2016 is the UK regulation according to which the AEM Electrolyser EL 4.0 belongs to the S.E.P. category.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055317</data>
+  <data key="d6"></data>
+</node>
+<node id="ETL">
+  <data key="d0">ETL</data>
+  <data key="d1">organization</data>
+  <data key="d2">ETL is the organization associated with recognition of electrolyser versions.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055318</data>
+  <data key="d6"></data>
+</node>
+<node id="ETL Recognized Electrolyser Versions">
+  <data key="d0">ETL Recognized Electrolyser Versions</data>
+  <data key="d1">standard</data>
+  <data key="d2">ETL recognized electrolyser versions are the only electrolyser versions recognized under the ETL notation.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055319</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter Website">
+  <data key="d0">Enapter Website</data>
+  <data key="d1">document</data>
+  <data key="d2">Enapter website at www.enapter.com/aem-electrolyser is the location for the most recent specifications of the AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055319</data>
+  <data key="d6"></data>
+</node>
+<node id="AEM Electrolyser EL 4.0 :: Hydrogen Flowrate">
+  <data key="d0">AEM Electrolyser EL 4.0 :: Hydrogen Flowrate</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The required hydrogen flowrate of the AEM Electrolyser EL 4.0 is achieved by stacking the electrolyser; no numeric value is specified in the source.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055320</data>
+  <data key="d6"></data>
+</node>
+<node id="AEM Electrolyser EL 4.0 :: Standby Condition">
+  <data key="d0">AEM Electrolyser EL 4.0 :: Standby Condition</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">Standby refers to the condition of the AEM Electrolyser EL 4.0 in which no hydrogen is being produced and the auxiliary components are not powered.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055320</data>
+  <data key="d6"></data>
+</node>
+<node id="AEM Electrolyser EL 4.0 :: Setup Time">
+  <data key="d0">AEM Electrolyser EL 4.0 :: Setup Time</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The AEM Electrolyser EL 4.0 allows set up in minutes, enabled by its modular design paired with advanced software integration; no numeric value is specified in the source.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055321</data>
+  <data key="d6"></data>
+</node>
+<node id="Complete Requirements List">
+  <data key="d0">Complete Requirements List</data>
+  <data key="d1">document</data>
+  <data key="d2">The complete requirements list is the set of requirements to be checked in the Battery limits and the Owner's Manual for the AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055321</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d1">table</data>
+  <data key="d2">Two-column specification table for Enapter AEM Electrolyser EL 4.0. Lists production up to 500 NL/h (1.0785 kg/24h), purity at 35/8 barg, up to 35 barg output, 4.8 kWh/Nm³, 2.4 kW operation, 3 kW peak, water and ambient requirements, dimensions, weight, controls, and CE/UKCA/CSA conformity. It supports the surrounding text by detailing the modular, stackable, remotely managed electrolyser’s performance, utilities, and compliance for on-site hydrogen production.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055370</data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 is Enapter’s patented anion exchange membrane electrolyser, described as standardised, stackable, flexible, modular, software-integrated, and able to produce on-site hydrogen; the table details its technical basis for stacking units to achieve a required hydrogen flowrate.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055441</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Production Rate">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Production Rate</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a production rate of up to 500 NL/h, up to 1.0785 kg/24 h.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055441</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a hydrogen output purity of 99.9% at 35 barg with &lt;1,000 ppm H₂O and &lt;5 ppm O₂ at 25 °C, and 98.8% at 8 barg with &lt;12,000 ppm H₂O and &lt;5 ppm O₂ at 25 °C.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055441</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Output Pressure">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Output Pressure</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has an output pressure limit of up to 35 barg.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055442</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a nominal power consumption per Nm³ of H₂ produced of 4.8 kWh/Nm³, beginning of life.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055442</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has an operative power consumption of 2.4 kW, beginning of life.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055443</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a peak power consumption of 3 kW.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055443</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a heat dissipation of 0.6 kW, beginning of life.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055444</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a max heat dissipation of 0.9 kW, end of life.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055444</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a standby power consumption of 0.3 kW.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055444</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Power Supply">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Power Supply</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a power supply of 220 – 240 V (AC), 50/60 Hz.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055445</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a maximum water input conductivity specified as minimum ASTM D1193-06 Type IV or recommended Type II or Type III.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055445</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Water Consumption">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Water Consumption</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a water consumption of ~420 mL/h at 25 °C.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055445</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a water input pressure range of 1 – 4 barg.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055446</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has an ambient operative temperature range of 5 °C – 45 °C.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055446</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has an ambient operative humidity range of up to 90% humidity, non-condensing.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055446</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: IP Rating">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: IP Rating</data>
+  <data key="d1">operatinglimit</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has an IP rating of IP 20.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055447</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Dimensions">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Dimensions</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has dimensions W: 482 mm × D: 635 mm × H: 266 mm.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055447</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Weight">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Weight</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has a weight of 42 kg.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055447</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet</data>
+  <data key="d1">operatingparameter</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has 6 U space inside cabinet.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055448</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring</data>
+  <data key="d1">controlsystem</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 is fully automatic with Enapter’s EMS via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055448</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapter AEM Electrolyser EL 4.0 :: Conformity">
+  <data key="d0">Enapter AEM Electrolyser EL 4.0 :: Conformity</data>
+  <data key="d1">safetyrequirement</data>
+  <data key="d2">The Enapter AEM Electrolyser EL 4.0 has conformity including CE mark according to the machine directive 2006/42/CE, UKCA mark according to Supply Machinery (Safety) Regulations 2008, and CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055448</data>
+  <data key="d6"></data>
+</node>
+<node id="Enapters EMS">
+  <data key="d0">Enapters EMS</data>
+  <data key="d1">controlsystem</data>
+  <data key="d2">Enapter’s EMS is the energy management system used for fully automatic control and monitoring of the Enapter AEM Electrolyser EL 4.0 via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055449</data>
+  <data key="d6"></data>
+</node>
+<node id="Wi-Fi">
+  <data key="d0">Wi-Fi</data>
+  <data key="d1">utility</data>
+  <data key="d2">Wi-Fi operating at 2.4 GHz is used for communication and control of the Enapter AEM Electrolyser EL 4.0 via Enapter’s EMS.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055449</data>
+  <data key="d6"></data>
+</node>
+<node id="Bluetooth">
+  <data key="d0">Bluetooth</data>
+  <data key="d1">utility</data>
+  <data key="d2">Bluetooth is used for communication and control of the Enapter AEM Electrolyser EL 4.0 via Enapter’s EMS.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055450</data>
+  <data key="d6"></data>
+</node>
+<node id="Modbus TCP over Ethernet">
+  <data key="d0">Modbus TCP over Ethernet</data>
+  <data key="d1">controlsystem</data>
+  <data key="d2">Modbus TCP over Ethernet is used for communication and control of the Enapter AEM Electrolyser EL 4.0 via Enapter’s EMS.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055450</data>
+  <data key="d6"></data>
+</node>
+<node id="Water">
+  <data key="d0">Water</data>
+  <data key="d1">substance</data>
+  <data key="d2">Water is consumed by the Enapter AEM Electrolyser EL 4.0, with consumption of ~420 mL/h at 25 °C and input pressure range of 1–4 barg.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055451</data>
+  <data key="d6"></data>
+</node>
+<node id="Oxygen">
+  <data key="d0">Oxygen</data>
+  <data key="d1">substance</data>
+  <data key="d2">Oxygen is produced by the Enapter AEM Electrolyser EL 4.0, with output purity specified as &lt;5 ppm O₂ at both 35 barg and 8 barg.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055451</data>
+  <data key="d6"></data>
+</node>
+<node id="ASTM D1193-06 Type IV">
+  <data key="d0">ASTM D1193-06 Type IV</data>
+  <data key="d1">standard</data>
+  <data key="d2">ASTM D1193-06 Type IV is the minimum water input conductivity standard specified for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055452</data>
+  <data key="d6"></data>
+</node>
+<node id="ASTM D1193-06 Type II">
+  <data key="d0">ASTM D1193-06 Type II</data>
+  <data key="d1">standard</data>
+  <data key="d2">ASTM D1193-06 Type II is a recommended water input conductivity standard for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055452</data>
+  <data key="d6"></data>
+</node>
+<node id="ASTM D1193-06 Type III">
+  <data key="d0">ASTM D1193-06 Type III</data>
+  <data key="d1">standard</data>
+  <data key="d2">ASTM D1193-06 Type III is a recommended water input conductivity standard for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055452</data>
+  <data key="d6"></data>
+</node>
+<node id="CE mark">
+  <data key="d0">CE mark</data>
+  <data key="d1">safetyrequirement</data>
+  <data key="d2">CE mark according to the machine directive 2006/42/CE is part of the conformity of the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055453</data>
+  <data key="d6"></data>
+</node>
+<node id="Machine Directive 2006/42/CE">
+  <data key="d0">Machine Directive 2006/42/CE</data>
+  <data key="d1">standard</data>
+  <data key="d2">Machine Directive 2006/42/CE is the regulation under which the CE mark is applied for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055453</data>
+  <data key="d6"></data>
+</node>
+<node id="UKCA mark">
+  <data key="d0">UKCA mark</data>
+  <data key="d1">safetyrequirement</data>
+  <data key="d2">UKCA mark according to Supply Machinery (Safety) Regulations 2008 is part of the conformity of the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055453</data>
+  <data key="d6"></data>
+</node>
+<node id="Supply Machinery (Safety) Regulations 2008">
+  <data key="d0">Supply Machinery (Safety) Regulations 2008</data>
+  <data key="d1">standard</data>
+  <data key="d2">Supply Machinery (Safety) Regulations 2008 is the regulation under which the UKCA mark is applied for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055454</data>
+  <data key="d6"></data>
+</node>
+<node id="CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications">
+  <data key="d0">CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications</data>
+  <data key="d1">standard</data>
+  <data key="d2">CSA/ANSI B22734:2023 Ed.1 is a conformity standard for hydrogen generators using water electrolysis, applicable to the Enapter AEM Electrolyser EL 4.0 for industrial, commercial, and residential applications.</data>
+  <data key="d3">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d4">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d5">1792055454</data>
+  <data key="d6"></data>
+</node>
+<edge source="AEM Electrolyser EL 4.0" target="Hydrogen">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 is a system to produce on-site hydrogen.</data>
+  <data key="d9">produces</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055322</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="On-Site Hydrogen Production">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 produces hydrogen on-site.</data>
+  <data key="d9">performs</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055322</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Anion Exchange Membrane (AEM)">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 uses patented anion exchange membrane (AEM) technology.</data>
+  <data key="d9">contains,uses</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055323</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Hydrogen Flowrate">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 can be stacked to achieve the required hydrogen flowrate.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055324</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Standby Condition">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 has a standby condition in which no hydrogen is produced and auxiliary components are not powered.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055324</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Advanced Software Integration">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 uses advanced software integration for setup, remote control and management.</data>
+  <data key="d9">controlled_by,uses</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055325</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Remote Control And Management">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 can be remotely controlled and managed.</data>
+  <data key="d9">controlled_by</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055326</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Battery Limits">
+  <data key="d7">1.0</data>
+  <data key="d8">Battery limits should be checked for the complete requirements list.</data>
+  <data key="d9">references,requires</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055327</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Owner's Manual">
+  <data key="d7">1.0</data>
+  <data key="d8">Owner's Manual should be checked for the complete requirements list.</data>
+  <data key="d9">references,requires</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055327</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Pressure Equipment Directive 2014/68/EU">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 belongs to the S.E.P. category according to Pressure Equipment Directive 2014/68/EU.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055328</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="S.E.P. Category">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 belongs to the S.E.P. category according to Pressure Equipment Directive 2014/68/EU and Pressure Equipment (Safety) Regulations 2016.</data>
+  <data key="d9">categorized_as,conforms_to</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055328</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Pressure Equipment (Safety) Regulations 2016">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 belongs to the S.E.P. category according to Pressure Equipment (Safety) Regulations 2016.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055329</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="ETL Recognized Electrolyser Versions">
+  <data key="d7">1.0</data>
+  <data key="d8">Only ETL recognized electrolyser versions are applicable to the AEM Electrolyser EL 4.0.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055331</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Enapter Website">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter website should be referred to for the most recent specifications of the AEM Electrolyser EL 4.0.</data>
+  <data key="d9">documented_in</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055332</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Enapter">
+  <data key="d7">1.0</data>
+  <data key="d8">Enapter's patented AEM Electrolyser EL 4.0 is a standardised, stackable and flexible electrolyser.</data>
+  <data key="d9">manufactures,patented</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055333</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="AEM Electrolyser EL 4.0 :: Hydrogen Flowrate">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 can be stacked to achieve the required hydrogen flowrate.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055334</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="AEM Electrolyser EL 4.0 :: Standby Condition">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 has a standby condition in which no hydrogen is produced and auxiliary components are not powered.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055334</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="AEM Electrolyser EL 4.0 :: Setup Time">
+  <data key="d7">1.0</data>
+  <data key="d8">The AEM Electrolyser EL 4.0 allows set up in minutes.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055335</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AEM Electrolyser EL 4.0" target="Complete Requirements List">
+  <data key="d7">1.0</data>
+  <data key="d8">The complete requirements list for the AEM Electrolyser EL 4.0 should be checked in the Battery limits and the Owner's Manual.</data>
+  <data key="d9">requires</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055337</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter" target="Enapter Website">
+  <data key="d7">1.0</data>
+  <data key="d8">Enapter provides the product website for the AEM Electrolyser EL 4.0.</data>
+  <data key="d9">provides</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055334</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter" target="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055502</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hydrogen" target="Enapter AEM Electrolyser EL 4.0">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 produces hydrogen with output purity specified at 35 barg and 8 barg.</data>
+  <data key="d9">produces</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055467</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hydrogen" target="Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity">
+  <data key="d7">1.0</data>
+  <data key="d8">Hydrogen output purity specifies the purity of hydrogen produced by the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d9">measures</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055482</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hydrogen" target="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Hydrogen belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055497</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Standby Condition" target="Auxiliary Components">
+  <data key="d7">1.0</data>
+  <data key="d8">During standby, the auxiliary components are not powered.</data>
+  <data key="d9">involves_power_state</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055325</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Auxiliary Components" target="AEM Electrolyser EL 4.0 :: Standby Condition">
+  <data key="d7">1.0</data>
+  <data key="d8">During standby, the auxiliary components are not powered.</data>
+  <data key="d9">involves_power_state</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055335</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Advanced Software Integration" target="Remote Control And Management">
+  <data key="d7">1.0</data>
+  <data key="d8">Advanced software integration enables remote control and management of the electrolyser.</data>
+  <data key="d9">enables</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055326</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Advanced Software Integration" target="AEM Electrolyser EL 4.0 :: Setup Time">
+  <data key="d7">1.0</data>
+  <data key="d8">Advanced software integration allows set up in minutes for the AEM Electrolyser EL 4.0.</data>
+  <data key="d9">enables</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055336</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Battery Limits" target="Owner's Manual">
+  <data key="d7">1.0</data>
+  <data key="d8">Battery Limits and Owner's Manual should be checked together for the complete requirements list.</data>
+  <data key="d9">referenced_with</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055328</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Battery Limits" target="Complete Requirements List">
+  <data key="d7">1.0</data>
+  <data key="d8">The complete requirements list is to be checked in the Battery limits.</data>
+  <data key="d9">contains</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055336</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Owner's Manual" target="Complete Requirements List">
+  <data key="d7">1.0</data>
+  <data key="d8">The complete requirements list is to be checked in the Owner's Manual.</data>
+  <data key="d9">contains</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055337</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Pressure Equipment Directive 2014/68/EU" target="S.E.P. Category">
+  <data key="d7">1.0</data>
+  <data key="d8">Pressure Equipment Directive 2014/68/EU defines the S.E.P. category to which the AEM Electrolyser EL 4.0 belongs.</data>
+  <data key="d9">defines</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055329</data>
+  <data key="d13"></data>
+</edge>
+<edge source="S.E.P. Category" target="Pressure Equipment (Safety) Regulations 2016">
+  <data key="d7">1.0</data>
+  <data key="d8">Pressure Equipment (Safety) Regulations 2016 defines the S.E.P. category to which the AEM Electrolyser EL 4.0 belongs.</data>
+  <data key="d9">defines</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055331</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ETL" target="ETL Recognized Electrolyser Versions">
+  <data key="d7">1.0</data>
+  <data key="d8">ETL recognizes electrolyser versions under the ETL notation.</data>
+  <data key="d9">recognizes</data>
+  <data key="d10">chunk-93ea68f378840f4523d46204f5b6f641</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055331</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055483</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Production Rate">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Production Rate belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055484</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055484</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Output Pressure">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Output Pressure belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055485</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055485</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055486</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055486</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055487</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055488</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055488</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Power Supply">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Power Supply belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Water Consumption">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Water Consumption belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055491</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055491</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: IP Rating">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: IP Rating belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055492</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Dimensions">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Dimensions belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055492</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Weight">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Weight belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055494</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapter AEM Electrolyser EL 4.0 :: Conformity">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapter AEM Electrolyser EL 4.0 :: Conformity belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055494</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Enapters EMS">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Enapters EMS belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055495</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Wi-Fi">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Wi-Fi belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055495</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Bluetooth">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Bluetooth belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Modbus TCP over Ethernet">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Modbus TCP over Ethernet belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Water">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Water belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055497</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Oxygen">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Oxygen belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055498</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="ASTM D1193-06 Type IV">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity ASTM D1193-06 Type IV belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055498</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="ASTM D1193-06 Type II">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity ASTM D1193-06 Type II belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055499</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="ASTM D1193-06 Type III">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity ASTM D1193-06 Type III belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055499</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="CE mark">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity CE mark belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055500</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Machine Directive 2006/42/CE">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Machine Directive 2006/42/CE belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055500</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="UKCA mark">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity UKCA mark belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055501</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="Supply Machinery (Safety) Regulations 2008">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Supply Machinery (Safety) Regulations 2008 belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055501</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 Specifications Table (table)" target="CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications belongs to Enapter AEM Electrolyser EL 4.0 Specifications Table (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055502</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Production Rate">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a production rate of up to 500 NL/h, up to 1.0785 kg/24 h.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055456</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a hydrogen output purity of 99.9% at 35 barg with &lt;1,000 ppm H₂O and &lt;5 ppm O₂ at 25 °C, and 98.8% at 8 barg with &lt;12,000 ppm H₂O and &lt;5 ppm O₂ at 25 °C.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055456</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Output Pressure">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has an output pressure limit of up to 35 barg.</data>
+  <data key="d9">has_limit</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055457</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a nominal power consumption per Nm³ of H₂ produced of 4.8 kWh/Nm³, beginning of life.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055457</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has an operative power consumption of 2.4 kW, beginning of life.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055458</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a peak power consumption of 3 kW.</data>
+  <data key="d9">has_limit</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055459</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a heat dissipation of 0.6 kW, beginning of life.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055459</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a max heat dissipation of 0.9 kW, end of life.</data>
+  <data key="d9">has_limit</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055460</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a standby power consumption of 0.3 kW.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055460</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Power Supply">
+  <data key="d7">2.0</data>
+  <data key="d8">The power supply of 220 – 240 V (AC), 50/60 Hz feeds the Enapter AEM Electrolyser EL 4.0.&lt;SEP&gt;The Enapter AEM Electrolyser EL 4.0 has a power supply of 220 – 240 V (AC), 50/60 Hz.</data>
+  <data key="d9">feeds,has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055461</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a maximum water input conductivity specified as minimum ASTM D1193-06 Type IV or recommended Type II or Type III.</data>
+  <data key="d9">has_limit</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055461</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Water Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a water consumption of ~420 mL/h at 25 °C.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055462</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Water Input Pressure Range">
+  <data key="d7">2.0</data>
+  <data key="d8">The water input pressure range of 1 – 4 barg feeds water into the Enapter AEM Electrolyser EL 4.0.&lt;SEP&gt;The Enapter AEM Electrolyser EL 4.0 has a water input pressure range of 1 – 4 barg.</data>
+  <data key="d9">feeds,has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055463</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Temperature Range">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has an ambient operative temperature range of 5 °C – 45 °C.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055463</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has an ambient operative humidity range of up to 90% humidity, non-condensing.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055464</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: IP Rating">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has an IP rating of IP 20.</data>
+  <data key="d9">has_limit</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055464</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Dimensions">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has dimensions W: 482 mm × D: 635 mm × H: 266 mm.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055465</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Weight">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has a weight of 42 kg.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055465</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has 6 U space inside cabinet.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055466</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has fully automatic control and monitoring with Enapter’s EMS via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet.</data>
+  <data key="d9">has_parameter</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055466</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapter AEM Electrolyser EL 4.0 :: Conformity">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 has conformity including CE mark according to the machine directive 2006/42/CE, UKCA mark according to Supply Machinery (Safety) Regulations 2008, and CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055467</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Oxygen">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 produces oxygen with output purity specified as &lt;5 ppm O₂ at both 35 barg and 8 barg.</data>
+  <data key="d9">produces</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055468</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Water">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 consumes water with consumption of ~420 mL/h at 25 °C and input pressure range of 1–4 barg.</data>
+  <data key="d9">consumes</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055468</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Enapters EMS">
+  <data key="d7">3.0</data>
+  <data key="d8">Enapter’s EMS monitors the Enapter AEM Electrolyser EL 4.0 via 2.4 GHz Wi-Fi and Bluetooth, Modbus TCP over Ethernet.&lt;SEP&gt;The Enapter AEM Electrolyser EL 4.0 uses Enapter’s EMS for fully automatic control and monitoring.&lt;SEP&gt;Enapter’s EMS controls the Enapter AEM Electrolyser EL 4.0 in a fully automatic manner.</data>
+  <data key="d9">controls,monitors,uses</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055469</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Wi-Fi">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 communicates via 2.4 GHz Wi-Fi for control and monitoring through Enapter’s EMS.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055470</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Bluetooth">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 communicates via Bluetooth for control and monitoring through Enapter’s EMS.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055470</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="Modbus TCP over Ethernet">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 communicates via Modbus TCP over Ethernet for control and monitoring through Enapter’s EMS.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055471</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="CE mark">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 conforms to CE mark according to the machine directive 2006/42/CE.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055471</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="UKCA mark">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 conforms to UKCA mark according to Supply Machinery (Safety) Regulations 2008.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055472</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0" target="CSA/ANSI B22734:2023 Ed.1 Hydrogen Generators Using Water Electrolysis - Industrial, Commercial, and Residential Applications">
+  <data key="d7">1.0</data>
+  <data key="d8">The Enapter AEM Electrolyser EL 4.0 conforms to CSA/ANSI B22734:2023 Ed.1 for hydrogen generators using water electrolysis in industrial, commercial, and residential applications.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055472</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Production Rate" target="Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced">
+  <data key="d7">1.0</data>
+  <data key="d8">Production rate, nominal power consumption, operative power, water consumption, and heat dissipation together define the operating envelope of the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Production Rate" target="Enapter AEM Electrolyser EL 4.0 :: Water Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">Water consumption of ~420 mL/h is close to the stoichiometric requirement for 500 NL/h H₂ production.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Production Rate" target="Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation">
+  <data key="d7">1.0</data>
+  <data key="d8">Production rate and heat dissipation together contribute to defining the unit’s operating envelope.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055477</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Hydrogen Output Purity" target="Enapter AEM Electrolyser EL 4.0 :: Output Pressure">
+  <data key="d7">1.0</data>
+  <data key="d8">Output pressure directly influences hydrogen purity: 35 barg gives 99.9% with &lt;1,000 ppm H₂O, whereas 8 barg gives 98.8% with &lt;12,000 ppm H₂O, while O₂ remains &lt;5 ppm in both cases.</data>
+  <data key="d9">influences</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Nominal Power Consumption per Nm³ of H₂ Produced" target="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">The operative power of 2.4 kW is consistent with the nominal power consumption: 4.8 kWh/Nm³ × 0.5 Nm³/h (500 NL/h) = 2.4 kW.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055477</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption" target="Enapter AEM Electrolyser EL 4.0 :: Peak Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">Peak power is 3 kW, 25% above operative power.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055478</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Operative Power Consumption" target="Enapter AEM Electrolyser EL 4.0 :: Standby Power Consumption">
+  <data key="d7">1.0</data>
+  <data key="d8">Standby power is 0.3 kW, 12.5% of operative power.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055478</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Heat Dissipation" target="Enapter AEM Electrolyser EL 4.0 :: Max Heat Dissipation">
+  <data key="d7">1.0</data>
+  <data key="d8">Heat dissipation rises from 0.6 kW beginning of life to 0.9 kW end of life, showing degradation over the system lifetime.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055478</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity" target="ASTM D1193-06 Type IV">
+  <data key="d7">1.0</data>
+  <data key="d8">The maximum water input conductivity of the Enapter AEM Electrolyser EL 4.0 is minimum ASTM D1193-06 Type IV.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055473</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity" target="ASTM D1193-06 Type II">
+  <data key="d7">1.0</data>
+  <data key="d8">The maximum water input conductivity of the Enapter AEM Electrolyser EL 4.0 is recommended as ASTM D1193-06 Type II.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055474</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Maximum Water Input Conductivity" target="ASTM D1193-06 Type III">
+  <data key="d7">1.0</data>
+  <data key="d8">The maximum water input conductivity of the Enapter AEM Electrolyser EL 4.0 is recommended as ASTM D1193-06 Type III.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Water Consumption" target="Water">
+  <data key="d7">1.0</data>
+  <data key="d8">Water consumption specifies the amount of water consumed by the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d9">measures</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055483</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Ambient Operative Humidity Range" target="Enapter AEM Electrolyser EL 4.0 :: IP Rating">
+  <data key="d7">1.0</data>
+  <data key="d8">IP 20 rating and ambient operative humidity range of up to 90% non-condensing describe installation and environmental constraints.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055480</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Dimensions" target="Enapter AEM Electrolyser EL 4.0 :: Weight">
+  <data key="d7">1.0</data>
+  <data key="d8">Dimensions, weight, 6 U cabinet space, IP 20 rating, and ambient ranges describe physical integration and installation constraints.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055479</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Dimensions" target="Enapter AEM Electrolyser EL 4.0 :: Space Inside Cabinet">
+  <data key="d7">1.0</data>
+  <data key="d8">Dimensions and 6 U cabinet space describe physical integration constraints for the Enapter AEM Electrolyser EL 4.0.</data>
+  <data key="d9">related_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055480</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring" target="Enapters EMS">
+  <data key="d7">1.0</data>
+  <data key="d8">The control and monitoring of the Enapter AEM Electrolyser EL 4.0 uses Enapter’s EMS.</data>
+  <data key="d9">uses</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055480</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring" target="Wi-Fi">
+  <data key="d7">1.0</data>
+  <data key="d8">The control and monitoring of the Enapter AEM Electrolyser EL 4.0 communicates via 2.4 GHz Wi-Fi.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055481</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring" target="Bluetooth">
+  <data key="d7">1.0</data>
+  <data key="d8">The control and monitoring of the Enapter AEM Electrolyser EL 4.0 communicates via Bluetooth.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055481</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enapter AEM Electrolyser EL 4.0 :: Control and Monitoring" target="Modbus TCP over Ethernet">
+  <data key="d7">1.0</data>
+  <data key="d8">The control and monitoring of the Enapter AEM Electrolyser EL 4.0 communicates via Modbus TCP over Ethernet.</data>
+  <data key="d9">communicates_via</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055482</data>
+  <data key="d13"></data>
+</edge>
+<edge source="CE mark" target="Machine Directive 2006/42/CE">
+  <data key="d7">1.0</data>
+  <data key="d8">CE mark is applied according to the machine directive 2006/42/CE.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055472</data>
+  <data key="d13"></data>
+</edge>
+<edge source="UKCA mark" target="Supply Machinery (Safety) Regulations 2008">
+  <data key="d7">1.0</data>
+  <data key="d8">UKCA mark is applied according to Supply Machinery (Safety) Regulations 2008.</data>
+  <data key="d9">conforms_to</data>
+  <data key="d10">chunk-d9f905a36fae7e407107d1a11e7b7200</data>
+  <data key="d11">Enapter_Datasheet_EL40_EN.pdf</data>
+  <data key="d12">1792055473</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

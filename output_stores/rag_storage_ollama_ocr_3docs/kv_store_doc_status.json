@@ -1,0 +1,71 @@
+{
+  "doc-2ce829fed2f8a4655f1f97eb5c7a54c0": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-93ea68f378840f4523d46204f5b6f641",
+      "chunk-b04ddc1618376e2d935f2885e7799a35"
+    ],
+    "content_summary": "AEM Electrolyser EL 4.0\n\nEnapter’s patented anion exchange membrane (AEM) electrolyser is a standardised, stackable and flexible system to produce on-site hydrogen. The modular design – paired with advanced software integration – allows set up in min...",
+    "content_length": 1113,
+    "created_at": "2026-10-15T09:45:00.048100+00:00",
+    "updated_at": "2026-10-15T09:51:00+00:00",
+    "file_path": "Enapter_Datasheet_EL40_EN.pdf",
+    "track_id": "insert_20261015_114500_261919df",
+    "metadata": {
+      "processing_start_time": 1792057500,
+      "processing_end_time": 1792057638
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-49570492e67c367e82d8a50426cfd101": {
+    "status": "processed",
+    "chunks_count": 6,
+    "chunks_list": [
+      "chunk-572c717a6680b77ac4993917925a97b7",
+      "chunk-bb1e7c7c76a4ad8b5e70402063940e9f",
+      "chunk-c6086d150f1c9fad29deb5294d8a5301",
+      "chunk-28929d6541ccd9fbfd6be3e69287bec9",
+      "chunk-bcd5a3f5ccd64668dc63bd83e6959a69",
+      "chunk-a54c7cc3fd1b24440332f3b903c96434"
+    ],
+    "content_summary": "DIGITAL PROCESSES REQUIRE PRECISION\n\nReliable, low-maintenance pressure measurement with SITRANS P\n\nsiemens.com/pressure\n\nPressure measurement under control\n\nIt’s impossible to imagine today’s process industries without modern measurement technology....",
+    "content_length": 10027,
+    "created_at": "2026-10-15T09:59:11.650376+00:00",
+    "updated_at": "2026-10-15T10:26:45+00:00",
+    "file_path": "SITRANS-P-EN.pdf",
+    "track_id": "insert_20261015_115911_3f194073",
+    "metadata": {
+      "processing_start_time": 1792058351,
+      "processing_end_time": 1792058828
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "doc-799e66a841996087267ff2653ae877c2": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-c202e5769aa4bdf573fb70310abc052a",
+      "chunk-360cb75b7b6c18d60b1c4f91e5d2a671",
+      "chunk-c0c034b2641f77a2e80ced6c44548bcc",
+      "chunk-34cab1cc532ba23dc6d6b8a72f15de19",
+      "chunk-7d9e3002c421208587ad06d75543e1ad",
+      "chunk-2ed4ba62bbb6bbb3cdf90d8cfba89dc3",
+      "chunk-7444e8b9cda5407aac838fe2176791cc"
+    ],
+    "content_summary": "SECTION 1: Identification of the substance or mixture and of the company\n\n1.1 Product Identifier\nProduct name : Hydrogen, compressed\nChemical name : Hydrogen\nChemical formula : H₂\nCAS no. : 1333-74-0\n\n1.2 Relevant identified uses of the substance or ...",
+    "content_length": 14845,
+    "created_at": "2026-10-15T10:40:23.622967+00:00",
+    "updated_at": "2026-10-15T11:02:43+00:00",
+    "file_path": "Hydrogen_compressed_Datasheet.pdf",
+    "track_id": "insert_20261015_124023_9fc3f71c",
+    "metadata": {
+      "processing_start_time": 1792060823,
+      "processing_end_time": 1792061365
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  }
+}
